@@ -1,2 +1,2 @@
 # LeetCodeDemo
-some exercise
+some exercise in leetcode
