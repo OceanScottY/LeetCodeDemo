@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="LeetCodeDemo" targetName="LeetCodeDemo" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8c9e3473-33e6-43af-82eb-1a21200c67a5" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="301" column="19" selection-start-line="301" selection-start-column="19" selection-end-line="301" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#168#331#0" />
+                <element signature="e#333#563#0" />
+                <element signature="e#580#1189#0" />
+                <element signature="e#1191#1409#0" />
+                <element signature="e#1411#1843#0" />
+                <element signature="e#1845#2240#0" />
+                <element signature="e#2242#2366#0" />
+                <element signature="e#2368#2494#0" />
+                <element signature="e#2496#2746#0" />
+                <element signature="e#2791#3026#0" />
+                <element signature="e#3027#3345#0" />
+                <element signature="e#5175#5189#0" expanded="true" />
+                <element signature="e#5842#5873#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayDemo.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ArrayDemo/ArrayDemo.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="579" selection-start-line="579" selection-start-column="2" selection-end-line="580" selection-end-column="3" />
+              <folding>
+                <element signature="e#41#63#0" expanded="true" />
+                <element signature="e#210#486#0" />
+                <element signature="e#487#734#0" />
+                <element signature="e#736#1334#0" />
+                <element signature="e#1336#2017#0" />
+                <element signature="e#3956#4650#0" />
+                <element signature="e#9966#10514#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ArrayDemo/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TreeDemo/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeDemo.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TreeDemo/TreeDemo.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="668" lean-forward="true" selection-start-line="668" selection-end-line="668" />
+              <folding>
+                <element signature="e#42#63#0" expanded="true" />
+                <element signature="e#3913#3929#0" expanded="true" />
+                <element signature="e#5121#5331#0" />
+                <element signature="e#5190#5247#0" />
+                <element signature="e#5697#5742#0" />
+                <element signature="e#6139#6173#0" />
+                <element signature="e#6132#6171#0" />
+                <element signature="e#7841#7990#0" />
+                <element signature="e#8477#8607#0" />
+                <element signature="e#9015#9246#0" />
+                <element signature="e#9662#9696#0" />
+                <element signature="e#10734#10783#0" />
+                <element signature="e#11877#11935#0" />
+                <element signature="e#12911#13007#0" />
+                <element signature="e#13744#13783#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stl_vector.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../mingw64Clion/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="465" selection-start-line="465" selection-end-line="465" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeDemo.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TreeDemo/TreeDemo.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="234" selection-start-line="234" selection-end-line="241" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>inorderTraversal</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ArrayDemo/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/standardDemo/CPPStanderDemo.h" />
+        <option value="$PROJECT_DIR$/standardDemo/CPPStanderDemo.cpp" />
+        <option value="$PROJECT_DIR$/standardDemo/CStrDemo.h" />
+        <option value="$PROJECT_DIR$/standardDemo/CStrDemo.cpp" />
+        <option value="$PROJECT_DIR$/ArrayDemo/ArrayDemo.h" />
+        <option value="$PROJECT_DIR$/TreeDemo/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/ArrayDemo/ArrayDemo.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/TreeDemo/TreeDemo.h" />
+        <option value="$PROJECT_DIR$/TreeDemo/TreeDemo.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1852" />
+    <option name="y" value="32" />
+    <option name="width" value="1668" />
+    <option name="height" value="1014" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LeetCodeDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCodeDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCodeDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCodeDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="ArrayDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCodeDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCodeDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="TreeDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCodeDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hello" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Learning\JetBrains\CLionProjects\LeetCodeDemo\TreeDemo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.LeetCodeDemo">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCodeDemo" RUN_TARGET_NAME="LeetCodeDemo" EXPLICIT_BUILD_TARGET_NAME="all" />
+    <configuration name="LeetCodeDemo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LeetCodeDemo" TARGET_NAME="LeetCodeDemo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LeetCodeDemo" RUN_TARGET_NAME="LeetCodeDemo" />
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.LeetCodeDemo" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c9e3473-33e6-43af-82eb-1a21200c67a5" name="Default" comment="" />
+      <created>1572940350060</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572940350060</updated>
+      <workItem from="1572940352232" duration="988000" />
+      <workItem from="1572941493303" duration="8148000" />
+      <workItem from="1573087649668" duration="33605000" />
+      <workItem from="1573464491850" duration="21698000" />
+      <workItem from="1574147885729" duration="1800000" />
+      <workItem from="1574728260236" duration="4894000" />
+      <workItem from="1577195788850" duration="15951000" />
+      <workItem from="1577664345620" duration="13813000" />
+      <workItem from="1577877680860" duration="51929000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="152826000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1852" y="32" width="1668" height="1014" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969324" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.46300715" />
+      <window_info anchor="bottom" id="CMake" order="7" weight="0.3295838" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24821003" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3607306" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ArrayDemo/ArrayDemo.cpp</url>
+          <line>139</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ArrayDemo/ArrayDemo.cpp</url>
+          <line>187</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ArrayDemo/ArrayDemo.cpp</url>
+          <line>244</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ArrayDemo/ArrayDemo.cpp</url>
+          <line>381</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ArrayDemo/ArrayDemo.cpp</url>
+          <line>405</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ArrayDemo/ArrayDemo.cpp</url>
+          <line>491</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ArrayDemo/ArrayDemo.cpp</url>
+          <line>539</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ArrayDemo/ArrayDemo.cpp</url>
+          <line>532</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ArrayDemo/ArrayDemo.cpp</url>
+          <line>593</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TreeDemo/TreeDemo.cpp</url>
+          <line>331</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>246</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TreeDemo/TreeDemo.cpp</url>
+          <line>594</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="31" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ArrayDemo/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TreeDemo/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TreeDemo/TreeDemo.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2619">
+          <caret line="97" selection-start-line="97" selection-end-line="97" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TreeDemo/TreeDemo.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5886">
+          <caret line="218" column="8" lean-forward="true" selection-start-line="218" selection-start-column="8" selection-end-line="220" selection-end-column="9" />
+          <folding>
+            <element signature="e#42#63#0" expanded="true" />
+            <element signature="e#3913#3929#0" expanded="true" />
+            <element signature="e#5121#5331#0" />
+            <element signature="e#5190#5247#0" />
+            <element signature="e#5697#5742#0" />
+            <element signature="e#6139#6173#0" />
+            <element signature="e#6132#6171#0" />
+            <element signature="e#7841#7990#0" />
+            <element signature="e#8477#8607#0" />
+            <element signature="e#9015#9246#0" />
+            <element signature="e#9662#9696#0" />
+            <element signature="e#10734#10783#0" />
+            <element signature="e#11877#11935#0" />
+            <element signature="e#12911#13007#0" />
+            <element signature="e#13744#13783#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArrayDemo/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TreeDemo/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TreeDemo/TreeDemo.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="12" />
+          <folding>
+            <element signature="e#42#63#0" expanded="true" />
+            <element signature="e#3913#3929#0" expanded="true" />
+            <element signature="e#5121#5331#0" />
+            <element signature="e#5190#5247#0" />
+            <element signature="e#5697#5742#0" />
+            <element signature="e#6139#6173#0" />
+            <element signature="e#6132#6171#0" />
+            <element signature="e#7841#7990#0" />
+            <element signature="e#8477#8607#0" />
+            <element signature="e#9015#9246#0" />
+            <element signature="e#9662#9696#0" />
+            <element signature="e#10734#10783#0" />
+            <element signature="e#11877#11935#0" />
+            <element signature="e#12911#13007#0" />
+            <element signature="e#13744#13783#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TreeDemo/TreeDemo.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4995">
+          <caret line="185" column="9" lean-forward="true" selection-start-line="185" selection-start-column="9" selection-end-line="185" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#168#331#0" />
+            <element signature="e#333#563#0" />
+            <element signature="e#580#1189#0" />
+            <element signature="e#1191#1409#0" />
+            <element signature="e#1411#1843#0" />
+            <element signature="e#1845#2240#0" />
+            <element signature="e#2242#2366#0" />
+            <element signature="e#2368#2494#0" />
+            <element signature="e#2496#2746#0" />
+            <element signature="e#2791#3026#0" />
+            <element signature="e#3027#3345#0" />
+            <element signature="e#5175#5189#0" expanded="true" />
+            <element signature="e#5842#5873#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4293">
+          <caret line="159" column="18" selection-start-line="159" selection-start-column="18" selection-end-line="159" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#168#331#0" />
+            <element signature="e#333#563#0" />
+            <element signature="e#580#1189#0" />
+            <element signature="e#1191#1409#0" />
+            <element signature="e#1411#1843#0" />
+            <element signature="e#1845#2240#0" />
+            <element signature="e#2242#2366#0" />
+            <element signature="e#2368#2494#0" />
+            <element signature="e#2496#2746#0" />
+            <element signature="e#2791#3026#0" />
+            <element signature="e#3027#3345#0" />
+            <element signature="e#5175#5189#0" expanded="true" />
+            <element signature="e#5842#5873#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArrayDemo/ArrayDemo.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16659">
+          <caret line="617" lean-forward="true" selection-start-line="617" selection-end-line="617" />
+          <folding>
+            <element signature="e#41#63#0" expanded="true" />
+            <element signature="e#210#486#0" />
+            <element signature="e#487#734#0" />
+            <element signature="e#736#1334#0" />
+            <element signature="e#1336#2017#0" />
+            <element signature="e#3956#4650#0" />
+            <element signature="e#9966#10514#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArrayDemo/ArrayDemo.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2592">
+          <caret line="96" column="15" selection-start-line="96" selection-start-column="15" selection-end-line="96" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArrayDemo/ArrayDemo.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2619">
+          <caret line="97" selection-start-line="97" selection-end-line="97" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArrayDemo/ArrayDemo.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15687">
+          <caret line="581" lean-forward="true" selection-start-line="581" selection-end-line="581" />
+          <folding>
+            <element signature="e#41#63#0" expanded="true" />
+            <element signature="e#210#486#0" />
+            <element signature="e#487#734#0" />
+            <element signature="e#736#1334#0" />
+            <element signature="e#1336#2017#0" />
+            <element signature="e#3956#4650#0" />
+            <element signature="e#9966#10514#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4239">
+          <caret line="157" column="33" lean-forward="true" selection-start-line="157" selection-start-column="33" selection-end-line="157" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#168#331#0" />
+            <element signature="e#333#563#0" />
+            <element signature="e#580#1189#0" />
+            <element signature="e#1191#1409#0" />
+            <element signature="e#1411#1843#0" />
+            <element signature="e#1845#2240#0" />
+            <element signature="e#2242#2366#0" />
+            <element signature="e#2368#2494#0" />
+            <element signature="e#2496#2746#0" />
+            <element signature="e#2791#3026#0" />
+            <element signature="e#3027#3345#0" />
+            <element signature="e#5175#5189#0" expanded="true" />
+            <element signature="e#5842#5873#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3915">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#168#331#0" />
+            <element signature="e#333#563#0" />
+            <element signature="e#580#1189#0" />
+            <element signature="e#1191#1409#0" />
+            <element signature="e#1411#1843#0" />
+            <element signature="e#1845#2240#0" />
+            <element signature="e#2242#2366#0" />
+            <element signature="e#2368#2494#0" />
+            <element signature="e#2496#2746#0" />
+            <element signature="e#2791#3026#0" />
+            <element signature="e#3027#3345#0" />
+            <element signature="e#5175#5189#0" expanded="true" />
+            <element signature="e#5842#5873#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArrayDemo/ArrayDemo.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2619">
+          <caret line="97" selection-start-line="97" selection-end-line="97" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArrayDemo/ArrayDemo.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15903">
+          <caret line="589" lean-forward="true" selection-start-line="589" selection-end-line="589" />
+          <folding>
+            <element signature="e#41#63#0" expanded="true" />
+            <element signature="e#210#486#0" />
+            <element signature="e#487#734#0" />
+            <element signature="e#736#1334#0" />
+            <element signature="e#1336#2017#0" />
+            <element signature="e#3956#4650#0" />
+            <element signature="e#9966#10514#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3213">
+          <caret line="119" column="38" lean-forward="true" selection-start-line="119" selection-start-column="38" selection-end-line="119" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#168#331#0" />
+            <element signature="e#333#563#0" />
+            <element signature="e#580#1189#0" />
+            <element signature="e#1191#1409#0" />
+            <element signature="e#1411#1843#0" />
+            <element signature="e#1845#2240#0" />
+            <element signature="e#2242#2366#0" />
+            <element signature="e#2368#2494#0" />
+            <element signature="e#2496#2746#0" />
+            <element signature="e#2791#3026#0" />
+            <element signature="e#3027#3345#0" />
+            <element signature="e#5175#5189#0" expanded="true" />
+            <element signature="e#5842#5873#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArrayDemo/ArrayDemo.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2079">
+          <caret line="77" column="24" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArrayDemo/ArrayDemo.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11637">
+          <caret line="431" column="4" selection-start-line="431" selection-start-column="4" selection-end-line="431" selection-end-column="4" />
+          <folding>
+            <element signature="e#41#63#0" expanded="true" />
+            <element signature="e#210#486#0" />
+            <element signature="e#487#734#0" />
+            <element signature="e#736#1334#0" />
+            <element signature="e#1336#2017#0" />
+            <element signature="e#3956#4650#0" />
+            <element signature="e#9966#10514#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArrayDemo/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArrayDemo/ArrayDemo.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5211">
+          <caret line="193" column="9" lean-forward="true" selection-start-line="193" selection-start-column="9" selection-end-line="193" selection-end-column="9" />
+          <folding>
+            <element signature="e#41#63#0" expanded="true" />
+            <element signature="e#210#486#0" />
+            <element signature="e#487#734#0" />
+            <element signature="e#736#1334#0" />
+            <element signature="e#1336#2017#0" />
+            <element signature="e#3956#4650#0" />
+            <element signature="e#9966#10514#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArrayDemo/ArrayDemo.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="32" column="10" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#168#331#0" />
+            <element signature="e#333#563#0" />
+            <element signature="e#580#1189#0" />
+            <element signature="e#1191#1409#0" />
+            <element signature="e#1411#1843#0" />
+            <element signature="e#1845#2240#0" />
+            <element signature="e#2242#2366#0" />
+            <element signature="e#2368#2494#0" />
+            <element signature="e#2496#2746#0" />
+            <element signature="e#2791#3026#0" />
+            <element signature="e#3027#3345#0" />
+            <element signature="e#5175#5189#0" expanded="true" />
+            <element signature="e#5842#5873#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArrayDemo/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#168#331#0" />
+            <element signature="e#333#563#0" />
+            <element signature="e#580#1189#0" />
+            <element signature="e#1191#1409#0" />
+            <element signature="e#1411#1843#0" />
+            <element signature="e#1845#2240#0" />
+            <element signature="e#2242#2366#0" />
+            <element signature="e#2368#2494#0" />
+            <element signature="e#2496#2746#0" />
+            <element signature="e#2791#3026#0" />
+            <element signature="e#3027#3345#0" />
+            <element signature="e#5175#5189#0" expanded="true" />
+            <element signature="e#5842#5873#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArrayDemo/ArrayDemo.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="15" />
+          <folding>
+            <element signature="e#41#63#0" expanded="true" />
+            <element signature="e#210#486#0" />
+            <element signature="e#487#734#0" />
+            <element signature="e#736#1334#0" />
+            <element signature="e#1336#2017#0" />
+            <element signature="e#3956#4650#0" />
+            <element signature="e#9966#10514#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArrayDemo/ArrayDemo.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standardDemo/CPPStanderDemo.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standardDemo/CPPStanderDemo.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standardDemo/CStrDemo.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standardDemo/CStrDemo.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/segvcatch-0.9.1/test/main.cpp" />
+    <entry file="file://$PROJECT_DIR$/../../../mingw64Clion/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2430" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArrayDemo/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TreeDemo/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArrayDemo/ArrayDemo.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ArrayDemo/ArrayDemo.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="579" selection-start-line="579" selection-start-column="2" selection-end-line="580" selection-end-column="3" />
+          <folding>
+            <element signature="e#41#63#0" expanded="true" />
+            <element signature="e#210#486#0" />
+            <element signature="e#487#734#0" />
+            <element signature="e#736#1334#0" />
+            <element signature="e#1336#2017#0" />
+            <element signature="e#3956#4650#0" />
+            <element signature="e#9966#10514#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../mingw64Clion/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="465" selection-start-line="465" selection-end-line="465" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="301" column="19" selection-start-line="301" selection-start-column="19" selection-end-line="301" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#168#331#0" />
+            <element signature="e#333#563#0" />
+            <element signature="e#580#1189#0" />
+            <element signature="e#1191#1409#0" />
+            <element signature="e#1411#1843#0" />
+            <element signature="e#1845#2240#0" />
+            <element signature="e#2242#2366#0" />
+            <element signature="e#2368#2494#0" />
+            <element signature="e#2496#2746#0" />
+            <element signature="e#2791#3026#0" />
+            <element signature="e#3027#3345#0" />
+            <element signature="e#5175#5189#0" expanded="true" />
+            <element signature="e#5842#5873#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TreeDemo/TreeDemo.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="234" selection-start-line="234" selection-end-line="241" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TreeDemo/TreeDemo.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="668" lean-forward="true" selection-start-line="668" selection-end-line="668" />
+          <folding>
+            <element signature="e#42#63#0" expanded="true" />
+            <element signature="e#3913#3929#0" expanded="true" />
+            <element signature="e#5121#5331#0" />
+            <element signature="e#5190#5247#0" />
+            <element signature="e#5697#5742#0" />
+            <element signature="e#6139#6173#0" />
+            <element signature="e#6132#6171#0" />
+            <element signature="e#7841#7990#0" />
+            <element signature="e#8477#8607#0" />
+            <element signature="e#9015#9246#0" />
+            <element signature="e#9662#9696#0" />
+            <element signature="e#10734#10783#0" />
+            <element signature="e#11877#11935#0" />
+            <element signature="e#12911#13007#0" />
+            <element signature="e#13744#13783#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
