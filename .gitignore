@@ -1,6 +1,7 @@
 # Prerequisites
 *.d
-
+id_rsa
+id_rsa.pub
 # Compiled Object files
 *.slo
 *.lo
