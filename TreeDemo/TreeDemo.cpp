@@ -664,7 +664,57 @@ bool isValidBST(TreeNode* root){
  * @param root
  */
 void recoverTree(TreeNode* root){
+    if(!root){
+        return;;
+    }
 
+    TreeNode* curr;
+    TreeNode* pre;
+    TreeNode* first;
+    TreeNode* second;
+    TreeNode* preCurr;
+
+    bool found = false;
+    curr = root;
+    while(curr){
+        if(!curr->left){
+            if(preCurr && preCurr->val > curr->val){
+                if(!found){
+                    first = preCurr;
+                    found = true;
+                }
+                second = curr;
+            }
+            preCurr = curr;
+            curr = curr->right;
+        }else{
+            pre = curr->right;
+            while(pre->right && pre->right != curr){
+                pre = pre->right;
+            }
+            if(!pre->right){
+                pre->right = curr;
+                curr = curr->right;
+            }else{
+//                记录first和second
+                if(preCurr->val > curr->val){
+                    if(!found){
+                        first = preCurr;
+                        found = true;
+                    }
+                    second = curr;
+                }
+                preCurr = curr;
+                pre->right = NULL;
+                curr = curr->right;
+            }
+        }
+    }
+    if(first && second){
+        int t = first->val;
+        first->val = second->val;
+        second->val = t;
+    }
 }
 
 
