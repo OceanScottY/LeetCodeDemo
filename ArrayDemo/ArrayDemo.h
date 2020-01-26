@@ -108,8 +108,8 @@ int missingNumber(std::vector<int>& nums);
 bool isPowerOfTwo(int n);
 
 #include <stdio.h>
-typedef unsigned __int32 uint32_t;
+//typedef unsigned __int32 uint32_t;
 //191  位1的个数
-int hammingWeight(uint32_t n);
+//int hammingWeight(uint32_t n);
 
 #endif //LEETCODEDEMO_ARRAYDEMO_H

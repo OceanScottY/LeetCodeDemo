@@ -295,22 +295,13 @@ void test_flatten(){
 
     flatten(root);
 }
-
+void test_gcc(){
+    cout << "this is a test." << endl;
+}
 int main() {
 
 
-    test_flatten();
-//    int a = 6, b= 7;
-//    int c = a & b;
-//    cout << "c=" << c << endl;
-
-//    map<string, string> test = {
-//            {"1", "test1"},
-//            {"2", "test2"},
-//            {"3", "test3"},
-//            {"4", "test4"}
-//    };
-//    cout << test.at("1") << endl;
+    test_gcc();
 
     return 0;
 }

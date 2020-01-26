@@ -280,6 +280,7 @@ std::vector<std::vector<int>> threeSum(std::vector<int>& nums){
  *  使得它们的和与 target 最接近。返回这三个数的和。假定每组输入只存在唯一答案。
  */
 #include <math.h>
+#include <limits.h>
 int threeSumClosest(std::vector<int>& nums, int target){
     int res = 0;
     int distance = INT_MAX;
