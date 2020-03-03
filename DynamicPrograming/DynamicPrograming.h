@@ -6,7 +6,7 @@
 #define LEETCODEDEMO_DYNAMICPROGRAMING_H
 
 #include <iostream>
-
+#include <vector>
 using namespace std;
 
 

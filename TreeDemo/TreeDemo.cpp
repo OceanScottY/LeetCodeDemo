@@ -291,7 +291,7 @@ bool isBalanced(TreeNode* root){
  */
 
 bool isPath(TreeNode* root, int sum){
-
+    return false;
 }
 
 bool DFS(TreeNode* root, int sum){

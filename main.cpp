@@ -2,6 +2,8 @@
 #include <vector>
 #include "ArrayDemo/ArrayDemo.h"
 #include "standardDemo/CplusDemo.cpp"
+#include <memory>
+#include <mutex>
 
 using namespace std;
 
@@ -497,17 +499,18 @@ void test_sumNumbers(){
 
     sumNumbers(root);
 }
-
+#include "DynamicPrograming/DynamicPrograming.h"
 void test_uniquePathsWithObstacles(){
     vector<vector<int>> test = {
             {0,0,0},
             {0,1,0},
             {0,0,0}
     };
-    uniquePathsWithObstacles(test);
+    int res = uniquePathsWithObstacles(test);
+    cout << "res : " << res << endl;
 }
 
-#include "DynamicPrograming/DynamicPrograming.h"
+
 void test_maxProfit3(){
     vector<int> prices = {6,1,3,2,4,7};
     int max_pro = maxProfit3(prices);
