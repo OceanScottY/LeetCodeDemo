@@ -63,6 +63,9 @@ int maxProfit2(std::vector<int>& prices);
  */
 int maxProfit3(std::vector<int>& prices);
 
+
+/*********************************** 2020-03-03 start ****************************************/
+
 /**
  * problem 62
  * 一个机器人位于一个 m x n 网格的左上角 （起始点在下图中标记为“Start” ）。
@@ -84,6 +87,86 @@ int uniquePaths(int m, int n);
  * @param obstacleGrid
  * @return
  */
-int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid);
+int uniquePathsWithObstacles(std::vector<std::vector<int>>& obstacleGrid);
+
+/**
+ * problem 64 最小路径和
+ * 给定一个包含非负整数的 m x n 网格，请找出一条从左上角到右下角的路径，
+ * 使得路径上的数字总和为最小。说明：每次只能向下或者向右移动一步。
+ *
+ *
+ * @param grid
+ * @return
+ */
+int minPathSum(std::vector<std::vector<int>>& grid);
+
+
+
+/**
+ * problem 53 最大子序和
+ * 给定一个整数数组 nums ，找到一个具有最大和的连续子数组（子数组最少包含一个元素），返回其最大和。
+ * @param nums
+ * @return
+ */
+int maxSubArray(std::vector<int>& nums);
+
+/**
+ * problem 153 乘积最大子序列和
+ * 给定一个整数数组 nums ，找出一个序列中乘积最大的连续子序列（该序列至少包含一个数）。
+ * @param nums
+ * @return
+ */
+int maxProduct(std::vector<int>& nums);
+
+/**
+ * problem 70 爬楼梯
+ * 假设你正在爬楼梯。需要 n 阶你才能到达楼顶。
+ * 每次你可以爬 1 或 2 个台阶。你有多少种不同的方法可以爬到楼顶呢？
+ * @param n
+ * @return
+ */
+int climbStairs(int n);
+
+/**
+ * problem 120 三角形最小路径和
+ * 给定一个三角形，找出自顶向下的最小路径和。每一步只能移动到下一行中相邻的结点上。
+ * @param triangle
+ * @return
+ */
+int minimumTotal(std::vector<std::vector<int>>& triangle);
+
+/**
+ * problem 96 不同的二叉搜索树
+ * 给定一个整数 n，求以 1 ... n 为节点组成的二叉搜索树有多少种？
+ * @param n
+ * @return
+ */
+int numTrees(int n);
+struct TreeNode {
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+};
+
+/**
+ * problem 95
+ * 给定一个整数 n，生成所有由 1 ... n 为节点所组成的二叉搜索树。
+ * @param n
+ * @return
+ */
+vector<TreeNode*> generateTrees(int n);
+
+/**
+ * problem 279
+ * 给出一个正整数n，求至少需要多少个完全平方数相加得到n，
+ * 例如： 给出n=12，返回3，因为12 = 4 + 4 + 4
+ * @return
+ */
+int numSquars(int n);
+
+/*********************************** 2020-03-03 end ****************************************/
+
+
 
 #endif //LEETCODEDEMO_DYNAMICPROGRAMING_H

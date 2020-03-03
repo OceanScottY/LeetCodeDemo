@@ -140,6 +140,9 @@ int maxProfit3(std::vector<int>& prices){
 
 }
 
+
+/*********************************** 2020-03-03 start ***********************************/
+
 /**
  * problem 62
  * 一个机器人位于一个 m x n 网格的左上角 （起始点在下图中标记为“Start” ）。
@@ -179,7 +182,12 @@ int uniquePaths(int m, int n){
 int uniquePathsWithObstacles(vector<vector<int>> &obstacleGrid){
     int m = obstacleGrid.size();
     int n = obstacleGrid[0].size();
-    int path[m][n];
+    long long path[m][n];
+    for(int i = 0; i < m; i++){
+        for(int j = 0; j < n; j++){
+            path[i][j] = 0;
+        }
+    }
     path[0][0] = 1;
     for(int i = 1; i < m; i++){
         if(obstacleGrid[i][0] == 0){
@@ -211,3 +219,209 @@ int uniquePathsWithObstacles(vector<vector<int>> &obstacleGrid){
 
     return path[m-1][n-1];
 }
+
+
+/**
+ * problem 64 最小路径和
+ * 给定一个包含非负整数的 m x n 网格，请找出一条从左上角到右下角的路径，
+ * 使得路径上的数字总和为最小。说明：每次只能向下或者向右移动一步。
+ *
+ *
+ * @param grid
+ * @return
+ */
+int minPathSum(vector<vector<int>>& grid){
+    int m = grid.size();
+    int n = grid[0].size();
+
+    for(int i=1; i<m; i++){
+        grid[i][0] = grid[i-1][0] + grid[i][0];
+    }
+    for(int i=1; i<n; i++){
+        grid[0][i] = grid[0][i-1] + grid[0][i];
+    }
+
+    for(int i=1; i<m; i++){
+        for(int j=1; j<n; j++){
+            grid[i][j] = min(grid[i-1][j], grid[i][j-1]) + grid[i][j];
+        }
+    }
+    return grid[m-1][n-1];
+}
+
+/**
+ * problem 53 最大子序和
+ * 给定一个整数数组 nums ，找到一个具有最大和的连续子数组（子数组最少包含一个元素），返回其最大和。
+ * @param nums
+ * @return
+ */
+int maxSubArray(vector<int>& nums){
+
+    int res = nums[0];
+    int dp = nums[0];
+    for(int i = 1; i < nums.size(); i++){
+        if(dp > 0){
+            dp += nums[i];
+        }else{
+            dp = nums[i];
+        }
+        res = max(dp,res);
+    }
+    return res;
+}
+
+/**
+ * problem 153 乘积最大子序列和
+ * 给定一个整数数组 nums ，找出一个序列中乘积最大的连续子序列（该序列至少包含一个数）。
+ * @param nums
+ * @return
+ */
+int maxProduct(vector<int>& nums){
+    int res = nums[0];
+    int dp_max = nums[0];
+    int dp_min = nums[0];
+
+    for(int i=1; i<nums.size(); i++){
+        if(nums[i] < 0){
+            int temp = dp_max;
+            dp_max = dp_min;
+            dp_min = temp;
+        }
+        dp_min = min(nums[i], dp_min * nums[i]);
+        dp_max = max(nums[i],dp_max * nums[i]);
+
+        res = max(res, dp_max);
+    }
+    return res;
+}
+
+
+/**
+ * problem 70 爬楼梯
+ * 假设你正在爬楼梯。需要 n 阶你才能到达楼顶。
+ * 每次你可以爬 1 或 2 个台阶。你有多少种不同的方法可以爬到楼顶呢？
+ * @param n
+ * @return
+ */
+int climbStairs(int n){
+    if(n == 1){
+        return 1;
+    }
+    if(n == 2){
+        return 2;
+    }
+    int current = 0;
+    int pre_pre = 1;
+    int pre = 2;
+    for(int i=2; i<n; i++){
+        current = pre + pre_pre;
+        pre_pre = pre;
+        pre = current;
+    }
+    return current;
+}
+
+/**
+ * problem 120 三角形最小路径和
+ * 给定一个三角形，找出自顶向下的最小路径和。每一步只能移动到下一行中相邻的结点上。
+ * @param triangle
+ * @return
+ */
+int minimumTotal(std::vector<std::vector<int>>& triangle){
+    int m = triangle.size();
+    int dp[triangle[m-1].size()];
+    for(int i=0; i< triangle[m-1].size(); i++){
+        dp[i] = triangle[m-1][i];
+    }
+
+    for(int i = triangle.size()-2; i >= 0; i--){
+        int n = triangle[i].size();
+        for(int j =0; j <n; j++){
+            dp[j] = min(dp[j], dp[j+1]) + triangle[i][j];
+        }
+    }
+    return dp[0];
+
+
+}
+
+
+/**
+ * problem 96 不同的二叉搜索树
+ * 给定一个整数 n，求以 1 ... n 为节点组成的二叉搜索树有多少种？
+ * @param n
+ * @return
+ */
+int numTrees(int n){
+    vector<int> dp(n,0);
+
+    dp[0] = 1;
+    dp[1] = 1;
+
+    for(int i=2; i<=n; i++){
+        for(int j=0; j<i; j++){
+            dp[i] += dp[j] * dp[i - j -1];
+        }
+    }
+
+    return dp[n];
+}
+
+
+
+vector<TreeNode*> generate(int start, int stop){
+
+    vector<TreeNode*> vs;
+    if(start > stop){
+        vs.push_back(NULL);
+        return vs;
+    }
+
+    for(int i=start; i<=stop; i++){
+
+        auto left = generate(start, i-1);
+        auto right = generate(i+1, stop);
+
+        for(int j=0; j<left.size(); j++){
+            for(int k=0; k<right.size(); k++){
+
+                TreeNode *temp = new TreeNode(i);
+                temp->left = left[j];
+                temp->right = right[k];
+                vs.push_back(temp);
+            }
+        }
+    }
+    return vs;
+
+}
+/**
+ * problem 95
+ * 给定一个整数 n，生成所有由 1 ... n 为节点所组成的二叉搜索树。
+ * @param n
+ * @return
+ */
+vector<TreeNode*> generateTrees(int n){
+    return generate(1,n);
+}
+
+
+/**
+ * problem 279
+ * 给出一个正整数n，求至少需要多少个完全平方数相加得到n，
+ * 例如： 给出n=12，返回3，因为12 = 4 + 4 + 4
+ * @return
+ */
+int numSquars(int n){
+    vector<int> dp(n+1,INT_MAX);
+    dp[0] = 0;
+    for(int i=0; i<= n; i++){
+        for(int j=1; i + j*j <n; j++){
+            dp[i + j*j] = min(dp[i + j*j], dp[i]+1);
+        }
+    }
+}
+
+/*********************************** 2020-03-03 end ************************************/
+
+
