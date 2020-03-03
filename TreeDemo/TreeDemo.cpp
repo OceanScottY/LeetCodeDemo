@@ -718,3 +718,76 @@ void recoverTree(TreeNode* root){
 }
 
 
+/**
+ * problem 257
+ * 给定一个二叉树，返回所有从根结点到叶子结点的路径
+ * @param root
+ * @return
+ */
+void DFS(TreeNode* node, vector<string> &paths, string path){
+
+    if(!node)
+        return;
+    path = path + to_string(node->val) + "->";
+    if(node->left){
+        DFS(node->left, paths, path);
+    }
+    if(node->right){
+        DFS(node->right, paths, path);
+    }
+    if(!node->left && !node->right){
+        path = path.erase(path.size()-2, path.size());
+        paths.push_back(path);
+    }
+
+}
+std::vector<std::string> binaryTreePaths(TreeNode* root){
+    vector<string> res;
+    if(!root){
+        return res;
+    }
+    string path("");
+
+    DFS(root, res, path);
+    return res;
+}
+
+
+/**
+ * problem 129
+ * 给定一个二叉树，它的每个结点都存放一个 0-9 的数字，每条从根到叶子节点的路径都代表一个数字。
+ *
+ * 例如，从根到叶子节点路径 1->2->3 代表数字 123。
+ * 计算从根到叶子节点生成的所有数字之和。
+ * @param root
+ * @return
+ */
+void DFS(TreeNode* node, vector<int> &res, int sum){
+
+    if(!node)
+        return;
+    sum = sum * 10 + node->val;
+    if(node->left){
+        DFS(node->left, res, sum);
+    }
+    if(node->right){
+        DFS(node->right, res, sum);
+    }
+    if(!node->left && !node->right){
+        res.push_back(sum);
+    }
+
+}
+int sumNumbers(TreeNode* root){
+    int res = 0;
+    if(!root)
+        return res;
+
+    vector<int> sums;
+    DFS(root, sums, 0);
+
+    for(auto it = sums.begin(); it != sums.end(); it++){
+        res += *it;
+    }
+    return res;
+}

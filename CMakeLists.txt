@@ -11,5 +11,7 @@ set(DEMO_SRC
         TreeDemo/TreeDemo.h
         standardDemo/CPPStanderDemo.cpp
         standardDemo/CPPStanderDemo.h
-        standardDemo/CStrDemo.cpp standardDemo/CStrDemo.h )
-add_executable(LeetCodeDemo ${DEMO_SRC})
+        standardDemo/CStrDemo.cpp standardDemo/CStrDemo.h standardDemo/CplusDemo.cpp
+        Other/Other.cpp Other/Other.h
+        DynamicPrograming/DynamicPrograming.cpp DynamicPrograming/DynamicPrograming.h)
+add_executable(LeetCodeDemo ${DEMO_SRC} )

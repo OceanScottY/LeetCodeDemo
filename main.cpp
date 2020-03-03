@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include "ArrayDemo/ArrayDemo.h"
+#include "standardDemo/CplusDemo.cpp"
 
 using namespace std;
 
@@ -296,21 +297,228 @@ void test_flatten(){
     flatten(root);
 }
 
-int main() {
+void test_c_standard(){
+    int a[2][3] = {1,2,3,4,5,6};
+    cout << a << endl;
+}
+
+#include <stdlib.h>
+#include <vector>
+void test_vector(){
+    int num[] = {1,2,3,4,5,6,7};
+
+    vector<int > vec(num, num+7);
+    for (int i = 0; i < vec.size(); ++i) {
+        cout << " i = " << i << ", num :" << num[i] << endl;
+    }
+
+    vector<int >::iterator it = find(vec.begin(), vec.end(), 5);
+    if(it == vec.end()){
+        cout << "not found" << endl;
+    }else{
+        cout << *it << " found" << endl;
+
+    }
+
+}
 
 
-    test_flatten();
-//    int a = 6, b= 7;
-//    int c = a & b;
-//    cout << "c=" << c << endl;
+#include <map>
+void test_map_val_pku(){
+    map<string, string> mTemp;
+    mTemp["a"] = "aa";
+    mTemp["b"] = "bb";
+    mTemp["c"] = "cc";
+    mTemp["d"] = "dd";
 
-//    map<string, string> test = {
-//            {"1", "test1"},
-//            {"2", "test2"},
-//            {"3", "test3"},
-//            {"4", "test4"}
-//    };
-//    cout << test.at("1") << endl;
+    for(auto it = mTemp.begin(); it != mTemp.end();it++){
+        if(it->second == "bb"){
+            mTemp.erase(it);
+        }
+    }
+
+    for(auto it = mTemp.begin(); it != mTemp.end(); it++){
+        cout << "first:" << it->first << ", second:" << it->second << endl;
+    }
+
+}
+
+struct Stest{
+    string name;
+    void show(){
+        cout << "name:" << name << endl;
+    }
+};
+
+
+void print_int(const int (&i)[6]){
+    cout << "cout int array" << endl;
+}
+class Tes{
+public:
+    Tes(){
+
+    }
+    void show(){
+        lock_guard<mutex> lock(t_mutex);
+        cout << " this is a show method 1 " << endl;
+        show2();
+    }
+    void show2(){
+        cout << "2" << endl;
+        lock_guard<mutex> lock(t_mutex);
+        cout << " this is a show method 2" << endl;
+        show3();
+    }
+    void show3(){
+        cout << "3" << endl;
+        lock_guard<mutex> lock(t_mutex);
+        cout << " this is a show method 3" << endl;
+    }
+
+private:
+    string name;
+    mutex t_mutex;
+};
+#include <cctype>
+void test_c_yhy_standard(){
+    const char t[5] = "qwer";
+    int len = sizeof(t)/sizeof(char);
+    cout << "length : " << len << endl;
+
+    auto test = begin(t);
+    cout << *test << endl;
+    cout << " ********* " << endl;
+    Tes *tes = new Tes();
+    shared_ptr<Tes> test_ptr(tes);
+    shared_ptr<Tes> test_ptr2(tes);
+    cout << test_ptr.use_count() << endl;
+    cout  << "asdasd" << endl;
+
+
+}
+
+
+class Scott{
+public:
+    Scott()= default;
+    Scott(const string &name):name_(name){
+
+    }
+    Scott(const string &name, const string &addr):name_(name),addr_(addr){
+
+    }
+    Scott(const string &name, const int &i, const int &j, const string &addr):
+            name_(name),addr_(addr),index(i),row(j){
+
+    }
+    Scott(const int &i):row(i),index(row){
+
+    }
+    ~Scott(){}
+    void set(const string &str){
+        this->name_ = str;
+    }
+    string get(){
+        return this->name_;
+    }
+    void set_addr(const string addr) const {
+        addr_ = addr;
+    }
+    string get_addr(){
+        return addr_;
+    }
+    void show_int(){
+        cout << "index: " << index << ", row:" << row << endl;
+    }
+    Scott& combine(const Scott& s){
+        name_ += s.name_;
+        return *this;
+    }
+
+    void show_name(){
+        cout << "name: " << name_ << endl;
+    }
+
+private:
+    string name_;
+    int row,index;
+    mutable string addr_;
+
+};
+
+
+
+#include "Other/Other.h"
+
+void test_lengthOfLongestSubstring(){
+    string str = "abcabcdbd";
+    int len = lengthOfLongestSubstring(str);
+    cout << "result : " << len << endl;
+}
+
+
+
+#include <iterator>
+void shared_int(shared_ptr<int> p){
+
+}
+void test_itr(){
+    vector<int> vec;
+    auto it = back_inserter(vec);
+    cout << " before operation " << endl;
+    for(auto iter = vec.begin(); iter != vec.end(); iter++){
+        cout << *iter << ", " ;
+    }
+    cout << endl;
+    *it = 42;
+    *it = 46;
+    cout << "after operation " << endl;
+    for(auto iter = vec.begin(); iter != vec.end(); iter++){
+        cout << *iter << ", " ;
+    }
+
+    int *i(new int);
+    shared_int(shared_ptr<int>(i));
+    int j = *i;
+    cout << "nums :" << j << endl;
+
+
+}
+
+void test_sumNumbers(){
+    TreeNode* root = new TreeNode(1);
+    TreeNode* n2 = new TreeNode(2);
+    TreeNode* n3 = new TreeNode(3);
+    TreeNode* n5 = new TreeNode(5);
+    root->left = n2;
+    root->right = n3;
+    n2->right = n5;
+
+    sumNumbers(root);
+}
+
+void test_uniquePathsWithObstacles(){
+    vector<vector<int>> test = {
+            {0,0,0},
+            {0,1,0},
+            {0,0,0}
+    };
+    uniquePathsWithObstacles(test);
+}
+
+#include "DynamicPrograming/DynamicPrograming.h"
+void test_maxProfit3(){
+    vector<int> prices = {6,1,3,2,4,7};
+    int max_pro = maxProfit3(prices);
+    cout << max_pro << endl;
+}
+int main(int argc, char *argv[]) {
+
+
+//    test_c_yhy_standard();
+    test_uniquePathsWithObstacles();
+
 
     return 0;
 }
