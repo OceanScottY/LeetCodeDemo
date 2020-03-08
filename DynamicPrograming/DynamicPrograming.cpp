@@ -413,15 +413,20 @@ vector<TreeNode*> generateTrees(int n){
  * @return
  */
 int numSquars(int n){
-    vector<int> dp(n+1,INT_MAX);
+    vector<int> dp(13,INT_MAX);
     dp[0] = 0;
     for(int i=0; i<= n; i++){
         for(int j=1; i + j*j <n; j++){
             dp[i + j*j] = min(dp[i + j*j], dp[i]+1);
         }
     }
+    return dp[n];
 }
 
+int global_int = 24;
+void test_extern(){
+    cout << "test extern" << endl;
+}
 /*********************************** 2020-03-03 end ************************************/
 
 

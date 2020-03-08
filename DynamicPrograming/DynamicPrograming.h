@@ -5,12 +5,14 @@
 #ifndef LEETCODEDEMO_DYNAMICPROGRAMING_H
 #define LEETCODEDEMO_DYNAMICPROGRAMING_H
 
+#include "../TreeDemo/TreeDemo.h"
 #include <iostream>
 #include <vector>
 using namespace std;
 
-
-
+extern int global_int;
+void test_extern();
+//int global_int = 24;
 /**
  * problem 121 买卖股票的最佳时机
  *
@@ -142,12 +144,12 @@ int minimumTotal(std::vector<std::vector<int>>& triangle);
  * @return
  */
 int numTrees(int n);
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-};
+//struct TreeNode {
+//    int val;
+//    TreeNode *left;
+//    TreeNode *right;
+//    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+//};
 
 /**
  * problem 95

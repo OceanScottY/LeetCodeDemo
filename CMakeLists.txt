@@ -13,5 +13,5 @@ set(DEMO_SRC
         standardDemo/CPPStanderDemo.h
         standardDemo/CStrDemo.cpp standardDemo/CStrDemo.h standardDemo/CplusDemo.cpp
         Other/Other.cpp Other/Other.h
-        DynamicPrograming/DynamicPrograming.cpp DynamicPrograming/DynamicPrograming.h)
+        DynamicPrograming/DynamicPrograming.cpp DynamicPrograming/DynamicPrograming.h DynamicPrograming/TestYhy.cpp DynamicPrograming/TestYhy.h JZOffer/File1.cpp JZOffer/File1.h BackTracing/BackTracing.cpp BackTracing/BackTracing.h)
 add_executable(LeetCodeDemo ${DEMO_SRC} )

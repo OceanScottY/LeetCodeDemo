@@ -546,11 +546,78 @@ void test_minPathSum(){
     int res = minPathSum(test);
     cout << "res : " << res << endl;
 }
+
+void test_numSquars(){
+    int num = 12;
+    int res = numSquars(num);
+    cout << "res:" << res << endl;
+}
+
+extern int test_yhy;
+extern void test_yhy_m();
+
+extern int name_yhy;
+extern void name_yhy_m();
+
+#include "JZOffer/File1.h"
+void test_offer(){
+    JZListNode *head = new JZListNode(1);
+    JZListNode *p1 = new JZListNode(2);
+    JZListNode *p2 = new JZListNode(3);
+    JZListNode *p3 = new JZListNode(4);
+    head->next = p1;
+    p1->next = p2;
+    p2->next = p3;
+    vector<int> res = printListFromTailToHead(head);
+
+    for(auto it = res.begin(); it != res.end(); it++){
+        cout << *it << "->" ;
+    }
+}
+
+#include "BackTracing/BackTracing.h"
+void test_combinationSum(){
+
+    vector<int> can = {2, 3, 5};
+    std::vector<std::vector<int>>  res = combinationSum(can, 8);
+    for(int i = 0; i < res.size(); i++){
+        for(int j=0; j < res[i].size(); j++){
+            cout << res[i][j] << ", ";
+        }
+        cout << endl;
+    }
+}
+
+class A{
+private:
+    string name;
+public:
+    A()= default;
+    A(string n):name(n){}
+    ~A(){}
+    void change_and_show() {
+        name = "wahaha";
+        cout << "name:" << (*this).name << endl;
+    }
+};
+
+#include <queue>
+#include <algorithm>
+
+void test_combinationSum2(){
+    vector<int> can = {2, 2, 1, 2, 5};
+    vector<vector<int>> res = combinationSum2(can, 5);
+    for(int i = 0; i < res.size(); i++){
+        for(int j=0; j < res[i].size(); j++){
+            cout << res[i][j] << ", ";
+        }
+        cout << endl;
+    }
+}
 int main(int argc, char *argv[]) {
 
 
-//    test_c_yhy_standard();
-    test_minPathSum();
+    test_combinationSum2();
 
 
     return 0;
