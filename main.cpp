@@ -614,10 +614,21 @@ void test_combinationSum2(){
         cout << endl;
     }
 }
+
+#include "GreedyDemo/GreedyDemo.h"
+
+void test_canCompleteCircuit(){
+    vector<int> gas = {1, 2, 3, 4, 5};
+    vector<int> cost = {3, 4, 5, 1, 2};
+    int res = canCompleteCircuit(gas, cost);
+    cout << "res:" << res << endl;
+}
+
+
 int main(int argc, char *argv[]) {
 
 
-    test_combinationSum2();
+    test_canCompleteCircuit();
 
 
     return 0;
