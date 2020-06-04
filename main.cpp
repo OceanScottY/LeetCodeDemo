@@ -624,11 +624,923 @@ void test_canCompleteCircuit(){
     cout << "res:" << res << endl;
 }
 
+void test_set(){
+    set<string> str_set;
+    str_set.emplace("java");
+    str_set.emplace("avaj");
+    str_set.emplace("dvaj");
+    str_set.emplace("bava");
 
+    for(auto it : str_set){
+        cout << "," << it;
+    }
+    cout << "." << endl;
+}
+
+#include "standardDemo/CPPStanderDemo.h"
+
+bool comp (const Student &left, const Student &right){
+    cout << "comp method" << endl;
+    if(left.name_ != right.name_){
+        return left.name_ < right.name_;
+    }else{
+        return left.age_ < right.age_;
+    }
+}
+
+void test_student(){
+//    set<Student, decltype(comp)*> s(comp);
+//    set<Student, Comp> s;
+//    pair<set<Student>::iterator, bool > res =  s.emplace(Student("Janney", 23));
+//    if(res.second){
+//        cout << "successful." << endl;
+//    }
+//    s.emplace(Student("Danney", 22));
+//    s.emplace(Student("LiMing", 20));
+//    s.emplace(Student("LiMing", 18));
+//    s.emplace(Student("于海洋", 18));
+//    s.emplace(Student("黎明", 18));
+//    s.emplace(Student("哈哈", 18));
+//    s.emplace(Student("梵蒂冈", 18));
+//
+//    s.insert(res.first,Student("Yuhy", 26));
+//
+//    for(auto it : s){
+//        cout << it.show() << endl;
+//
+//    }
+
+    set<int> sInt;
+    //元素添加
+    //1、返回pair对象，second表示是否添加成功
+    pair<set<int>::iterator, bool > isSu = sInt.insert(5);
+    if(isSu.second){
+        cout << "successful!" << endl;
+    }
+    //2、在iterator前插入元素 insert(&pos, value)，返回新元素的位置
+    sInt.insert(isSu.first,9);
+    //3、添加区间，将区间[&first, &last)区间内的元素添加到set中
+    int array[] = {4, 10, 6};
+    sInt.insert(array, array+3);
+
+    for(auto it : sInt){
+        cout << it << ", ";
+    }
+
+    //元素删除
+    //1、erase(value),返回移除元素的个数
+//    auto num = sInt.erase(6);
+//    cout << "移除元素个数：" << num << endl;
+//    //2、erase(&pos),移除pos上的元素,无返回值
+//    auto iter = sInt.begin();
+//    sInt.erase(iter);
+//    for(auto it : sInt){
+//        cout << it << ", ";
+//    }
+//    //3、erase(&first, &last),移除[&first， &last)区间内的元素
+//
+////    sInt.erase(sInt.begin(), sInt.end());
+//    cout << endl << "after [fir, last) : " << endl;
+//    for(auto it : sInt){
+//        cout << it << ", ";
+//    }
+//    //4、移除所有元素
+//    sInt.clear();
+//    cout << endl << "after clear : " << endl;
+//    for(auto it : sInt){
+//        cout << it << ", ";
+//    }
+
+    //查找
+    //1、count（value），返回value的个数
+    cout << sInt.count(10) << endl;
+    //2、iterator find（value），返回value的位置，如果找不到，则返回end（）
+    auto res_find_f = sInt.find(10);
+    if(res_find_f == sInt.end()){
+        cout << "未找到" << endl;
+    }else{
+        cout << "已找到" << endl;
+
+    }
+    auto res_find_s = sInt.find(20);
+    if(res_find_s == sInt.end()){
+        cout << "未找到" << endl;
+    }else{
+        cout << "已找到" << endl;
+
+    }
+
+
+
+
+
+
+
+
+}
+
+bool cmp_value(const pair<Student, string>& a, const pair<Student, string>& b) {
+    return b.second < a.second;
+}
+
+void test_map_learn(){
+    map<int, string> m_str;
+    pair<map<int, string>::iterator, bool> is_suc;
+    //map的插入有三种方式
+    //1、insert（pair<>）
+    is_suc = m_str.insert(pair<int, string>(2, "yuhy"));
+    //可以用is_suc判断是否插入成功
+    if(is_suc.second){
+        cout << "successful" << endl;
+    }else{
+        cout << "failed" << endl;
+    }
+    //2、insert （value_type）
+    m_str.insert(map<int, string>::value_type(5, "scott"));
+    //3、用数组方式插入数据
+    m_str[1] = "LiMing";
+
+
+    //遍历方式四种：
+    //1、for each
+    for(auto it : m_str){
+        cout << "key:" << it.first << ", value:" << it.second << endl;
+    }
+    cout << "-------" << endl;
+    //2、前向迭代器
+    for(auto it = m_str.begin(); it != m_str.end(); it++){
+        cout << "key:" << it->first << ", value:" << it->second << endl;
+    }
+    cout << "-------" << endl;
+    //3、反向迭代器
+    for(auto it = m_str.rbegin(); it != m_str.rend(); it++){
+        cout << "key:" << it->first << ", value:" << it->second << endl;
+    }
+    cout << "-------" << endl;
+    //4、数组遍历方式
+//    for(int i=0; i<m_str.size(); i++){
+//        cout << "value:" << m_str[i] << endl;
+//    }
+
+    //查找，两种
+    //1、count，查询关键字是否出现，无法判定其位置，返回值0或者1，1表示存在
+    cout << "5 是否出现 ：" ;
+    if(m_str.count(5) == 1){
+        cout << "是";
+    }else{
+        cout << "否";
+    }
+    cout << endl;
+    //2、find，返回值是迭代器，如果不存在则返回end()
+    map<int, string>::iterator res_find = m_str.find(5);
+    if(res_find == m_str.end()){
+        cout << "yuhy 不存在" << endl;
+    }else{
+        cout << "yuhy key：" << res_find->first << ", value:" << res_find->second << endl;
+    }
+
+    //删除
+    //1、erase(k),删除键为k的元素，并返回删除的个数
+    cout << "--- 删除 ----" << endl;
+    for(auto it : m_str){
+        cout << "key:" << it.first << ", value:" << it.second << endl;
+    }
+    cout << "-------" << endl;
+    map<int, string>::size_type res_erase = m_str.erase(5);
+    cout << "num of erase:" << res_erase << endl;
+    for(auto it : m_str){
+        cout << "key:" << it.first << ", value:" << it.second << endl;
+    }
+    cout << "-------" << endl;
+    //2、erase(it),删除迭代器it指向的元素
+    m_str.erase(m_str.find(1));
+    for(auto it : m_str){
+        cout << "key:" << it.first << ", value:" << it.second << endl;
+    }
+    cout << "-------" << endl;
+
+    //3、erase(it_f, it_e),删除一段范围内的元素
+    m_str.erase(m_str.begin(), m_str.end());
+    for(auto it : m_str){
+        cout << "key:" << it.first << ", value:" << it.second << endl;
+    }
+    cout << "-------" << endl;
+
+
+    map<Student, string, decltype(comp)*> m_stu(comp);
+    m_stu.insert(pair<Student, string>(Student("yyy", 20), "yyy"));
+    m_stu.insert(pair<Student, string>(Student("aaa", 20), "aaa"));
+    m_stu.insert(pair<Student, string>(Student("yyy", 18), "yyy"));
+    cout << "--- 排序 ---" << endl;
+    for(auto it : m_stu){
+        cout << "key-name:" << it.first.name_ << ", key-age:" << it.first.age_ << ", value:" << it.second << endl;
+    }
+
+    vector<pair<Student, string>> vec(m_stu.begin(), m_stu.end());
+    sort(vec.begin(), vec.end(), cmp_value);
+    for(auto it : vec){
+        cout << "key-name:" << it.first.name_ << ", key-age:" << it.first.age_ << ", value:" << it.second << endl;
+    }
+
+}
+
+void test_vect_learn(){
+    vector<int> vec = {1,2,3,4,5,6,7,8,9,10};
+    //三种遍历方式
+    //1、下标
+    for(int i=0; i<vec.size(); i++){
+        cout << vec[i] << ", ";
+    }
+    cout << endl << "---------" << endl;
+    //2、迭代器
+    for(vector<int>::iterator it = vec.begin(); it != vec.end(); it++){
+        cout << *it << ", ";
+    }
+    cout << endl << "---------" << endl;
+    //3、for each
+    for(int temp : vec){
+        cout << temp << ", ";
+    }
+
+}
+
+#include <sstream>
+
+void test_string_learn(){
+//    string str = "Hello, I am LiMing.";
+//    const char* cstr = str.c_str();
+//    cout << cstr << endl;
+//    str = "Hello, I am Jenny";
+//    cout << cstr << endl;
+
+//    char *cstr = new char[25];
+//    string str = "Hello, I am LiMing.";
+//    strncpy(cstr, str.c_str(), str.size());
+//    cout << cstr << ", " << str.size() << endl;
+//    str = "Hello, I am Jenny";
+//    cout << cstr << endl;
+//    string str = "Hello, I am LiMing.";
+//    size_t length;
+//    char buf[8];
+//    string str("Hello, I am LiMing.");
+//    cout << str << endl;
+//
+//    length = str.copy(buf, 7, 3);
+//    cout << "length:" << length << endl;
+//    buf[length] = '\0';
+//    cout << "str.copy(buf, 7, 5), buf contains:" << buf << endl;
+//    cout << "buf len :" << strlen(buf) << endl;
+//
+//
+//    length = str.copy(buf, str.size(), 3);
+//    cout << "length:" << length << endl;
+//    buf[length] = '\0';
+//    cout << "str.copy(buf, str.size(), 5), buf contains:" << buf << endl;
+//    cout << "buf len :" << strlen(buf) << endl;
+    //int 转 string
+    int a_1 = 99;
+    string str_1;
+    stringstream ss;
+    ss << a_1;
+    ss >> str_1;
+    cout << "a_1:" << a_1 << endl;
+    cout << "str_1:" << str_1 << endl;
+    //string 转 int
+    int a_2;
+    string str_2 = "12345";
+    ss.clear();//清除ss中的数据
+    ss << str_2;
+    ss >> a_2;
+    cout << "str_2:" << str_2 << endl;
+    cout << "a_2:" << a_2 << endl;
+
+    //string 转 int
+    string str_3 = "54321";
+    int a_3 = stoi(str_3);
+    cout << "str_3:" << str_3 << endl;
+    cout << "a_3:" << a_3 << endl;
+
+    //int 转 string
+    int a_4 = 54321;
+    string str_4 = to_string(a_4);
+    cout << "a_4:" << a_4 << endl;
+    cout << "str_3:" << str_3 << endl;
+
+    double  res = 0;
+
+
+
+
+
+}
+
+
+struct TestListNode {
+    int val;
+    struct TestListNode *next;
+    TestListNode(int x) :
+            val(x), next(NULL) {
+    }
+};
+
+TestListNode* reverse_node(TestListNode* pHead){
+    if(pHead == NULL){
+        return NULL;
+    }
+    auto pre = pHead;
+    pHead = pHead->next;
+    pre->next = NULL;
+    while(pHead){
+        auto temp = pHead;
+        pHead = pHead->next;
+        temp->next = pre;
+        pre = temp;
+    }
+    return pre;
+
+}
+
+void test_reverse(){
+    TestListNode* root = new TestListNode(0);
+    TestListNode* n1 = new TestListNode(1);
+    TestListNode* n2 = new TestListNode(2);
+    TestListNode* n3 = new TestListNode(3);
+    TestListNode* n4 = new TestListNode(4);
+    TestListNode* n5 = new TestListNode(5);
+    root->next = n1;
+    n1->next = n2;
+    n2->next = n3;
+    n3->next = n4;
+    n4->next = n5;
+    n5->next = NULL;
+
+    auto res = reverse_node(root);
+
+    while(res){
+        cout << res->val << "->";
+        res = res->next;
+    }
+    cout << endl;
+
+
+
+}
+
+ListNode* Merge(ListNode* pHead1, ListNode* pHead2)
+{
+    ListNode* newHead = new ListNode(0);
+    auto last = newHead;
+    while(pHead1 && pHead2){
+        if(pHead1->val < pHead2->val){
+            auto temp = pHead1;
+            pHead1 = pHead1->next;
+            last->next = temp;
+
+        }else{
+            auto temp = pHead2;
+            pHead2 = pHead2->next;
+            last->next = temp;
+        }
+        last = last->next;
+        last->next = NULL;
+    }
+
+    while(pHead1){
+        auto temp = pHead1;
+        pHead1 = pHead1->next;
+        last->next = temp;
+        last = last->next;
+        last->next = NULL;
+    }
+    while(pHead2){
+        auto temp = pHead2;
+        pHead2 = pHead2->next;
+        last->next = temp;
+        last = last->next;
+        last->next = NULL;
+    }
+    return newHead->next;
+}
+
+void test_Merge(){
+    ListNode* root1 = new ListNode(0);
+    ListNode* n1 = new ListNode(2);
+    ListNode* n2 = new ListNode(4);
+    ListNode* n3 = new ListNode(6);
+    ListNode* n4 = new ListNode(8);
+    ListNode* n5 = new ListNode(10);
+    root1->next = n1;
+    n1->next = n2;
+    n2->next = n3;
+//    n3->next = n4;
+//    n4->next = n5;
+    n3->next = NULL;
+
+    ListNode* root2 = new ListNode(1);
+    ListNode* n12 = new ListNode(3);
+    ListNode* n22 = new ListNode(5);
+    ListNode* n32 = new ListNode(7);
+    ListNode* n42 = new ListNode(9);
+    ListNode* n52 = new ListNode(11);
+    root2->next = n12;
+    n12->next = n22;
+//    n22->next = n32;
+//    n32->next = n4;
+//    n42->next = n5;
+    n22->next = NULL;
+
+    auto res = Merge(root2, NULL);
+
+    while(res){
+        cout << res->val << "->";
+        res = res->next;
+    }
+    cout << endl;
+
+}
+
+#include "ThreadDemo/SingleThreadDemo.h"
+
+#include <stack>
+
+void test_priority_queue(){
+//    vector<Student> v;
+//    v.push_back(Student("aaa", 22));
+//    v.push_back(Student("abb", 22));
+//    v.push_back(Student("aaa", 25));
+//    v.push_back(Student("zzz", 22));
+//
+////    priority_queue<Student, vector<Student>, Comp> p;
+//
+//    priority_queue<Student> p;
+//    p.push(Student("aaa", 22));
+//    p.push(Student("abb", 26));
+//    p.push(Student("aaa", 25));
+//    p.push(Student("qwe", 22));
+//
+//    while(!p.empty()){
+//        Student s = p.top();
+//        p.pop();
+//        cout << s.show() << endl;
+//    }
+
+    priority_queue<int> p;
+    for(int i=1; i<8; i++){
+        p.push(i);
+    }
+
+    while(!p.empty()){
+        cout << p.top() << ",";
+        p.pop();
+    }
+}
+
+
+
+
+int FindGreatestSumOfSubArray(const vector<int> &array) {
+    vector<int> df(array.size(),0);
+    int num_max = array[0];
+    df[0] = num_max;
+    for(int i=1; i<array.size(); i++){
+        if(array[i] > array[i] + df[i-1]){
+            df[i] = array[i];
+        }else{
+            df[i] = df[i-1] + array[i];
+        }
+        if(num_max < df[i]){
+            num_max = df[i];
+        }
+    }
+    return num_max;
+}
+
+void test_FindGreatestSumOfSubArray(){
+    vector<int> test = {1, -1, 3, 10, -4, 7, 2, -5};
+    int res = FindGreatestSumOfSubArray(test);
+    cout << "res: " << res << endl;
+}
+
+void FindNumsAppearOnce() {
+    map<int, int> t_map;
+    t_map[2] = 2;
+    t_map[4] = 4;
+    t_map[6] = 6;
+
+    cout << "key=2, value=" << t_map.at(2) << endl;
+
+    for(auto it : t_map){
+        cout << "key:" << it.first << ",value:" << it.second << endl;
+    }
+    t_map.at(2) += 1;
+    cout << "key=8, value=" << t_map[8] << endl;
+    for(auto it : t_map){
+        cout << "key:" << it.first << ",value:" << it.second << endl;
+    }
+
+
+}
+
+string ReverseSentence() {
+    string str = "student. a am I";
+    string res = "", tmp = "";
+    for(int i=0; i<str.size(); i++){
+        if(str[i] != ' '){
+            tmp += str[i];
+        }else{
+            res = " " + tmp + res;
+            tmp = "";
+        }
+    }
+    if(tmp.size())
+        res = tmp + res;
+    return res;
+}
+
+ListNode* deleteDuplication(ListNode* pHead)
+{
+    if(pHead == NULL){
+        return pHead;
+    }
+    //删除表头的重复节点
+    while(pHead->next != NULL && pHead->val == pHead->next->val){
+        pHead = pHead->next->next;
+    }
+    ListNode* pre = pHead;
+    ListNode* current = pHead->next;
+    while(current != NULL && current->next != NULL){
+        if(current->val == current->next->val){
+            pre->next = current->next->next;
+            current = pre->next;
+        }else{
+            pre = pre->next;
+            current = current->next;
+        }
+    }
+    return pHead;
+}
+
+void test_deleteDuplication(){
+    ListNode* phead = new ListNode(1);
+    ListNode* p1 = new ListNode(2);
+    ListNode* p2 = new ListNode(3);
+    ListNode* p3 = new ListNode(3);
+    ListNode* p4 = new ListNode(5);
+    phead->next = p1;
+    p1->next = p2;
+    p2->next = p3;
+    p3->next = p4;
+
+    ListNode* res = deleteDuplication(phead);
+    auto temp = res;
+    while(temp != NULL){
+        cout << temp->val << "->" ;
+        temp = temp->next;
+    }
+
+}
+
+
+void maxInWindows()
+{
+    vector<int> num = {1, 3, -1, -3, 5, 3, 6, 7};
+    int size = 3;
+
+    vector<int> res;
+    deque<int> dq;
+    for(int i = 0; i < num.size(); i++){
+        while (!dq.empty() && num[i] > num[dq.back()]){
+            dq.pop_back();
+        }
+
+        if (!dq.empty() && dq.front() <= i - size){
+            dq.pop_front();
+        }
+        dq.push_back(i);
+        if (i + 1 >= size) {
+            int tmp = num[dq.front()];
+            res.push_back(tmp);
+        }
+    }
+    for(auto item : res){
+        cout << item << "->";
+    }
+    cout << endl;
+
+}
+
+//判断（row， col）坐标是否小于等于K
+bool isOK(int row, int col, int target){
+    int row_sum = 0;
+    while(row != 0){
+        int tmp = row % 10;
+        row = row / 10;
+        row_sum += tmp;
+    }
+    int col_sum = 0;
+    while(col != 0){
+        int tmp = col % 10;
+        col = col /10;
+        col_sum += tmp;
+    }
+    return row_sum + col_sum <= target;
+}
+
+void test_isOK(){
+    bool res = isOK(13, 2, 15);
+    if(res){
+        cout << "true" << endl;
+    }else{
+        cout << "false" << endl;
+    }
+}
+
+int movingCount()
+{
+    int threshold = 10, rows = 1, cols = 100;
+    int res = 0;
+    for(int i=0; i<rows; i++){
+        for(int j=0; j<cols; j++){
+//            cout << "( " << i << ", " << j << " )" << endl;
+            if(isOK(i, j, threshold)){
+                res++;
+                cout << "( " << i << ", " << j << " )" << endl;
+            }
+        }
+    }
+    cout << "res:" << res << endl;
+
+    return res;
+}
+int dim = 2;
+void test_ypp_dfs(vector<int> v1, vector<vector<int>> &res, vector<int> cur, vector<bool> visited){
+    if(cur.size() == dim){
+        res.emplace_back(cur);
+        return;
+    }else{
+        for(int i=0; i<v1.size(); i++){
+            if(visited[i] == false){
+                visited[i] = true;
+                cur.emplace_back(v1[i]);
+                test_ypp_dfs(v1, res, cur, visited);
+                cur.pop_back();
+                visited[i] = false;
+            }
+        }
+    }
+}
+string vec_to_str(vector<int> v){
+    string res = "{";
+    for(int i=0; i<v.size(); i++){
+        res += to_string(v[i]) + ",";
+    }
+    res = res.substr(0, res.size()-1);
+    res += "}";
+    return  res;
+}
+void testpailie(vector<int> v1, vector<int> v2) {
+    vector<vector<int>> p1;
+    vector<int> cur1;
+    vector<bool> visited1(v1.size(),false);
+    test_ypp_dfs(v1, p1, cur1, visited1);
+    cout << "p1:" << endl;
+    for(int i=0; i<p1.size(); i++){
+        cout << vec_to_str(p1[i]);
+    }
+    cout << endl << "-------------p1 end" << endl;
+    vector<vector<int>> p2;
+    vector<int> cur2;
+    vector<bool> visited2(v2.size(),false);
+    test_ypp_dfs(v2, p2, cur2, visited2);
+
+    cout << "p2:" << endl;
+    for(int i=0; i<p2.size(); i++){
+        cout << vec_to_str(p2[i]);
+    }
+    cout << endl << "-------------p2 end" << endl;
+
+    vector<vector<vector<int>>> res;
+    for(int i=0; i<p1.size(); i++){
+        for(int j=0; j<p2.size(); j++){
+            vector<int> tmp_11 = {p1[i][0], p2[j][0]};
+            vector<int> tmp_12 = {p1[i][1], p2[j][1]};
+            vector<vector<int>> tmp_1;
+            tmp_1.emplace_back(tmp_11);
+            tmp_1.emplace_back(tmp_12);
+            res.emplace_back(tmp_1);
+
+            vector<int> tmp_21 = {p1[i][0], p2[j][1]};
+            vector<int> tmp_22 = {p1[i][1], p2[j][0]};
+            vector<vector<int>> tmp_2;
+            tmp_2.emplace_back(tmp_21);
+            tmp_2.emplace_back(tmp_22);
+            res.emplace_back(tmp_2);
+        }
+    }
+    cout << "{";
+    for(int i=0; i<res.size(); i++){
+        cout << "   {";
+        for(int j=0; j<res[0].size(); j++){
+            cout << "       {";
+            for(int k=0; k<res[0][0].size(); k++){
+                cout << res[i][j][k] << ",";
+            }
+            cout << " }" << endl;
+        }
+        cout << "       }" << endl;
+    }
+    cout << "}" << endl;
+}
+
+void test_ypp_dfs(vector<int> v1, vector<vector<int>> &res, vector<int> cur, int start, vector<bool> visited){
+    if(cur.size() == dim){
+        res.emplace_back(cur);
+        return;
+    }else{
+        for(int i=start; i<v1.size(); i++){
+            if(visited[i] == false){
+                visited[i] = true;
+                cur.emplace_back(v1[i]);
+                test_ypp_dfs(v1, res, cur, i+1, visited);
+                cur.pop_back();
+                visited[i] = false;
+            }
+        }
+    }
+}
+
+void test_yuanpp_2(vector<int> v1, vector<int> v2){
+
+    vector<vector<int>> p1;
+    vector<int> cur1;
+    vector<bool> visited1(v1.size(),false);
+    test_ypp_dfs(v1, p1, cur1, 0, visited1);
+    cout << "p1:" << endl;
+    for(int i=0; i<p1.size(); i++){
+        cout << vec_to_str(p1[i]);
+    }
+    cout << endl << "-------------p1 end" << endl;
+
+    vector<vector<int>> p2;
+    vector<int> cur2;
+    vector<bool> visited2(v2.size(),false);
+    test_ypp_dfs(v2, p2, cur2, 0, visited2);
+
+    cout << "p2:" << endl;
+    for(int i=0; i<p2.size(); i++){
+        cout << vec_to_str(p2[i]);
+    }
+    cout << endl << "-------------p2 end" << endl;
+
+    vector<vector<vector<int>>> res;
+    for(int i=0; i<p1.size(); i++){
+        for(int j=0; j<p2.size(); j++){
+            vector<int> tmp_11 = {p1[i][0], p2[j][0]};
+            vector<int> tmp_12 = {p1[i][1], p2[j][1]};
+            vector<vector<int>> tmp_1;
+            tmp_1.emplace_back(tmp_11);
+            tmp_1.emplace_back(tmp_12);
+            res.emplace_back(tmp_1);
+
+            vector<int> tmp_21 = {p1[i][0], p2[j][1]};
+            vector<int> tmp_22 = {p1[i][1], p2[j][0]};
+            vector<vector<int>> tmp_2;
+            tmp_2.emplace_back(tmp_21);
+            tmp_2.emplace_back(tmp_22);
+            res.emplace_back(tmp_2);
+        }
+    }
+    cout << "res : " << endl;
+    cout << "{";
+    for(int i=0; i<res.size(); i++){
+        cout << "{";
+        for(int j=0; j<res[0].size(); j++){
+            cout << "{";
+            for(int k=0; k<res[0][0].size(); k++){
+                cout << res[i][j][k] << ",";
+            }
+            cout << "}" << endl;
+        }
+        cout << "}" << endl;
+    }
+    cout << "}" << endl;
+}
+
+void test_yuanpp(){
+    vector<int> v1 = {1,2,3};
+    vector<int> v2 = {4,5};
+    test_yuanpp_2(v1, v2);
+}
+
+int get_num(){
+    return 3;
+}
+
+void change_data(char** str){
+    str[0] = "wahaha";
+    str[1] = "qwer";
+}
+
+void test_sec_pointer(){
+    vector<string> vec_str = {"hello", "world"};
+    cout << "data:" << vec_str[0] << endl;
+    char* p[2];
+    p[0] = const_cast<char *>(vec_str[0].data());
+    p[1] = const_cast<char *>(vec_str[1].data());
+    cout << "pointer:" << *p << endl;
+    change_data(p);
+    cout << "pointer:" << *p << endl;
+    cout << "data:" << vec_str[0] << endl;
+    cout <<"-------------"<<endl;
+    string str = "yuhy";
+    char* p_str = const_cast<char *>(str.data());
+    cout << "before:" << p_str << endl;
+    p_str = "qqqq";
+    cout << "after:" << p_str << endl;
+    cout << "str:" << str << endl;
+}
+
+#include <thread>
+#include <condition_variable>
+class BlockQueue {
+    //BlockQueue(int size): limit_size(size), is_empty(true), is_full(false){
+public:
+    BlockQueue(int size) : limit_size(size){
+    }
+    void push(int val) {
+        srand(time(NULL));
+        this_thread::sleep_for(chrono::milliseconds(1000));
+        unique_lock<mutex> ulk(mtx);
+        while (buffer.size() >= limit_size) {
+            c_full.wait(ulk);
+        }
+        buffer.push(val);
+//        ulk.unlock();
+        c_empty.notify_one();
+    }
+    void pop(int &value) {
+        srand(time(NULL));
+        this_thread::sleep_for(chrono::milliseconds(1000));
+        unique_lock<mutex> ulk(mtx);
+        while (buffer.empty())
+        {
+            c_empty.wait(ulk);
+        }
+        value = buffer.front();
+        buffer.pop();
+//        ulk.unlock();
+        c_full.notify_one();
+    }
+private:
+    queue<int> buffer;
+    const int limit_size;
+    mutex mtx;
+    //bool is_empty;
+    //bool is_full;
+    condition_variable c_empty;
+    condition_variable c_full;
+};
+
+void test_BlockQueue() {
+    const int THREAD_NUM = 10;
+    BlockQueue bq(3);
+    thread t[THREAD_NUM];
+    vector<int> final_ret(THREAD_NUM, -1);
+    for (int i = 0; i < THREAD_NUM; i++) {
+        if(i%2==0)
+            t[i] = thread(std::bind(&BlockQueue::push , &bq,  i));
+        else {
+            t[i] = thread(std::bind(&BlockQueue::pop, &bq,  ref(final_ret[i])));
+        }
+    }
+    for (int i = 0; i < THREAD_NUM; i++) {
+        t[i].join();
+    }
+    for (int i = 0; i < THREAD_NUM; i++) {
+        if (i % 2 == 1)
+            cout << final_ret[i] << endl;
+    }
+}
+
+void changeStr(string &res){
+    res = "hello";
+}
 int main(int argc, char *argv[]) {
 
 
-    test_canCompleteCircuit();
+//    test_isOK();
+    //test_BlockQueue();
+    string s = "2020-05-12";
+    string time = "20200325";
+    string r1, r2, r3;
+    r1 = time.substr(0,4);
+    r2 = time.substr(4,2);
+    r3 = time.substr(6,2);
+    string res = r1+ "-" + r2 + "-" + r3;
+    cout << "res:" << res << endl;
+    string t = s.substr(0,4);
+    cout << "s:" << s <<",t:" << t << endl;
+
 
 
     return 0;

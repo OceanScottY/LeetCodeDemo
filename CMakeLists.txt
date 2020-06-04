@@ -11,11 +11,16 @@ set(DEMO_SRC
         TreeDemo/TreeDemo.h
         standardDemo/CPPStanderDemo.cpp
         standardDemo/CPPStanderDemo.h
-        standardDemo/CStrDemo.cpp standardDemo/CStrDemo.h standardDemo/CplusDemo.cpp
+        standardDemo/CStrDemo.cpp standardDemo/CStrDemo.h
+        standardDemo/CplusDemo.cpp
         Other/Other.cpp Other/Other.h
         DynamicPrograming/DynamicPrograming.cpp DynamicPrograming/DynamicPrograming.h
         DynamicPrograming/TestYhy.cpp DynamicPrograming/TestYhy.h
         JZOffer/File1.cpp JZOffer/File1.h
         BackTracing/BackTracing.cpp BackTracing/BackTracing.h
-        GreedyDemo/GreedyDemo.cpp GreedyDemo/GreedyDemo.h C++Demo/BigDecimal.cpp C++Demo/BigDecimal.h)
+        GreedyDemo/GreedyDemo.cpp GreedyDemo/GreedyDemo.h
+        C++Demo/BigDecimal.cpp C++Demo/BigDecimal.h
+        ThreadDemo/SingleThreadDemo.cpp ThreadDemo/SingleThreadDemo.h
+
+        standardDemo/MyString.cpp standardDemo/MyString.h)
 add_executable(LeetCodeDemo ${DEMO_SRC} )

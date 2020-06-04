@@ -1,4 +1,4 @@
-E:\Learning\JetBrains\CLion2018.1.6\bin\cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\Learning\JetBrains\CLionProjects\LeetCodeDemo
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/mac/scott/CLionProjects/LeetCodeDemo
 -- Configuring done
 -- Generating done
--- Build files have been written to: E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug
+-- Build files have been written to: /Users/mac/scott/CLionProjects/LeetCodeDemo/cmake-build-debug

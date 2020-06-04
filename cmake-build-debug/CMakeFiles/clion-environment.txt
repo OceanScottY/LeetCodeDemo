@@ -1,4 +1,2 @@
-ToolSet: w64 6.0@E:\Learning\mingw64Clion
 Options: 
-
-Options:
+CMake: 3.8.2@/Applications/CLion.app/Contents/bin/cmake/bin/cmake
