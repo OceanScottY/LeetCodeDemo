@@ -1,2 +1,0 @@
-E:\Learning\mingw64Clion\bin\ar.exe qc libarray_demo.a  CMakeFiles/array_demo.dir/ArrayDemo.cpp.obj
-E:\Learning\mingw64Clion\bin\ranlib.exe libarray_demo.a

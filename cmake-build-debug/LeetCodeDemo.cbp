@@ -8,165 +8,163 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/mac/scott/CLionProjects/LeetCodeDemo/cmake-build-debug"/>
+				<Option working_dir="E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/mac/scott/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mac/scott/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mac/scott/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mac/scott/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/Learning/mingw64Clion/bin/mingw32-make.exe -f &quot;E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/Learning/mingw64Clion/bin/mingw32-make.exe -f &quot;E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Learning/mingw64Clion/bin/mingw32-make.exe -f &quot;E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Learning/mingw64Clion/bin/mingw32-make.exe -f &quot;E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/mac/scott/CLionProjects/LeetCodeDemo/cmake-build-debug"/>
+				<Option working_dir="E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/mac/scott/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mac/scott/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mac/scott/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mac/scott/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/mac/scott/CLionProjects/LeetCodeDemo/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/mac/scott/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mac/scott/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mac/scott/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mac/scott/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/Learning/mingw64Clion/bin/mingw32-make.exe -f &quot;E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/Learning/mingw64Clion/bin/mingw32-make.exe -f &quot;E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Learning/mingw64Clion/bin/mingw32-make.exe -f &quot;E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Learning/mingw64Clion/bin/mingw32-make.exe -f &quot;E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LeetCodeDemo">
-				<Option output="/Users/mac/scott/CLionProjects/LeetCodeDemo/cmake-build-debug/LeetCodeDemo" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mac/scott/CLionProjects/LeetCodeDemo/cmake-build-debug"/>
+				<Option output="E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug/LeetCodeDemo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="E:/Learning/mingw64Clion/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/Learning/mingw64Clion/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Learning/mingw64Clion/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/Learning/mingw64Clion/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/Learning/mingw64Clion/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/Learning/mingw64Clion/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/mac/scott/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 LeetCodeDemo"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mac/scott/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mac/scott/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mac/scott/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/Learning/mingw64Clion/bin/mingw32-make.exe -f &quot;E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 LeetCodeDemo"/>
+					<CompileFile command="E:/Learning/mingw64Clion/bin/mingw32-make.exe -f &quot;E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Learning/mingw64Clion/bin/mingw32-make.exe -f &quot;E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Learning/mingw64Clion/bin/mingw32-make.exe -f &quot;E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="LeetCodeDemo/fast">
-				<Option output="/Users/mac/scott/CLionProjects/LeetCodeDemo/cmake-build-debug/LeetCodeDemo" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mac/scott/CLionProjects/LeetCodeDemo/cmake-build-debug"/>
+				<Option output="E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug/LeetCodeDemo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="E:/Learning/mingw64Clion/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/Learning/mingw64Clion/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Learning/mingw64Clion/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/Learning/mingw64Clion/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/Learning/mingw64Clion/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/Learning/mingw64Clion/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/mac/scott/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 LeetCodeDemo/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mac/scott/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mac/scott/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mac/scott/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/Learning/mingw64Clion/bin/mingw32-make.exe -f &quot;E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 LeetCodeDemo/fast"/>
+					<CompileFile command="E:/Learning/mingw64Clion/bin/mingw32-make.exe -f &quot;E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Learning/mingw64Clion/bin/mingw32-make.exe -f &quot;E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Learning/mingw64Clion/bin/mingw32-make.exe -f &quot;E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Learning/mingw64Clion/bin/mingw32-make.exe -f &quot;E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/Learning/mingw64Clion/bin/mingw32-make.exe -f &quot;E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Learning/mingw64Clion/bin/mingw32-make.exe -f &quot;E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Learning/mingw64Clion/bin/mingw32-make.exe -f &quot;E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/mac/scott/CLionProjects/LeetCodeDemo/ArrayDemo/ArrayDemo.cpp">
+		<Unit filename="E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/ArrayDemo/ArrayDemo.cpp">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
-		<Unit filename="/Users/mac/scott/CLionProjects/LeetCodeDemo/ArrayDemo/ArrayDemo.h">
+		<Unit filename="E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/ArrayDemo/ArrayDemo.h">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
-		<Unit filename="/Users/mac/scott/CLionProjects/LeetCodeDemo/BackTracing/BackTracing.cpp">
+		<Unit filename="E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/BackTracing/BackTracing.cpp">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
-		<Unit filename="/Users/mac/scott/CLionProjects/LeetCodeDemo/BackTracing/BackTracing.h">
+		<Unit filename="E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/BackTracing/BackTracing.h">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
-		<Unit filename="/Users/mac/scott/CLionProjects/LeetCodeDemo/C++Demo/BigDecimal.cpp">
+		<Unit filename="E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/C++Demo/BigDecimal.cpp">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
-		<Unit filename="/Users/mac/scott/CLionProjects/LeetCodeDemo/C++Demo/BigDecimal.h">
+		<Unit filename="E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/C++Demo/BigDecimal.h">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
-		<Unit filename="/Users/mac/scott/CLionProjects/LeetCodeDemo/DynamicPrograming/DynamicPrograming.cpp">
+		<Unit filename="E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/DynamicPrograming/DynamicPrograming.cpp">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
-		<Unit filename="/Users/mac/scott/CLionProjects/LeetCodeDemo/DynamicPrograming/DynamicPrograming.h">
+		<Unit filename="E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/DynamicPrograming/DynamicPrograming.h">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
-		<Unit filename="/Users/mac/scott/CLionProjects/LeetCodeDemo/DynamicPrograming/TestYhy.cpp">
+		<Unit filename="E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/DynamicPrograming/TestYhy.cpp">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
-		<Unit filename="/Users/mac/scott/CLionProjects/LeetCodeDemo/DynamicPrograming/TestYhy.h">
+		<Unit filename="E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/DynamicPrograming/TestYhy.h">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
-		<Unit filename="/Users/mac/scott/CLionProjects/LeetCodeDemo/GreedyDemo/GreedyDemo.cpp">
+		<Unit filename="E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/GreedyDemo/GreedyDemo.cpp">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
-		<Unit filename="/Users/mac/scott/CLionProjects/LeetCodeDemo/GreedyDemo/GreedyDemo.h">
+		<Unit filename="E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/GreedyDemo/GreedyDemo.h">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
-		<Unit filename="/Users/mac/scott/CLionProjects/LeetCodeDemo/JZOffer/File1.cpp">
+		<Unit filename="E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/JZOffer/File1.cpp">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
-		<Unit filename="/Users/mac/scott/CLionProjects/LeetCodeDemo/JZOffer/File1.h">
+		<Unit filename="E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/JZOffer/File1.h">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
-		<Unit filename="/Users/mac/scott/CLionProjects/LeetCodeDemo/Other/Other.cpp">
+		<Unit filename="E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/Other/Other.cpp">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
-		<Unit filename="/Users/mac/scott/CLionProjects/LeetCodeDemo/Other/Other.h">
+		<Unit filename="E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/Other/Other.h">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
-		<Unit filename="/Users/mac/scott/CLionProjects/LeetCodeDemo/ThreadDemo/SingleThreadDemo.cpp">
+		<Unit filename="E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/ThreadDemo/SingleThreadDemo.cpp">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
-		<Unit filename="/Users/mac/scott/CLionProjects/LeetCodeDemo/ThreadDemo/SingleThreadDemo.h">
+		<Unit filename="E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/ThreadDemo/SingleThreadDemo.h">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
-		<Unit filename="/Users/mac/scott/CLionProjects/LeetCodeDemo/TreeDemo/TreeDemo.cpp">
+		<Unit filename="E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/TreeDemo/TreeDemo.cpp">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
-		<Unit filename="/Users/mac/scott/CLionProjects/LeetCodeDemo/TreeDemo/TreeDemo.h">
+		<Unit filename="E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/TreeDemo/TreeDemo.h">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
-		<Unit filename="/Users/mac/scott/CLionProjects/LeetCodeDemo/main.cpp">
+		<Unit filename="E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/main.cpp">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
-		<Unit filename="/Users/mac/scott/CLionProjects/LeetCodeDemo/standardDemo/CPPStanderDemo.cpp">
+		<Unit filename="E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/standardDemo/CPPStanderDemo.cpp">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
-		<Unit filename="/Users/mac/scott/CLionProjects/LeetCodeDemo/standardDemo/CPPStanderDemo.h">
+		<Unit filename="E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/standardDemo/CPPStanderDemo.h">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
-		<Unit filename="/Users/mac/scott/CLionProjects/LeetCodeDemo/standardDemo/CStrDemo.cpp">
+		<Unit filename="E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/standardDemo/CStrDemo.cpp">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
-		<Unit filename="/Users/mac/scott/CLionProjects/LeetCodeDemo/standardDemo/CStrDemo.h">
+		<Unit filename="E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/standardDemo/CStrDemo.h">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
-		<Unit filename="/Users/mac/scott/CLionProjects/LeetCodeDemo/standardDemo/CplusDemo.cpp">
+		<Unit filename="E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/standardDemo/CplusDemo.cpp">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
-		<Unit filename="/Users/mac/scott/CLionProjects/LeetCodeDemo/standardDemo/MyString.cpp">
+		<Unit filename="E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/standardDemo/MyString.cpp">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
-		<Unit filename="/Users/mac/scott/CLionProjects/LeetCodeDemo/standardDemo/MyString.h">
+		<Unit filename="E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/standardDemo/MyString.h">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
-		<Unit filename="/Users/mac/scott/CLionProjects/LeetCodeDemo/CMakeLists.txt">
+		<Unit filename="E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
