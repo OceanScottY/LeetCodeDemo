@@ -1525,21 +1525,76 @@ void test_BlockQueue() {
 void changeStr(string &res){
     res = "hello";
 }
+
+//快速排序（从小到大）
+void quickSort(int left, int right, vector<int>& arr)
+{
+    if(left >= right)
+        return;
+    int i, j, base, temp;
+    i = left, j = right;
+    base = arr[left];  //取最左边的数为基准数
+    while (i < j)
+    {
+        while (arr[j] >= base && i < j)
+            j--;
+        while (arr[i] <= base && i < j)
+            i++;
+        if(i < j)
+        {
+            temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
+        }
+    }
+    //基准数归位
+    arr[left] = arr[i];
+    arr[i] = base;
+    quickSort(left, i - 1, arr);//递归左边
+    quickSort(i + 1, right, arr);//递归右边
+}
+
+#include "sortDemo/sort_demo.h"
+
+void show_vector(vector<int> arr){
+    for(int i=0; i<arr.size(); i++){
+        cout << arr[i] << "->";
+    }
+    cout << endl;
+}
+
+void test_insert_sort(){
+    vector<int> tmp = {3, 5, 4, 1, 2};
+    insert_sort(tmp);
+    show_vector(tmp);
+
+}
+
+void test_simple_select_sort(){
+    vector<int> tmp = {3, 5, 4, 1, 2};
+    simple_select_sort(tmp);
+    show_vector(tmp);
+
+}
+void test_sbubble_sort(){
+    vector<int> tmp = {3, 5, 4, 1, 2};
+    bubble_sort(tmp);
+    show_vector(tmp);
+
+}
+void test_merge_sort(){
+    vector<int> tmp = {3, 5, 4, 1, 2};
+    merge_sort(tmp,0,tmp.size()-1);
+    show_vector(tmp);
+
+}
+
 int main(int argc, char *argv[]) {
 
 
 //    test_isOK();
-    //test_BlockQueue();
-    string s = "2020-05-12";
-    string time = "20200325";
-    string r1, r2, r3;
-    r1 = time.substr(0,4);
-    r2 = time.substr(4,2);
-    r3 = time.substr(6,2);
-    string res = r1+ "-" + r2 + "-" + r3;
-    cout << "res:" << res << endl;
-    string t = s.substr(0,4);
-    cout << "s:" << s <<",t:" << t << endl;
+    test_merge_sort();
+
 
 
 

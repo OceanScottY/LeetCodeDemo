@@ -22,5 +22,5 @@ set(DEMO_SRC
         C++Demo/BigDecimal.cpp C++Demo/BigDecimal.h
         ThreadDemo/SingleThreadDemo.cpp ThreadDemo/SingleThreadDemo.h
 
-        standardDemo/MyString.cpp standardDemo/MyString.h)
-add_executable(LeetCodeDemo ${DEMO_SRC} )
+        standardDemo/MyString.cpp standardDemo/MyString.h sortDemo/sort_demo.h sortDemo/sort_demo.cpp)
+add_executable(LeetCodeDemo ${DEMO_SRC} sortDemo/sort_demo.h sortDemo/sort_demo.cpp)
