@@ -1500,7 +1500,7 @@ private:
     condition_variable c_empty;
     condition_variable c_full;
 };
-
+/*
 void test_BlockQueue() {
     const int THREAD_NUM = 10;
     BlockQueue bq(3);
@@ -1521,6 +1521,7 @@ void test_BlockQueue() {
             cout << final_ret[i] << endl;
     }
 }
+ */
 
 void changeStr(string &res){
     res = "hello";
