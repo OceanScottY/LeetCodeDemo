@@ -1061,8 +1061,6 @@ void test_Merge(){
 
 #include "ThreadDemo/SingleThreadDemo.h"
 
-#include <stack>
-
 void test_priority_queue(){
 //    vector<Student> v;
 //    v.push_back(Student("aaa", 22));
@@ -1435,12 +1433,13 @@ void test_yuanpp(){
 int get_num(){
     return 3;
 }
-
+/*
 void change_data(char** str){
     str[0] = "wahaha";
     str[1] = "qwer";
 }
-
+*/
+/*
 void test_sec_pointer(){
     vector<string> vec_str = {"hello", "world"};
     cout << "data:" << vec_str[0] << endl;
@@ -1459,7 +1458,7 @@ void test_sec_pointer(){
     cout << "after:" << p_str << endl;
     cout << "str:" << str << endl;
 }
-
+*/
 #include <thread>
 #include <condition_variable>
 class BlockQueue {
@@ -1500,7 +1499,7 @@ private:
     condition_variable c_empty;
     condition_variable c_full;
 };
-
+/*
 void test_BlockQueue() {
     const int THREAD_NUM = 10;
     BlockQueue bq(3);
@@ -1521,25 +1520,635 @@ void test_BlockQueue() {
             cout << final_ret[i] << endl;
     }
 }
-
+*/
 void changeStr(string &res){
     res = "hello";
 }
+class CBase{
+public:
+    virtual int test_vir(){return 10;}
+    int test(){return 100;}
+};
+
+class CDerive : public CBase{
+public:
+    virtual int test_vir(){return 11;}
+    int test(){return 111;}
+    string abc(){return "hello";}
+};
+void static_cast_test(){
+    CBase *p_base = new CDerive;
+    CDerive *p_derive = dynamic_cast<CDerive *>(p_base);
+    cout << "vir:" << p_derive->test_vir() << endl;
+    cout << "test:" << p_derive->test() << endl;
+    cout << "abc:" << p_derive->abc() << endl;
+
+//    CBase i_base;
+//    CBase &r_base = i_base;
+//    CDerive &r_d = dynamic_cast<CDerive &>(r_base);
+//    cout << r_d.test() << endl;
+
+}
+class A_C{
+
+public:
+    A_C(){
+        num = 0;
+    }
+
+public:
+    int num;
+};
+void const_cast_test(){
+    const A_C *p = new A_C;
+    A_C *p2 = const_cast<A_C *>(p);
+    p2->num = 200;
+    cout << p->num << ", " << p2->num << endl;
+
+    const int ica = 100;
+    int *ia = const_cast<int *>(&ica);
+    *ia = 500;
+    cout << ica << "," << *ia << endl;
+
+}
+
+
+//只用递归实现逆序栈的功能
+
+#include <stack>
+int getAndRemoveLast(stack<int> &tmp){
+    int res = tmp.top();
+    tmp.pop();
+    if(tmp.empty()){
+        return res;
+    }else{
+        int last = getAndRemoveLast(tmp);
+        tmp.push(res);
+        return last;
+    }
+}
+
+void reverse(stack<int > &s){
+    if(s.empty()){
+        return;
+    }
+    int i = getAndRemoveLast(s);
+    reverse(s);
+    s.push(i);
+}
+
+void test_reverse_stack(){
+    stack<int> tmp;
+    tmp.push(1);
+    tmp.push(2);
+    tmp.push(3);
+    tmp.push(4);
+    tmp.push(5);
+    cout << "------- before -------" << endl;
+    reverse(tmp);
+    while(!tmp.empty()){
+        cout << tmp.top() << endl;
+        tmp.pop();
+    }
+}
+
+//只用递归实现逆序栈的功能---》完成
+
+//猫狗入队
+class Pet{
+public:
+    Pet() = default;
+    Pet(string type):type(type){}
+    string get_type(){ return type; }
+public:
+    string type;
+};
+class Dog : public Pet{
+public:
+    Dog(){ type = "dog"; }
+};
+class Cat : public Pet{
+public:
+    Cat(){ type =  "cat"; }
+};
+class PetQueue{
+private:
+    Pet pet;
+    long count;//时间戳
+public:
+    PetQueue(Pet pet, long count):pet(pet), count(count){}
+    Pet get_pet(){ return pet; }
+    long get_count(){ return count; }
+    string get_pet_type(){ return pet.type; }
+};
+class DogCatQueue{
+public:
+    queue<PetQueue> dogQ;
+    queue<PetQueue> catQ;
+    long count;
+public:
+    DogCatQueue(){ count = 0; }
+    void add(Pet pet){
+        if(pet.get_type() == "dog"){
+            dogQ.push(PetQueue(Dog(),count++));
+        }else if(pet.get_type() == "cat"){
+            catQ.push(PetQueue(Cat(),count++));
+        }else{
+            cout << "error , not dog or cat" << endl;
+        }
+    }
+    bool isEmpty(){ return isDogEmpty() || isCatEmpty(); }
+    bool isDogEmpty(){return dogQ.empty(); }
+    bool isCatEmpty(){ return catQ.empty(); }
+    Pet pollAll(){
+        if(!dogQ.empty() && !catQ.empty()){
+            if(dogQ.front().get_count() < catQ.front().get_count()){
+                auto res = dogQ.front().get_pet();
+                dogQ.pop();
+                return res;
+            }else{
+                auto res = catQ.front().get_pet();
+                catQ.pop();
+                return res;
+            }
+        }else if (!dogQ.empty()){
+            auto res = dogQ.front().get_pet();
+            dogQ.pop();
+            return res;
+        }else if(!catQ.empty()){
+            auto res = catQ.front().get_pet();
+            catQ.pop();
+            return res;
+        }else{
+            throw runtime_error("error, empty queue");
+        }
+    }
+    Dog pollDog(){
+        if(!isDogEmpty()){
+            //将pet转换成dog
+            auto petP = dogQ.front().get_pet();
+            dogQ.pop();
+            Dog res;
+            Pet *p = &res;
+            *p = petP;
+            return res;
+        }else{
+            throw runtime_error("error, dog empty queue");
+        }
+    }
+    Cat pollCat(){
+        if(!isCatEmpty()){
+            //将pet转换成cat
+            auto petP = catQ.front().get_pet();
+            catQ.pop();
+            Cat res;
+            Pet *p = &res;
+            *p = petP;
+            return res;
+        }else{
+            throw runtime_error("error, cat empty queue");
+        }
+    }
+};
+void pet_enter_queue(){
+    DogCatQueue cdq;
+    if(cdq.isEmpty())
+        cout<<"All queue is empty!"<<endl;
+    cdq.add(Dog());
+    if(!cdq.isDogEmpty())
+        cout<<"Dog queue is not empty!"<<endl;
+    if(!cdq.isCatEmpty())
+        cout<<"Cat queue is not empty!"<<endl;
+    for(int i=0;i<2;i++) {
+        cdq.add(Cat());
+        cdq.add(Dog());
+    }
+    cout<<"popAll:"<<cdq.pollAll().get_type()<<endl;
+    cout<<"popDog:"<<cdq.pollDog().get_type()<<endl;
+    cout<<"popCat:"<<cdq.pollCat().get_type()<<endl;
+    cout<<"popAll:"<<cdq.pollAll().get_type()<<endl;
+    cout<<"popAll:"<<cdq.pollAll().get_type()<<endl;
+    if(cdq.isEmpty())
+        cout<<"All queue is empty!"<<endl;
+}
+//猫狗入队---》完成
+
+//用一个栈实现另一个栈的排序
+
+void sort_stack_by_stack(stack<int> &s){
+    stack<int> help;
+    while(!s.empty()){
+        int s_top = s.top();
+        s.pop();
+        while(!help.empty() && help.top() < s_top){
+            s.push(help.top());
+            help.pop();
+        }
+        help.push(s_top);
+    }
+    while(!help.empty()){
+        s.push(help.top());
+        help.pop();
+    }
+}
+void test_sort_stack(){
+    stack<int> s;
+    s.push(4);
+    s.push(2);
+    s.push(3);
+    s.push(1);
+    s.push(5);
+    sort_stack_by_stack(s);
+    cout << "after:";
+    while(!s.empty()){
+        cout << s.top() <<  "->";
+        s.pop();
+    }
+    cout << endl;
+}
+//用一个栈实现另一个栈的排序---》完成
+
+class B{
+public:
+    // 缺省参数和虚函数一起出现，是静态绑定！
+    virtual void func(int i = 20){
+        cout << "B func()......\n";
+        cout << "i=" << i << endl;
+    }
+};
+class C: public B{
+public:
+    virtual void func(int i=30){
+        cout << "C func()......\n";
+        cout << "i=" << i << endl;
+    }
+};
+class D:public B{
+public:
+    virtual void func(int i=40){
+        cout << "D func()......\n";
+        cout << "i=" << i << endl;
+    }
+};
+void test_param_method(){
+    // 缺省参数和虚函数一起出现,是静态绑定！
+    D *pD = new D();
+    B* pB = pD;
+    pD->func();
+    pB->func();
+}
+bool isPrim(int n){
+    for(int i=2; i<=sqrt(n); i++){
+        if(n % i == 0){
+            return false;
+        }
+    }
+    return true;
+}
+int work(int n, int* a, int aLen) {
+    // write code here
+    int res = 1;
+    for(int i=1; i<aLen; i++){
+        int distance = a[i] - a[i-1];
+        if(isPrim(distance)){
+            res++;
+        }else if(distance % 2 ==0 || isPrim(distance - 2)){
+            res += 2;
+        }else{
+            res += 3;
+        }
+    }
+    return res;
+}
+
+void test_isPrim(){
+    int a[] = {0, 3, 10, 15, 16, 24, 28};
+    cout <<"res:" << work(7, a, 7) << endl;
+}
+
+class Test_Len{
+    char b;
+    int a;
+    short c;
+};
+
+void test_len(){
+    cout << "double len :" << sizeof(double) << endl;
+    cout << "len:" << sizeof(Test_Len) << endl;
+ }
+ //----------------------------------------------堆排序--------------------------------------------------------------
+//向上调整堆
+void shift_up(vector<int> &heap){
+    int pos = heap.size() - 1;
+    int parent = (pos - 1)/2;
+    //当父节点存在时，且父节点的值大于该节点的值，进行调整
+    while(parent >= 0 && heap[parent] > heap[pos]){
+        swap(heap[parent], heap[pos]);
+        pos = parent;
+        parent = (pos - 1)/2;
+    }
+}
+//插入堆元素
+void push_data(vector<int> &heap, int val){
+    heap.push_back(val);
+    shift_up(heap);
+}
+//向下调整堆
+void shift_down(vector<int> &heap, int pos) {
+    //int pos = 0;
+    int left = 2 * pos + 1;
+    int right = 2 * pos + 2;
+    //当左节点存在且当前元素大于左右子节点中最小元素
+    while (left < (int)heap.size()) {
+        int min = left;
+        //右子树存在
+        if (right < (int)heap.size())
+            min = heap[left] < heap[right] ? left : right;
+        //进行调整
+        if (heap[pos] > heap[min]) {
+            swap(heap[pos], heap[min]);
+            pos = min;
+            left = 2 * pos + 1;
+            right = 2 * pos + 2;
+        }
+        else
+            break;
+    }
+}
+//删除堆元素
+void pop_heap(vector<int> &heap) {
+    heap[0] = heap[heap.size() - 1];
+    heap.pop_back();
+    shift_down(heap, 0);
+}
+//建堆
+vector<int> make_heap(vector<int> element) {
+    //从上向下建堆（插入建堆），其时间复杂度为O(n*logn)
+    vector<int> heap;
+    /*for (int i = 0; i < element.size(); i++)
+           push_heap(heap, element[i]);*/
+    //从下向上建堆，从后向前依次调整所有非叶子节点的元素O(n)
+    heap = element;
+    for (int i = heap.size() / 2 - 1; i >= 0; i--) {
+        shift_down(heap, i);
+    }
+    return heap;
+}
+//堆排序
+vector<int> heap_sort(vector<int> heap) {
+    vector<int> sort_ret;
+    while (!heap.empty()) {
+        sort_ret.push_back(heap[0]);
+        pop_heap(heap);
+    }
+    return sort_ret;
+}
+
+//----------------------------------------------堆排序 end--------------------------------------------------------------
+
+
+
+#include <stdio.h>
+#include <string.h>
+#include <assert.h>
+
+typedef unsigned char     uint8;
+typedef unsigned long    uint32;
+
+static uint8 alphabet_map[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+static uint8 reverse_map[] =
+        {
+                255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255,
+                255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255,
+                255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 62, 255, 255, 255, 63,
+                52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 255, 255, 255, 255, 255, 255,
+                255,  0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14,
+                15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 255, 255, 255, 255, 255,
+                255, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40,
+                41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 255, 255, 255, 255, 255
+        };
+
+uint32 base64_encode(const uint8 *text, uint32 text_len, uint8 *encode)
+{
+    uint32 i, j;
+    for (i = 0, j = 0; i+3 <= text_len; i+=3)
+    {
+        encode[j++] = alphabet_map[text[i]>>2];                             //取出第一个字符的前6位并找出对应的结果字符
+        encode[j++] = alphabet_map[((text[i]<<4)&0x30)|(text[i+1]>>4)];     //将第一个字符的后2位与第二个字符的前4位进行组合并找到对应的结果字符
+        encode[j++] = alphabet_map[((text[i+1]<<2)&0x3c)|(text[i+2]>>6)];   //将第二个字符的后4位与第三个字符的前2位组合并找出对应的结果字符
+        encode[j++] = alphabet_map[text[i+2]&0x3f];                         //取出第三个字符的后6位并找出结果字符
+    }
+
+    if (i < text_len)
+    {
+        uint32 tail = text_len - i;
+        if (tail == 1)
+        {
+            encode[j++] = alphabet_map[text[i]>>2];
+            encode[j++] = alphabet_map[(text[i]<<4)&0x30];
+            encode[j++] = '=';
+            encode[j++] = '=';
+        }
+        else //tail==2
+        {
+            encode[j++] = alphabet_map[text[i]>>2];
+            encode[j++] = alphabet_map[((text[i]<<4)&0x30)|(text[i+1]>>4)];
+            encode[j++] = alphabet_map[(text[i+1]<<2)&0x3c];
+            encode[j++] = '=';
+        }
+    }
+    return j;
+}
+
+uint32 base64_decode(const uint8 *code, uint32 code_len, uint8 *plain)
+{
+    assert((code_len&0x03) == 0);  //如果它的条件返回错误，则终止程序执行。4的倍数。
+
+    uint32 i, j = 0;
+    uint8 quad[4];
+    for (i = 0; i < code_len; i+=4)
+    {
+        for (uint32 k = 0; k < 4; k++)
+        {
+            quad[k] = reverse_map[code[i+k]];//分组，每组四个分别依次转换为base64表内的十进制数
+        }
+
+        assert(quad[0]<64 && quad[1]<64);
+
+        plain[j++] = (quad[0]<<2)|(quad[1]>>4); //取出第一个字符对应base64表的十进制数的前6位与第二个字符对应base64表的十进制数的前2位进行组合
+
+        if (quad[2] >= 64)
+            break;
+        else if (quad[3] >= 64)
+        {
+            plain[j++] = (quad[1]<<4)|(quad[2]>>2); //取出第二个字符对应base64表的十进制数的后4位与第三个字符对应base64表的十进制数的前4位进行组合
+            break;
+        }
+        else
+        {
+            plain[j++] = (quad[1]<<4)|(quad[2]>>2);
+            plain[j++] = (quad[2]<<6)|quad[3];//取出第三个字符对应base64表的十进制数的后2位与第4个字符进行组合
+        }
+    }
+    return j;
+}
+
+//base64 编解码函数声明
+std::string b64encodestring(const std::string &strString);      //对 ASCII 字符串进行 base64 编码
+std::string b64decodestring(const std::string &strString);      //对 base64 编码后的字符串进行解码
+
+//base64 编解码函数实现
+/**
+* @brief 对 ASCII 字符串进行 base64 编码
+*
+* @param strString 待编码的字符串
+*
+* @return srs::string 返回编码后的字符串
+*
+* @note 对于字符串中含有非 ASCII 字符串型的字符, 代码将抛出 std::string 型异常, 请捕获
+*/
+std::string b64encodestring(const std::string &strString)
+{
+    int nByteSrc = strString.length();
+    std::string pszSource = strString;
+
+    int i = 0;
+    for(i; i < nByteSrc; i++)
+        if( pszSource[i] < 0 || pszSource[i] > 127 )
+            throw "can not encode Non-ASCII characters";
+
+    const char *enkey = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+    std::string pszEncode(nByteSrc*4/3 + 4, '\0');
+    int nLoop = nByteSrc %3 == 0 ? nByteSrc : nByteSrc - 3;
+    int n = 0;
+    for(i=0; i < nLoop; i+=3 )
+    {
+        pszEncode[n] = enkey[pszSource[i]>>2];
+        pszEncode[n+1] = enkey[((pszSource[i]&3)<<4) | ((pszSource[i+1] & 0xF0)>>4)];
+        pszEncode[n+2] = enkey[((pszSource[i+1] & 0x0f)<<2) | ((pszSource[i+2] & 0xc0 )>>6)];
+        pszEncode[n+3] = enkey[pszSource[i+2] & 0x3F];
+        n += 4;
+    }
+
+    switch(nByteSrc%3)
+    {
+        case 0:
+            pszEncode[n] = '\0';
+            break;
+
+        case 1:
+            pszEncode[n] = enkey[pszSource[i]>>2];
+            pszEncode[n+1] = enkey[((pszSource[i]&3)<<4) | ((0&0xf0)>>4)];
+            pszEncode[n+2] = '=';
+            pszEncode[n+3] = '=';
+            pszEncode[n+4] = '\0';
+            break;
+
+        case 2:
+            pszEncode[n] = enkey[pszSource[i]>>2];
+            pszEncode[n+1] = enkey[((pszSource[i]&3)<<4) | ((pszSource[i+1]&0xf0)>>4)];
+            pszEncode[n+2] = enkey[(( pszSource[i+1]&0xf)<<2 ) | ((0&0xc0)>>6)];
+            pszEncode[n+3] = '=';
+            pszEncode[n+4] = '\0';
+            break;
+    }
+
+    return pszEncode.c_str();
+}
+/**
+* @brief 对 base64 编码后的字符串进行解码
+*
+* @param strString 待解码的字符串
+*
+* @return std::string 返回解码后的字符串
+*
+* @note 对于非base64编码的字符串或已损坏的base64字符串进行解码会抛出 std::string 型异常, 请捕获
+*/
+std::string b64decodestring(const std::string &strString)
+{
+    int nByteSrc = strString.length();
+    std::string pszSource = strString;
+
+    const int dekey[] = {
+            -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+            -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+            62, // '+'
+            -1, -1, -1,
+            63, // '/'
+            52, 53, 54, 55, 56, 57, 58, 59, 60, 61, // '0'-'9'
+            -1, -1, -1, -1, -1, -1, -1,
+            0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12,
+            13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, // 'A'-'Z'
+            -1, -1, -1, -1, -1, -1,
+            26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38,
+            39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, // 'a'-'z'
+    };
+
+    if(nByteSrc%4 != 0)
+        throw "bad base64 string";
+
+    std::string pszDecode(nByteSrc*3/4+4, '\0');
+    int nLoop = pszSource[nByteSrc-1]  == '=' ? nByteSrc - 4 : nByteSrc;
+    int b[4];
+    int i = 0, n = 0;
+    for(i = 0; i < nLoop; i += 4 )
+    {
+        b[0] = dekey[pszSource[i]];        b[1] = dekey[pszSource[i+1]];
+        b[2] = dekey[pszSource[i+2]];    b[3] = dekey[pszSource[i+3]];
+        if(b[0] == -1 || b[1] == -1 || b[2] == -1 || b[3] == -1)
+            throw "bad base64 string";
+
+        pszDecode[n] = (b[0] << 2) | ((b[1] & 0x30) >> 4);
+        pszDecode[n+1] = ((b[1] & 0xf) << 4) | ((b[2] & 0x3c) >> 2);
+        pszDecode[n+2] =  ((b[2] & 0x3) << 6) | b[3];
+
+        n+=3;
+    }
+
+    if( pszSource[nByteSrc-1] == '=' && pszSource[nByteSrc-2] == '=' )
+    {
+        b[0] = dekey[pszSource[i]];        b[1] = dekey[pszSource[i+1]];
+        if(b[0] == -1 || b[1] == -1)
+            throw "bad base64 string";
+
+        pszDecode[n] = (b[0] << 2) | ((b[1] & 0x30) >> 4);
+        pszDecode[n+1] = '\0';
+    }
+
+    if( pszSource[nByteSrc-1] == '=' && pszSource[nByteSrc-2] != '=' )
+    {
+        b[0] = dekey[pszSource[i]];        b[1] = dekey[pszSource[i+1]];
+        b[2] = dekey[pszSource[i+2]];
+        if(b[0] == -1 || b[1] == -1 || b[2] == -1)
+            throw "bad base64 string";
+
+        pszDecode[n] = (b[0] << 2) | ((b[1] & 0x30) >> 4);
+        pszDecode[n+1] = ((b[1] & 0xf) << 4) | ((b[2] & 0x3c) >> 2);
+        pszDecode[n+2] = '\0';
+    }
+
+    if( pszSource[nByteSrc-1] != '=' && pszSource[nByteSrc-2] != '=' )
+        pszDecode[n] = '\0';
+
+    return pszDecode;
+}
+
+void tes_base64(){
+    ///编码测试
+    std::string str1 = "Hello, world!";
+    std::cout << "对Hello, world!进行base64编码: " << b64encodestring(str1) << std::endl;
+
+    ///解码测试
+    std::string str2 = "SGVsbG8sIHdvcmxkIQ==";
+    std::cout << "对SGVsbG8sIHdvcmxkIQ==进行base64解码: " << b64decodestring(str2) << std::endl;
+}
+
 int main(int argc, char *argv[]) {
 
 
 //    test_isOK();
-    //test_BlockQueue();
-    string s = "2020-05-12";
-    string time = "20200325";
-    string r1, r2, r3;
-    r1 = time.substr(0,4);
-    r2 = time.substr(4,2);
-    r3 = time.substr(6,2);
-    string res = r1+ "-" + r2 + "-" + r3;
-    cout << "res:" << res << endl;
-    string t = s.substr(0,4);
-    cout << "s:" << s <<",t:" << t << endl;
+//    test_len();
+
 
 
 
