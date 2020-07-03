@@ -1594,9 +1594,14 @@ int main(int argc, char *argv[]) {
 
 
 //    test_isOK();
-    test_merge_sort();
+//    test_merge_sort();
 
-
+    char *p = "abcdqwertrtyur";
+    for(int i=0; i<sizeof(p)/sizeof(char); i++){
+        cout << "->" << *(p+i);
+    }
+    cout << endl;
+    cout << *p << endl;
 
 
     return 0;
