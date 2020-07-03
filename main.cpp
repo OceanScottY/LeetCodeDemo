@@ -1590,18 +1590,19 @@ void test_merge_sort(){
 
 }
 
+void test_quick_sort(){
+    vector<int> tmp = {3, 5, 4, 1, 2};
+    quick_sort(tmp, 0, tmp.size()-1);
+    show_vector(tmp);
+}
+
 int main(int argc, char *argv[]) {
 
 
 //    test_isOK();
-//    test_merge_sort();
+    test_quick_sort();
 
-    char *p = "abcdqwertrtyur";
-    for(int i=0; i<sizeof(p)/sizeof(char); i++){
-        cout << "->" << *(p+i);
-    }
-    cout << endl;
-    cout << *p << endl;
+
 
 
     return 0;
