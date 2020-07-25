@@ -14,12 +14,12 @@ void simple_select_sort(std::vector<int> &arr);
 void bubble_sort(std::vector<int> &arr);
 
 //快速排序
-void quick_sort(std::vector<int> &arr);
+void quick_sort(std::vector<int> &arr, int left, int right);
 
 //归并排序
 void merge_sort(std::vector<int> &arr, int left, int right);
 
 //堆排序
-void heap_sort(std::vector<int> &arr);
+std::vector<int> heap_sort(std::vector<int> &heap);
 
 #endif //LEETCODEDEMO_SORT_DEMO_H
