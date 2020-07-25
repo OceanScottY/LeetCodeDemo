@@ -11,6 +11,14 @@ void test_array_generate(){
     vector<vector<int>> res = generate(5);
 }
 
+void test_array_getRow(){
+    vector<int> res = getRow(3);
+    for(auto p = res.begin(); p != res.end(); p++){
+        cout << *p << ",";
+    }
+    cout << endl;
+}
+
 void test_array_merge(){
     vector<int> v1 = {1, 2, 3, 0, 0, 0};
     vector<int> v2 = {2, 5, 6};
@@ -1076,7 +1084,7 @@ void test_priority_queue(){
 //        cout << s.show() << endl;
 //    }
 
-    priority_queue<int, vector<int>, greater<int>> p;
+    priority_queue<int> p;
     for(int i=1; i<8; i++){
         p.push(i);
     }
@@ -1428,6 +1436,30 @@ int get_num(){
     return 3;
 }
 
+void change_data(char** str){
+    str[0] = "wahaha";
+    str[1] = "qwer";
+}
+
+void test_sec_pointer(){
+    vector<string> vec_str = {"hello", "world"};
+    cout << "data:" << vec_str[0] << endl;
+    char* p[2];
+    p[0] = const_cast<char *>(vec_str[0].data());
+    p[1] = const_cast<char *>(vec_str[1].data());
+    cout << "pointer:" << *p << endl;
+    change_data(p);
+    cout << "pointer:" << *p << endl;
+    cout << "data:" << vec_str[0] << endl;
+    cout <<"-------------"<<endl;
+    string str = "yuhy";
+    char* p_str = const_cast<char *>(str.data());
+    cout << "before:" << p_str << endl;
+    p_str = "qqqq";
+    cout << "after:" << p_str << endl;
+    cout << "str:" << str << endl;
+}
+
 #include <thread>
 #include <condition_variable>
 class BlockQueue {
@@ -1563,334 +1595,15 @@ void test_quick_sort(){
     quick_sort(tmp, 0, tmp.size()-1);
     show_vector(tmp);
 }
-bool cmp_str(const string &s1, const string &s2){
-    string mn = s1 + s2;
-    string nm = s2 + s1;
-    return mn < nm;
-}
-
-int three_min(int a, int b, int c){
-    return a < b ? (a < c ? a : c) : (b < c ? b : c);
-}
-
-int two_color_ball(int fst, int sec){
-    int count = 0;
-    while(fst > 0 && sec > 0){
-        fst -= 3;
-        sec -= 2;
-        if(fst >= 0 && sec >= 0){
-            count++;
-        }
-    }
-    return count;
-}
-
-int three_color_ball(int red, int yellow, int blue){
-    int res = three_min(red, yellow, blue);
-    red -= res, yellow -= res, blue -= res;
-    if( red == 0){
-        res += two_color_ball(yellow, blue);
-    }else if(yellow == 0){
-        res += two_color_ball(blue, red);
-    }else {
-        res += two_color_ball(red, yellow);
-    }
-    return res;
-}
-
-void test_three_ball(){
-    int res = three_color_ball(1, 4, 3);
-    cout << "res : " << res << endl;
-}
-
-
-#include "CommanAlgorithm/LRUCache.h"
-
-void test_LUR(){
-    int N = 10;
-    LRUCache<int,int> lc(N);
-    for (int i = 0; i < N; ++i) {
-        lc.set(i,i);
-    }
-    cout << "at the beginning: " << endl;
-//    for (int i = 4; i < N; ++i)
-//        cout << lc.get(i) << " ";
-
-    lc.print_LRUCache();
-    cout << "get 4: " << endl;
-    lc.get(4);
-    lc.print_LRUCache();
-    cout << endl;
-    cout << "after inserting: " << endl;
-
-    for (int i = 1; i < N; ++i)
-        cout << lc.get(6) << " ";
-    cout << endl;
-    cout << "get 6: " << endl;
-    lc.print_LRUCache();
-    lc.set(N + 1, N + 1);
-    cout << lc.get(N + 1) << endl;
-    cout << "get 11: " << endl;
-    lc.print_LRUCache();
-    cout << endl;
-}
-
-void test_const(){
-    int i_value = 5;
-    int j_value = 5;
-    int * const p_i = &i_value;
-    *p_i = 10;
-    cout << "i_value : " << i_value << ", p_i : " << *p_i << endl;
-
-    int const * p_j = &j_value;
-//    *p_j = 20;
-    p_j = &i_value;
-    cout << "j_value : " << j_value << ", p_j : " << *p_j << endl;
-
-
-}
-
-int Redraiment(vector<int> vec){
-    vector<int> dp(vec.size(),1);
-    int res = 1;
-    for(int i=vec.size()-2; i>=0; i--){
-        int max_tmp = 0;
-        for(int j=i+1; j<vec.size(); j++){
-            if(vec[i] < vec[j]){
-                max_tmp = max(max_tmp, dp[j]+1);
-            }else{
-                max_tmp = 1;
-            }
-        }
-        dp[i] = max_tmp;
-        res = max(res, dp[i]);
-    }
-    cout << "--->res:" << res << endl;
-    return res;
-}
-
-void test_Redraiment(){
-    int n;
-//    while(cin >> n){
-    cin>>n;
-        vector<int> nums;
-        for(int i=0; i<n; i++){
-            int tmp;
-            cin >> tmp;
-            nums.push_back(tmp);
-        }
-        cout << "res:" << Redraiment(nums) << endl;
-//    }
-}
-
-int find_change(int *num, int n, int aim){
-
-    if(n == 0 || aim < 0 || num == NULL){
-        return 0;
-    }
-    vector<vector<int>> dp(n, vector<int>(aim + 1, 0));
-
-    for(int i=0; i<n; i++){
-        dp[i][0] = 1;
-    }
-    for(int i=1; i<num[0]*i <= aim; i++){
-        dp[0][num[0]*i] = 1;
-    }
-
-    for(int i=1; i<n; i++){
-        for(int j=0; j<= aim; j++){
-            if(i >= num[j]){
-
-            }
-        }
-    }
-    return 0;
-}
-bool cmp_pair(pair<char, int> a, pair<char, int>  b){
-    if(a.second != b.second){
-        return a.first > b.first;
-    }else{
-        return a.second < b.second;
-    }
-}
-void count_char(){
-    string str;
-    while(cin>>str){
-        map<char, int> m;
-        for(int i=0; i<str.size(); i++){
-            m[str[i]]++;
-        }
-        //将保存到map中的数据转存到vector中
-        vector<pair<char, int>> vec(m.begin(), m.end());
-        sort(vec.begin(), vec.end(), cmp_pair);
-        for (int i = 0; i < vec.size(); ++i){
-            cout << vec[i].first << endl;
-        }
-    }
-}
-
-void dfs_find(vector<int> nums, int &count, vector<int> cur, int start, int target, int distance){
-    if(cur.size() == target){
-        count++;
-        return;
-    }
-    for(int i=start; i<nums.size(); i++){
-        if(!cur.empty() && cur.back() + distance <= nums[i]){
-            return;
-        }
-        cur.push_back(nums[i]);
-        dfs_find(nums, count, cur, i+1, target,distance);
-        cur.pop_back();
-        if(!cur.empty() && cur.back() + distance <= nums[i]){
-            return;
-        }
-    }
-}
-
-int test_dfs_find(){
-
-    int n = 5, d = 19;
-//    cin >> n >> d;
-//    vector<int> lct(n, 0);
-//    for(int i=0; i<n; i++){
-//        cin >> lct[i];
-//    }
-    vector<int> lct = {1 ,10, 20, 30, 50};
-    int res = 0;
-    vector<int> cur;
-    dfs_find(lct, res, cur,0, 3, d);
-    cout << res << endl;
-
-    return 0;
-}
-
-class Resp{
-public:
-    string name;
-};
-
-
-ListNode* reverseKGroup(ListNode* head, int k) {
-    if(!head){
-        return head;
-    }
-    if(k == 1){
-        return head;
-    }
-
-    ListNode* new_head = new ListNode(-1);
-    new_head->next = head;
-    auto pre = new_head;
-    while(pre->next){
-        stack<ListNode*> tmp;
-        auto cur = pre->next;
-        int count = k;
-        while(count > 0 && cur){
-            auto node = cur;
-            cur = cur->next;
-            node->next = nullptr;
-            tmp.push(node);
-            count--;
-        }
-        while(!tmp.empty()){
-            pre->next = tmp.top();
-            pre = pre->next;
-            tmp.pop();
-        }
-        pre->next = cur;
-        //如果count大于0，则说明最后一次不够k个
-        if(count > 0 || !pre){
-            break;
-        }
-
-    }
-    return new_head->next;
-}
-
-void test_reverse_k_group(){
-    ListNode *head = new ListNode(1);
-    ListNode *n2 = new ListNode(2);
-    ListNode *n3 = new ListNode(3);
-    ListNode *n4 = new ListNode(4);
-    ListNode *n5 = new ListNode(5);
-
-    head->next = n2;
-    n2->next = n3;
-    n3->next = n4;
-    n4->next = n5;
-
-    auto res = reverseKGroup(head, 2);
-    auto cur = res;
-    while(cur){
-        cout << cur->val << "->";
-        cur = cur->next;
-    }
-    cout << endl;
-}
-
-int back_page(vector<int> v, vector<int> w, int n, int c){
-    vector<vector<int>> dp(n+1, vector<int>(c+1, 0));
-    for(int i=1; i<n+1; i++){
-        for(int j=1; j<c+1; j++){
-            if(j < w[i-1]){
-                dp[i][j] = dp[i-1][j];
-            }else{
-                dp[i][j] = max(dp[i-1][j], dp[i-1][j-w[i-1]] + v[i-1]);
-            }
-        }
-    }
-    return dp[n][c];
-}
-
-void back_page(){
-    vector<int> value = {2, 5, 9, 9, 5, 2, 8, 1};
-    vector<int> weigh = {9, 3, 4, 1, 7, 5, 4, 1};
-    int n=8, c=10;
-    int res = back_page(value, weigh,n, c);
-}
-
-int numDecodings(string s) {
-    if (s[0] == '0')
-        return 0;
-    vector<int> dp(s.size(), 0);
-    dp[0] = 1, dp[1] = 1;
-    for (int i = 1; i < s.size(); i++)
-    {
-        if (s[i] == '0'){
-            if (s[i - 1] == '1' || s[i - 1] == '2')
-                dp[i] = dp[i-2];
-            else
-                return 0;
-        }else if (s[i - 1] == '1' ||
-                  (s[i - 1] == '2' && s[i] >= '1' && s[i] <= '6'))//十几到26之间
-        {
-            dp[i] = dp[i-1];
-            if(i > 2){
-                dp[i] += dp[i-2];
-            }
-        }
-    }
-    return dp[s.size()-1];
-}
-
-void test_numDecodings(){
-    string str = "12";
-    int res = numDecodings(str);
-    cout << "res:" << res << endl;
-}
 
 int main(int argc, char *argv[]) {
 
-//    test_isOK();
-    test_numDecodings();
 
-//    test_LUR();
-//    cout << "long:" << sizeof(long) << endl;
-//    cout << "long long:" << sizeof(long long) << endl;
-//    cout << "int:" << sizeof(int) << endl;
-//    cout << "double:" << sizeof(double) << endl;
-//    cout << "float:" << sizeof(float) << endl;
-//    cout << "unsigned int:" << sizeof(unsigned int) << endl;
+//    test_isOK();
+    test_quick_sort();
+
+
+
 
     return 0;
 }
