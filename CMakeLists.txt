@@ -22,5 +22,8 @@ set(DEMO_SRC
         C++Demo/BigDecimal.cpp C++Demo/BigDecimal.h
         old_test/ThreadDemo/SingleThreadDemo.cpp old_test/ThreadDemo/SingleThreadDemo.h
 
-        old_test/standardDemo/MyString.cpp old_test/standardDemo/MyString.h old_test/sortDemo/sort_demo.h old_test/sortDemo/sort_demo.cpp old_test/CommanAlgorithm/LRUCache.h main.cpp)
-add_executable(LeetCodeDemo ${DEMO_SRC} old_test/sortDemo/sort_demo.h old_test/sortDemo/sort_demo.cpp old_test/CommanAlgorithm/LRUCache.h)
+        old_test/standardDemo/MyString.cpp old_test/standardDemo/MyString.h
+        old_test/sortDemo/sort_demo.h old_test/sortDemo/sort_demo.cpp
+        old_test/CommanAlgorithm/LRUCache.h
+        main.cpp)
+add_executable(LeetCodeDemo ${DEMO_SRC} )

@@ -129,54 +129,6 @@ LeetCodeDemo/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/build
 .PHONY : LeetCodeDemo/fast
 
-ArrayDemo/ArrayDemo.o: ArrayDemo/ArrayDemo.cpp.o
-.PHONY : ArrayDemo/ArrayDemo.o
-
-# target to build an object file
-ArrayDemo/ArrayDemo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/ArrayDemo/ArrayDemo.cpp.o
-.PHONY : ArrayDemo/ArrayDemo.cpp.o
-
-ArrayDemo/ArrayDemo.i: ArrayDemo/ArrayDemo.cpp.i
-.PHONY : ArrayDemo/ArrayDemo.i
-
-# target to preprocess a source file
-ArrayDemo/ArrayDemo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/ArrayDemo/ArrayDemo.cpp.i
-.PHONY : ArrayDemo/ArrayDemo.cpp.i
-
-ArrayDemo/ArrayDemo.s: ArrayDemo/ArrayDemo.cpp.s
-.PHONY : ArrayDemo/ArrayDemo.s
-
-# target to generate assembly for a file
-ArrayDemo/ArrayDemo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/ArrayDemo/ArrayDemo.cpp.s
-.PHONY : ArrayDemo/ArrayDemo.cpp.s
-
-BackTracing/BackTracing.o: BackTracing/BackTracing.cpp.o
-.PHONY : BackTracing/BackTracing.o
-
-# target to build an object file
-BackTracing/BackTracing.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/BackTracing/BackTracing.cpp.o
-.PHONY : BackTracing/BackTracing.cpp.o
-
-BackTracing/BackTracing.i: BackTracing/BackTracing.cpp.i
-.PHONY : BackTracing/BackTracing.i
-
-# target to preprocess a source file
-BackTracing/BackTracing.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/BackTracing/BackTracing.cpp.i
-.PHONY : BackTracing/BackTracing.cpp.i
-
-BackTracing/BackTracing.s: BackTracing/BackTracing.cpp.s
-.PHONY : BackTracing/BackTracing.s
-
-# target to generate assembly for a file
-BackTracing/BackTracing.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/BackTracing/BackTracing.cpp.s
-.PHONY : BackTracing/BackTracing.cpp.s
-
 C++Demo/BigDecimal.o: C++Demo/BigDecimal.cpp.o
 .PHONY : C++Demo/BigDecimal.o
 
@@ -200,174 +152,6 @@ C++Demo/BigDecimal.s: C++Demo/BigDecimal.cpp.s
 C++Demo/BigDecimal.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/C++Demo/BigDecimal.cpp.s
 .PHONY : C++Demo/BigDecimal.cpp.s
-
-DynamicPrograming/DynamicPrograming.o: DynamicPrograming/DynamicPrograming.cpp.o
-.PHONY : DynamicPrograming/DynamicPrograming.o
-
-# target to build an object file
-DynamicPrograming/DynamicPrograming.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/DynamicPrograming.cpp.o
-.PHONY : DynamicPrograming/DynamicPrograming.cpp.o
-
-DynamicPrograming/DynamicPrograming.i: DynamicPrograming/DynamicPrograming.cpp.i
-.PHONY : DynamicPrograming/DynamicPrograming.i
-
-# target to preprocess a source file
-DynamicPrograming/DynamicPrograming.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/DynamicPrograming.cpp.i
-.PHONY : DynamicPrograming/DynamicPrograming.cpp.i
-
-DynamicPrograming/DynamicPrograming.s: DynamicPrograming/DynamicPrograming.cpp.s
-.PHONY : DynamicPrograming/DynamicPrograming.s
-
-# target to generate assembly for a file
-DynamicPrograming/DynamicPrograming.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/DynamicPrograming.cpp.s
-.PHONY : DynamicPrograming/DynamicPrograming.cpp.s
-
-DynamicPrograming/TestYhy.o: DynamicPrograming/TestYhy.cpp.o
-.PHONY : DynamicPrograming/TestYhy.o
-
-# target to build an object file
-DynamicPrograming/TestYhy.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/TestYhy.cpp.o
-.PHONY : DynamicPrograming/TestYhy.cpp.o
-
-DynamicPrograming/TestYhy.i: DynamicPrograming/TestYhy.cpp.i
-.PHONY : DynamicPrograming/TestYhy.i
-
-# target to preprocess a source file
-DynamicPrograming/TestYhy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/TestYhy.cpp.i
-.PHONY : DynamicPrograming/TestYhy.cpp.i
-
-DynamicPrograming/TestYhy.s: DynamicPrograming/TestYhy.cpp.s
-.PHONY : DynamicPrograming/TestYhy.s
-
-# target to generate assembly for a file
-DynamicPrograming/TestYhy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/TestYhy.cpp.s
-.PHONY : DynamicPrograming/TestYhy.cpp.s
-
-GreedyDemo/GreedyDemo.o: GreedyDemo/GreedyDemo.cpp.o
-.PHONY : GreedyDemo/GreedyDemo.o
-
-# target to build an object file
-GreedyDemo/GreedyDemo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/GreedyDemo/GreedyDemo.cpp.o
-.PHONY : GreedyDemo/GreedyDemo.cpp.o
-
-GreedyDemo/GreedyDemo.i: GreedyDemo/GreedyDemo.cpp.i
-.PHONY : GreedyDemo/GreedyDemo.i
-
-# target to preprocess a source file
-GreedyDemo/GreedyDemo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/GreedyDemo/GreedyDemo.cpp.i
-.PHONY : GreedyDemo/GreedyDemo.cpp.i
-
-GreedyDemo/GreedyDemo.s: GreedyDemo/GreedyDemo.cpp.s
-.PHONY : GreedyDemo/GreedyDemo.s
-
-# target to generate assembly for a file
-GreedyDemo/GreedyDemo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/GreedyDemo/GreedyDemo.cpp.s
-.PHONY : GreedyDemo/GreedyDemo.cpp.s
-
-JZOffer/File1.o: JZOffer/File1.cpp.o
-.PHONY : JZOffer/File1.o
-
-# target to build an object file
-JZOffer/File1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/JZOffer/File1.cpp.o
-.PHONY : JZOffer/File1.cpp.o
-
-JZOffer/File1.i: JZOffer/File1.cpp.i
-.PHONY : JZOffer/File1.i
-
-# target to preprocess a source file
-JZOffer/File1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/JZOffer/File1.cpp.i
-.PHONY : JZOffer/File1.cpp.i
-
-JZOffer/File1.s: JZOffer/File1.cpp.s
-.PHONY : JZOffer/File1.s
-
-# target to generate assembly for a file
-JZOffer/File1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/JZOffer/File1.cpp.s
-.PHONY : JZOffer/File1.cpp.s
-
-Other/Other.o: Other/Other.cpp.o
-.PHONY : Other/Other.o
-
-# target to build an object file
-Other/Other.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/Other/Other.cpp.o
-.PHONY : Other/Other.cpp.o
-
-Other/Other.i: Other/Other.cpp.i
-.PHONY : Other/Other.i
-
-# target to preprocess a source file
-Other/Other.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/Other/Other.cpp.i
-.PHONY : Other/Other.cpp.i
-
-Other/Other.s: Other/Other.cpp.s
-.PHONY : Other/Other.s
-
-# target to generate assembly for a file
-Other/Other.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/Other/Other.cpp.s
-.PHONY : Other/Other.cpp.s
-
-ThreadDemo/SingleThreadDemo.o: ThreadDemo/SingleThreadDemo.cpp.o
-.PHONY : ThreadDemo/SingleThreadDemo.o
-
-# target to build an object file
-ThreadDemo/SingleThreadDemo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/ThreadDemo/SingleThreadDemo.cpp.o
-.PHONY : ThreadDemo/SingleThreadDemo.cpp.o
-
-ThreadDemo/SingleThreadDemo.i: ThreadDemo/SingleThreadDemo.cpp.i
-.PHONY : ThreadDemo/SingleThreadDemo.i
-
-# target to preprocess a source file
-ThreadDemo/SingleThreadDemo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/ThreadDemo/SingleThreadDemo.cpp.i
-.PHONY : ThreadDemo/SingleThreadDemo.cpp.i
-
-ThreadDemo/SingleThreadDemo.s: ThreadDemo/SingleThreadDemo.cpp.s
-.PHONY : ThreadDemo/SingleThreadDemo.s
-
-# target to generate assembly for a file
-ThreadDemo/SingleThreadDemo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/ThreadDemo/SingleThreadDemo.cpp.s
-.PHONY : ThreadDemo/SingleThreadDemo.cpp.s
-
-TreeDemo/TreeDemo.o: TreeDemo/TreeDemo.cpp.o
-.PHONY : TreeDemo/TreeDemo.o
-
-# target to build an object file
-TreeDemo/TreeDemo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/TreeDemo/TreeDemo.cpp.o
-.PHONY : TreeDemo/TreeDemo.cpp.o
-
-TreeDemo/TreeDemo.i: TreeDemo/TreeDemo.cpp.i
-.PHONY : TreeDemo/TreeDemo.i
-
-# target to preprocess a source file
-TreeDemo/TreeDemo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/TreeDemo/TreeDemo.cpp.i
-.PHONY : TreeDemo/TreeDemo.cpp.i
-
-TreeDemo/TreeDemo.s: TreeDemo/TreeDemo.cpp.s
-.PHONY : TreeDemo/TreeDemo.s
-
-# target to generate assembly for a file
-TreeDemo/TreeDemo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/TreeDemo/TreeDemo.cpp.s
-.PHONY : TreeDemo/TreeDemo.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -417,125 +201,341 @@ main_back.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/main_back.cpp.s
 .PHONY : main_back.cpp.s
 
-sortDemo/sort_demo.o: sortDemo/sort_demo.cpp.o
-.PHONY : sortDemo/sort_demo.o
+old_test/ArrayDemo/ArrayDemo.o: old_test/ArrayDemo/ArrayDemo.cpp.o
+.PHONY : old_test/ArrayDemo/ArrayDemo.o
 
 # target to build an object file
-sortDemo/sort_demo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/sortDemo/sort_demo.cpp.o
-.PHONY : sortDemo/sort_demo.cpp.o
+old_test/ArrayDemo/ArrayDemo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/ArrayDemo/ArrayDemo.cpp.o
+.PHONY : old_test/ArrayDemo/ArrayDemo.cpp.o
 
-sortDemo/sort_demo.i: sortDemo/sort_demo.cpp.i
-.PHONY : sortDemo/sort_demo.i
+old_test/ArrayDemo/ArrayDemo.i: old_test/ArrayDemo/ArrayDemo.cpp.i
+.PHONY : old_test/ArrayDemo/ArrayDemo.i
 
 # target to preprocess a source file
-sortDemo/sort_demo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/sortDemo/sort_demo.cpp.i
-.PHONY : sortDemo/sort_demo.cpp.i
+old_test/ArrayDemo/ArrayDemo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/ArrayDemo/ArrayDemo.cpp.i
+.PHONY : old_test/ArrayDemo/ArrayDemo.cpp.i
 
-sortDemo/sort_demo.s: sortDemo/sort_demo.cpp.s
-.PHONY : sortDemo/sort_demo.s
+old_test/ArrayDemo/ArrayDemo.s: old_test/ArrayDemo/ArrayDemo.cpp.s
+.PHONY : old_test/ArrayDemo/ArrayDemo.s
 
 # target to generate assembly for a file
-sortDemo/sort_demo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/sortDemo/sort_demo.cpp.s
-.PHONY : sortDemo/sort_demo.cpp.s
+old_test/ArrayDemo/ArrayDemo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/ArrayDemo/ArrayDemo.cpp.s
+.PHONY : old_test/ArrayDemo/ArrayDemo.cpp.s
 
-standardDemo/CPPStanderDemo.o: standardDemo/CPPStanderDemo.cpp.o
-.PHONY : standardDemo/CPPStanderDemo.o
+old_test/BackTracing/BackTracing.o: old_test/BackTracing/BackTracing.cpp.o
+.PHONY : old_test/BackTracing/BackTracing.o
 
 # target to build an object file
-standardDemo/CPPStanderDemo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/standardDemo/CPPStanderDemo.cpp.o
-.PHONY : standardDemo/CPPStanderDemo.cpp.o
+old_test/BackTracing/BackTracing.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/BackTracing/BackTracing.cpp.o
+.PHONY : old_test/BackTracing/BackTracing.cpp.o
 
-standardDemo/CPPStanderDemo.i: standardDemo/CPPStanderDemo.cpp.i
-.PHONY : standardDemo/CPPStanderDemo.i
+old_test/BackTracing/BackTracing.i: old_test/BackTracing/BackTracing.cpp.i
+.PHONY : old_test/BackTracing/BackTracing.i
 
 # target to preprocess a source file
-standardDemo/CPPStanderDemo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/standardDemo/CPPStanderDemo.cpp.i
-.PHONY : standardDemo/CPPStanderDemo.cpp.i
+old_test/BackTracing/BackTracing.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/BackTracing/BackTracing.cpp.i
+.PHONY : old_test/BackTracing/BackTracing.cpp.i
 
-standardDemo/CPPStanderDemo.s: standardDemo/CPPStanderDemo.cpp.s
-.PHONY : standardDemo/CPPStanderDemo.s
+old_test/BackTracing/BackTracing.s: old_test/BackTracing/BackTracing.cpp.s
+.PHONY : old_test/BackTracing/BackTracing.s
 
 # target to generate assembly for a file
-standardDemo/CPPStanderDemo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/standardDemo/CPPStanderDemo.cpp.s
-.PHONY : standardDemo/CPPStanderDemo.cpp.s
+old_test/BackTracing/BackTracing.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/BackTracing/BackTracing.cpp.s
+.PHONY : old_test/BackTracing/BackTracing.cpp.s
 
-standardDemo/CStrDemo.o: standardDemo/CStrDemo.cpp.o
-.PHONY : standardDemo/CStrDemo.o
+old_test/DynamicPrograming/DynamicPrograming.o: old_test/DynamicPrograming/DynamicPrograming.cpp.o
+.PHONY : old_test/DynamicPrograming/DynamicPrograming.o
 
 # target to build an object file
-standardDemo/CStrDemo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/standardDemo/CStrDemo.cpp.o
-.PHONY : standardDemo/CStrDemo.cpp.o
+old_test/DynamicPrograming/DynamicPrograming.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/DynamicPrograming/DynamicPrograming.cpp.o
+.PHONY : old_test/DynamicPrograming/DynamicPrograming.cpp.o
 
-standardDemo/CStrDemo.i: standardDemo/CStrDemo.cpp.i
-.PHONY : standardDemo/CStrDemo.i
+old_test/DynamicPrograming/DynamicPrograming.i: old_test/DynamicPrograming/DynamicPrograming.cpp.i
+.PHONY : old_test/DynamicPrograming/DynamicPrograming.i
 
 # target to preprocess a source file
-standardDemo/CStrDemo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/standardDemo/CStrDemo.cpp.i
-.PHONY : standardDemo/CStrDemo.cpp.i
+old_test/DynamicPrograming/DynamicPrograming.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/DynamicPrograming/DynamicPrograming.cpp.i
+.PHONY : old_test/DynamicPrograming/DynamicPrograming.cpp.i
 
-standardDemo/CStrDemo.s: standardDemo/CStrDemo.cpp.s
-.PHONY : standardDemo/CStrDemo.s
+old_test/DynamicPrograming/DynamicPrograming.s: old_test/DynamicPrograming/DynamicPrograming.cpp.s
+.PHONY : old_test/DynamicPrograming/DynamicPrograming.s
 
 # target to generate assembly for a file
-standardDemo/CStrDemo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/standardDemo/CStrDemo.cpp.s
-.PHONY : standardDemo/CStrDemo.cpp.s
+old_test/DynamicPrograming/DynamicPrograming.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/DynamicPrograming/DynamicPrograming.cpp.s
+.PHONY : old_test/DynamicPrograming/DynamicPrograming.cpp.s
 
-standardDemo/CplusDemo.o: standardDemo/CplusDemo.cpp.o
-.PHONY : standardDemo/CplusDemo.o
+old_test/DynamicPrograming/TestYhy.o: old_test/DynamicPrograming/TestYhy.cpp.o
+.PHONY : old_test/DynamicPrograming/TestYhy.o
 
 # target to build an object file
-standardDemo/CplusDemo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/standardDemo/CplusDemo.cpp.o
-.PHONY : standardDemo/CplusDemo.cpp.o
+old_test/DynamicPrograming/TestYhy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/DynamicPrograming/TestYhy.cpp.o
+.PHONY : old_test/DynamicPrograming/TestYhy.cpp.o
 
-standardDemo/CplusDemo.i: standardDemo/CplusDemo.cpp.i
-.PHONY : standardDemo/CplusDemo.i
+old_test/DynamicPrograming/TestYhy.i: old_test/DynamicPrograming/TestYhy.cpp.i
+.PHONY : old_test/DynamicPrograming/TestYhy.i
 
 # target to preprocess a source file
-standardDemo/CplusDemo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/standardDemo/CplusDemo.cpp.i
-.PHONY : standardDemo/CplusDemo.cpp.i
+old_test/DynamicPrograming/TestYhy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/DynamicPrograming/TestYhy.cpp.i
+.PHONY : old_test/DynamicPrograming/TestYhy.cpp.i
 
-standardDemo/CplusDemo.s: standardDemo/CplusDemo.cpp.s
-.PHONY : standardDemo/CplusDemo.s
+old_test/DynamicPrograming/TestYhy.s: old_test/DynamicPrograming/TestYhy.cpp.s
+.PHONY : old_test/DynamicPrograming/TestYhy.s
 
 # target to generate assembly for a file
-standardDemo/CplusDemo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/standardDemo/CplusDemo.cpp.s
-.PHONY : standardDemo/CplusDemo.cpp.s
+old_test/DynamicPrograming/TestYhy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/DynamicPrograming/TestYhy.cpp.s
+.PHONY : old_test/DynamicPrograming/TestYhy.cpp.s
 
-standardDemo/MyString.o: standardDemo/MyString.cpp.o
-.PHONY : standardDemo/MyString.o
+old_test/GreedyDemo/GreedyDemo.o: old_test/GreedyDemo/GreedyDemo.cpp.o
+.PHONY : old_test/GreedyDemo/GreedyDemo.o
 
 # target to build an object file
-standardDemo/MyString.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/standardDemo/MyString.cpp.o
-.PHONY : standardDemo/MyString.cpp.o
+old_test/GreedyDemo/GreedyDemo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/GreedyDemo/GreedyDemo.cpp.o
+.PHONY : old_test/GreedyDemo/GreedyDemo.cpp.o
 
-standardDemo/MyString.i: standardDemo/MyString.cpp.i
-.PHONY : standardDemo/MyString.i
+old_test/GreedyDemo/GreedyDemo.i: old_test/GreedyDemo/GreedyDemo.cpp.i
+.PHONY : old_test/GreedyDemo/GreedyDemo.i
 
 # target to preprocess a source file
-standardDemo/MyString.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/standardDemo/MyString.cpp.i
-.PHONY : standardDemo/MyString.cpp.i
+old_test/GreedyDemo/GreedyDemo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/GreedyDemo/GreedyDemo.cpp.i
+.PHONY : old_test/GreedyDemo/GreedyDemo.cpp.i
 
-standardDemo/MyString.s: standardDemo/MyString.cpp.s
-.PHONY : standardDemo/MyString.s
+old_test/GreedyDemo/GreedyDemo.s: old_test/GreedyDemo/GreedyDemo.cpp.s
+.PHONY : old_test/GreedyDemo/GreedyDemo.s
 
 # target to generate assembly for a file
-standardDemo/MyString.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/standardDemo/MyString.cpp.s
-.PHONY : standardDemo/MyString.cpp.s
+old_test/GreedyDemo/GreedyDemo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/GreedyDemo/GreedyDemo.cpp.s
+.PHONY : old_test/GreedyDemo/GreedyDemo.cpp.s
+
+old_test/JZOffer/File1.o: old_test/JZOffer/File1.cpp.o
+.PHONY : old_test/JZOffer/File1.o
+
+# target to build an object file
+old_test/JZOffer/File1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/JZOffer/File1.cpp.o
+.PHONY : old_test/JZOffer/File1.cpp.o
+
+old_test/JZOffer/File1.i: old_test/JZOffer/File1.cpp.i
+.PHONY : old_test/JZOffer/File1.i
+
+# target to preprocess a source file
+old_test/JZOffer/File1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/JZOffer/File1.cpp.i
+.PHONY : old_test/JZOffer/File1.cpp.i
+
+old_test/JZOffer/File1.s: old_test/JZOffer/File1.cpp.s
+.PHONY : old_test/JZOffer/File1.s
+
+# target to generate assembly for a file
+old_test/JZOffer/File1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/JZOffer/File1.cpp.s
+.PHONY : old_test/JZOffer/File1.cpp.s
+
+old_test/Other/Other.o: old_test/Other/Other.cpp.o
+.PHONY : old_test/Other/Other.o
+
+# target to build an object file
+old_test/Other/Other.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/Other/Other.cpp.o
+.PHONY : old_test/Other/Other.cpp.o
+
+old_test/Other/Other.i: old_test/Other/Other.cpp.i
+.PHONY : old_test/Other/Other.i
+
+# target to preprocess a source file
+old_test/Other/Other.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/Other/Other.cpp.i
+.PHONY : old_test/Other/Other.cpp.i
+
+old_test/Other/Other.s: old_test/Other/Other.cpp.s
+.PHONY : old_test/Other/Other.s
+
+# target to generate assembly for a file
+old_test/Other/Other.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/Other/Other.cpp.s
+.PHONY : old_test/Other/Other.cpp.s
+
+old_test/ThreadDemo/SingleThreadDemo.o: old_test/ThreadDemo/SingleThreadDemo.cpp.o
+.PHONY : old_test/ThreadDemo/SingleThreadDemo.o
+
+# target to build an object file
+old_test/ThreadDemo/SingleThreadDemo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/ThreadDemo/SingleThreadDemo.cpp.o
+.PHONY : old_test/ThreadDemo/SingleThreadDemo.cpp.o
+
+old_test/ThreadDemo/SingleThreadDemo.i: old_test/ThreadDemo/SingleThreadDemo.cpp.i
+.PHONY : old_test/ThreadDemo/SingleThreadDemo.i
+
+# target to preprocess a source file
+old_test/ThreadDemo/SingleThreadDemo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/ThreadDemo/SingleThreadDemo.cpp.i
+.PHONY : old_test/ThreadDemo/SingleThreadDemo.cpp.i
+
+old_test/ThreadDemo/SingleThreadDemo.s: old_test/ThreadDemo/SingleThreadDemo.cpp.s
+.PHONY : old_test/ThreadDemo/SingleThreadDemo.s
+
+# target to generate assembly for a file
+old_test/ThreadDemo/SingleThreadDemo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/ThreadDemo/SingleThreadDemo.cpp.s
+.PHONY : old_test/ThreadDemo/SingleThreadDemo.cpp.s
+
+old_test/TreeDemo/TreeDemo.o: old_test/TreeDemo/TreeDemo.cpp.o
+.PHONY : old_test/TreeDemo/TreeDemo.o
+
+# target to build an object file
+old_test/TreeDemo/TreeDemo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/TreeDemo/TreeDemo.cpp.o
+.PHONY : old_test/TreeDemo/TreeDemo.cpp.o
+
+old_test/TreeDemo/TreeDemo.i: old_test/TreeDemo/TreeDemo.cpp.i
+.PHONY : old_test/TreeDemo/TreeDemo.i
+
+# target to preprocess a source file
+old_test/TreeDemo/TreeDemo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/TreeDemo/TreeDemo.cpp.i
+.PHONY : old_test/TreeDemo/TreeDemo.cpp.i
+
+old_test/TreeDemo/TreeDemo.s: old_test/TreeDemo/TreeDemo.cpp.s
+.PHONY : old_test/TreeDemo/TreeDemo.s
+
+# target to generate assembly for a file
+old_test/TreeDemo/TreeDemo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/TreeDemo/TreeDemo.cpp.s
+.PHONY : old_test/TreeDemo/TreeDemo.cpp.s
+
+old_test/sortDemo/sort_demo.o: old_test/sortDemo/sort_demo.cpp.o
+.PHONY : old_test/sortDemo/sort_demo.o
+
+# target to build an object file
+old_test/sortDemo/sort_demo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/sortDemo/sort_demo.cpp.o
+.PHONY : old_test/sortDemo/sort_demo.cpp.o
+
+old_test/sortDemo/sort_demo.i: old_test/sortDemo/sort_demo.cpp.i
+.PHONY : old_test/sortDemo/sort_demo.i
+
+# target to preprocess a source file
+old_test/sortDemo/sort_demo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/sortDemo/sort_demo.cpp.i
+.PHONY : old_test/sortDemo/sort_demo.cpp.i
+
+old_test/sortDemo/sort_demo.s: old_test/sortDemo/sort_demo.cpp.s
+.PHONY : old_test/sortDemo/sort_demo.s
+
+# target to generate assembly for a file
+old_test/sortDemo/sort_demo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/sortDemo/sort_demo.cpp.s
+.PHONY : old_test/sortDemo/sort_demo.cpp.s
+
+old_test/standardDemo/CPPStanderDemo.o: old_test/standardDemo/CPPStanderDemo.cpp.o
+.PHONY : old_test/standardDemo/CPPStanderDemo.o
+
+# target to build an object file
+old_test/standardDemo/CPPStanderDemo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CPPStanderDemo.cpp.o
+.PHONY : old_test/standardDemo/CPPStanderDemo.cpp.o
+
+old_test/standardDemo/CPPStanderDemo.i: old_test/standardDemo/CPPStanderDemo.cpp.i
+.PHONY : old_test/standardDemo/CPPStanderDemo.i
+
+# target to preprocess a source file
+old_test/standardDemo/CPPStanderDemo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CPPStanderDemo.cpp.i
+.PHONY : old_test/standardDemo/CPPStanderDemo.cpp.i
+
+old_test/standardDemo/CPPStanderDemo.s: old_test/standardDemo/CPPStanderDemo.cpp.s
+.PHONY : old_test/standardDemo/CPPStanderDemo.s
+
+# target to generate assembly for a file
+old_test/standardDemo/CPPStanderDemo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CPPStanderDemo.cpp.s
+.PHONY : old_test/standardDemo/CPPStanderDemo.cpp.s
+
+old_test/standardDemo/CStrDemo.o: old_test/standardDemo/CStrDemo.cpp.o
+.PHONY : old_test/standardDemo/CStrDemo.o
+
+# target to build an object file
+old_test/standardDemo/CStrDemo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CStrDemo.cpp.o
+.PHONY : old_test/standardDemo/CStrDemo.cpp.o
+
+old_test/standardDemo/CStrDemo.i: old_test/standardDemo/CStrDemo.cpp.i
+.PHONY : old_test/standardDemo/CStrDemo.i
+
+# target to preprocess a source file
+old_test/standardDemo/CStrDemo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CStrDemo.cpp.i
+.PHONY : old_test/standardDemo/CStrDemo.cpp.i
+
+old_test/standardDemo/CStrDemo.s: old_test/standardDemo/CStrDemo.cpp.s
+.PHONY : old_test/standardDemo/CStrDemo.s
+
+# target to generate assembly for a file
+old_test/standardDemo/CStrDemo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CStrDemo.cpp.s
+.PHONY : old_test/standardDemo/CStrDemo.cpp.s
+
+old_test/standardDemo/CplusDemo.o: old_test/standardDemo/CplusDemo.cpp.o
+.PHONY : old_test/standardDemo/CplusDemo.o
+
+# target to build an object file
+old_test/standardDemo/CplusDemo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CplusDemo.cpp.o
+.PHONY : old_test/standardDemo/CplusDemo.cpp.o
+
+old_test/standardDemo/CplusDemo.i: old_test/standardDemo/CplusDemo.cpp.i
+.PHONY : old_test/standardDemo/CplusDemo.i
+
+# target to preprocess a source file
+old_test/standardDemo/CplusDemo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CplusDemo.cpp.i
+.PHONY : old_test/standardDemo/CplusDemo.cpp.i
+
+old_test/standardDemo/CplusDemo.s: old_test/standardDemo/CplusDemo.cpp.s
+.PHONY : old_test/standardDemo/CplusDemo.s
+
+# target to generate assembly for a file
+old_test/standardDemo/CplusDemo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CplusDemo.cpp.s
+.PHONY : old_test/standardDemo/CplusDemo.cpp.s
+
+old_test/standardDemo/MyString.o: old_test/standardDemo/MyString.cpp.o
+.PHONY : old_test/standardDemo/MyString.o
+
+# target to build an object file
+old_test/standardDemo/MyString.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/MyString.cpp.o
+.PHONY : old_test/standardDemo/MyString.cpp.o
+
+old_test/standardDemo/MyString.i: old_test/standardDemo/MyString.cpp.i
+.PHONY : old_test/standardDemo/MyString.i
+
+# target to preprocess a source file
+old_test/standardDemo/MyString.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/MyString.cpp.i
+.PHONY : old_test/standardDemo/MyString.cpp.i
+
+old_test/standardDemo/MyString.s: old_test/standardDemo/MyString.cpp.s
+.PHONY : old_test/standardDemo/MyString.s
+
+# target to generate assembly for a file
+old_test/standardDemo/MyString.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCodeDemo.dir/build.make CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/MyString.cpp.s
+.PHONY : old_test/standardDemo/MyString.cpp.s
 
 # Help Target
 help:
@@ -546,57 +546,57 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... LeetCodeDemo"
-	@echo "... ArrayDemo/ArrayDemo.o"
-	@echo "... ArrayDemo/ArrayDemo.i"
-	@echo "... ArrayDemo/ArrayDemo.s"
-	@echo "... BackTracing/BackTracing.o"
-	@echo "... BackTracing/BackTracing.i"
-	@echo "... BackTracing/BackTracing.s"
 	@echo "... C++Demo/BigDecimal.o"
 	@echo "... C++Demo/BigDecimal.i"
 	@echo "... C++Demo/BigDecimal.s"
-	@echo "... DynamicPrograming/DynamicPrograming.o"
-	@echo "... DynamicPrograming/DynamicPrograming.i"
-	@echo "... DynamicPrograming/DynamicPrograming.s"
-	@echo "... DynamicPrograming/TestYhy.o"
-	@echo "... DynamicPrograming/TestYhy.i"
-	@echo "... DynamicPrograming/TestYhy.s"
-	@echo "... GreedyDemo/GreedyDemo.o"
-	@echo "... GreedyDemo/GreedyDemo.i"
-	@echo "... GreedyDemo/GreedyDemo.s"
-	@echo "... JZOffer/File1.o"
-	@echo "... JZOffer/File1.i"
-	@echo "... JZOffer/File1.s"
-	@echo "... Other/Other.o"
-	@echo "... Other/Other.i"
-	@echo "... Other/Other.s"
-	@echo "... ThreadDemo/SingleThreadDemo.o"
-	@echo "... ThreadDemo/SingleThreadDemo.i"
-	@echo "... ThreadDemo/SingleThreadDemo.s"
-	@echo "... TreeDemo/TreeDemo.o"
-	@echo "... TreeDemo/TreeDemo.i"
-	@echo "... TreeDemo/TreeDemo.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
 	@echo "... main_back.o"
 	@echo "... main_back.i"
 	@echo "... main_back.s"
-	@echo "... sortDemo/sort_demo.o"
-	@echo "... sortDemo/sort_demo.i"
-	@echo "... sortDemo/sort_demo.s"
-	@echo "... standardDemo/CPPStanderDemo.o"
-	@echo "... standardDemo/CPPStanderDemo.i"
-	@echo "... standardDemo/CPPStanderDemo.s"
-	@echo "... standardDemo/CStrDemo.o"
-	@echo "... standardDemo/CStrDemo.i"
-	@echo "... standardDemo/CStrDemo.s"
-	@echo "... standardDemo/CplusDemo.o"
-	@echo "... standardDemo/CplusDemo.i"
-	@echo "... standardDemo/CplusDemo.s"
-	@echo "... standardDemo/MyString.o"
-	@echo "... standardDemo/MyString.i"
-	@echo "... standardDemo/MyString.s"
+	@echo "... old_test/ArrayDemo/ArrayDemo.o"
+	@echo "... old_test/ArrayDemo/ArrayDemo.i"
+	@echo "... old_test/ArrayDemo/ArrayDemo.s"
+	@echo "... old_test/BackTracing/BackTracing.o"
+	@echo "... old_test/BackTracing/BackTracing.i"
+	@echo "... old_test/BackTracing/BackTracing.s"
+	@echo "... old_test/DynamicPrograming/DynamicPrograming.o"
+	@echo "... old_test/DynamicPrograming/DynamicPrograming.i"
+	@echo "... old_test/DynamicPrograming/DynamicPrograming.s"
+	@echo "... old_test/DynamicPrograming/TestYhy.o"
+	@echo "... old_test/DynamicPrograming/TestYhy.i"
+	@echo "... old_test/DynamicPrograming/TestYhy.s"
+	@echo "... old_test/GreedyDemo/GreedyDemo.o"
+	@echo "... old_test/GreedyDemo/GreedyDemo.i"
+	@echo "... old_test/GreedyDemo/GreedyDemo.s"
+	@echo "... old_test/JZOffer/File1.o"
+	@echo "... old_test/JZOffer/File1.i"
+	@echo "... old_test/JZOffer/File1.s"
+	@echo "... old_test/Other/Other.o"
+	@echo "... old_test/Other/Other.i"
+	@echo "... old_test/Other/Other.s"
+	@echo "... old_test/ThreadDemo/SingleThreadDemo.o"
+	@echo "... old_test/ThreadDemo/SingleThreadDemo.i"
+	@echo "... old_test/ThreadDemo/SingleThreadDemo.s"
+	@echo "... old_test/TreeDemo/TreeDemo.o"
+	@echo "... old_test/TreeDemo/TreeDemo.i"
+	@echo "... old_test/TreeDemo/TreeDemo.s"
+	@echo "... old_test/sortDemo/sort_demo.o"
+	@echo "... old_test/sortDemo/sort_demo.i"
+	@echo "... old_test/sortDemo/sort_demo.s"
+	@echo "... old_test/standardDemo/CPPStanderDemo.o"
+	@echo "... old_test/standardDemo/CPPStanderDemo.i"
+	@echo "... old_test/standardDemo/CPPStanderDemo.s"
+	@echo "... old_test/standardDemo/CStrDemo.o"
+	@echo "... old_test/standardDemo/CStrDemo.i"
+	@echo "... old_test/standardDemo/CStrDemo.s"
+	@echo "... old_test/standardDemo/CplusDemo.o"
+	@echo "... old_test/standardDemo/CplusDemo.i"
+	@echo "... old_test/standardDemo/CplusDemo.s"
+	@echo "... old_test/standardDemo/MyString.o"
+	@echo "... old_test/standardDemo/MyString.i"
+	@echo "... old_test/standardDemo/MyString.s"
 .PHONY : help
 
 

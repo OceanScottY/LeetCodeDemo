@@ -78,67 +78,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/ArrayDemo/ArrayDemo.cpp">
-			<Option target="LeetCodeDemo"/>
-		</Unit>
-		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/ArrayDemo/ArrayDemo.h">
-			<Option target="LeetCodeDemo"/>
-		</Unit>
-		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/BackTracing/BackTracing.cpp">
-			<Option target="LeetCodeDemo"/>
-		</Unit>
-		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/BackTracing/BackTracing.h">
-			<Option target="LeetCodeDemo"/>
-		</Unit>
 		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/C++Demo/BigDecimal.cpp">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
 		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/C++Demo/BigDecimal.h">
-			<Option target="LeetCodeDemo"/>
-		</Unit>
-		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/CommanAlgorithm/LRUCache.h">
-			<Option target="LeetCodeDemo"/>
-		</Unit>
-		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/DynamicPrograming/DynamicPrograming.cpp">
-			<Option target="LeetCodeDemo"/>
-		</Unit>
-		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/DynamicPrograming/DynamicPrograming.h">
-			<Option target="LeetCodeDemo"/>
-		</Unit>
-		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/DynamicPrograming/TestYhy.cpp">
-			<Option target="LeetCodeDemo"/>
-		</Unit>
-		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/DynamicPrograming/TestYhy.h">
-			<Option target="LeetCodeDemo"/>
-		</Unit>
-		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/GreedyDemo/GreedyDemo.cpp">
-			<Option target="LeetCodeDemo"/>
-		</Unit>
-		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/GreedyDemo/GreedyDemo.h">
-			<Option target="LeetCodeDemo"/>
-		</Unit>
-		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/JZOffer/File1.cpp">
-			<Option target="LeetCodeDemo"/>
-		</Unit>
-		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/JZOffer/File1.h">
-			<Option target="LeetCodeDemo"/>
-		</Unit>
-		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/Other/Other.cpp">
-			<Option target="LeetCodeDemo"/>
-		</Unit>
-		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/Other/Other.h">
-			<Option target="LeetCodeDemo"/>
-		</Unit>
-		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/ThreadDemo/SingleThreadDemo.cpp">
-			<Option target="LeetCodeDemo"/>
-		</Unit>
-		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/ThreadDemo/SingleThreadDemo.h">
-			<Option target="LeetCodeDemo"/>
-		</Unit>
-		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/TreeDemo/TreeDemo.cpp">
-			<Option target="LeetCodeDemo"/>
-		</Unit>
-		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/TreeDemo/TreeDemo.h">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
 		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/main.cpp">
@@ -147,31 +90,88 @@
 		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/main_back.cpp">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
-		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/sortDemo/sort_demo.cpp">
+		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/old_test/ArrayDemo/ArrayDemo.cpp">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
-		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/sortDemo/sort_demo.h">
+		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/old_test/ArrayDemo/ArrayDemo.h">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
-		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/standardDemo/CPPStanderDemo.cpp">
+		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/old_test/BackTracing/BackTracing.cpp">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
-		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/standardDemo/CPPStanderDemo.h">
+		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/old_test/BackTracing/BackTracing.h">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
-		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/standardDemo/CStrDemo.cpp">
+		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/old_test/CommanAlgorithm/LRUCache.h">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
-		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/standardDemo/CStrDemo.h">
+		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/old_test/DynamicPrograming/DynamicPrograming.cpp">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
-		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/standardDemo/CplusDemo.cpp">
+		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/old_test/DynamicPrograming/DynamicPrograming.h">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
-		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/standardDemo/MyString.cpp">
+		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/old_test/DynamicPrograming/TestYhy.cpp">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
-		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/standardDemo/MyString.h">
+		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/old_test/DynamicPrograming/TestYhy.h">
+			<Option target="LeetCodeDemo"/>
+		</Unit>
+		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/old_test/GreedyDemo/GreedyDemo.cpp">
+			<Option target="LeetCodeDemo"/>
+		</Unit>
+		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/old_test/GreedyDemo/GreedyDemo.h">
+			<Option target="LeetCodeDemo"/>
+		</Unit>
+		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/old_test/JZOffer/File1.cpp">
+			<Option target="LeetCodeDemo"/>
+		</Unit>
+		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/old_test/JZOffer/File1.h">
+			<Option target="LeetCodeDemo"/>
+		</Unit>
+		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/old_test/Other/Other.cpp">
+			<Option target="LeetCodeDemo"/>
+		</Unit>
+		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/old_test/Other/Other.h">
+			<Option target="LeetCodeDemo"/>
+		</Unit>
+		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/old_test/ThreadDemo/SingleThreadDemo.cpp">
+			<Option target="LeetCodeDemo"/>
+		</Unit>
+		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/old_test/ThreadDemo/SingleThreadDemo.h">
+			<Option target="LeetCodeDemo"/>
+		</Unit>
+		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/old_test/TreeDemo/TreeDemo.cpp">
+			<Option target="LeetCodeDemo"/>
+		</Unit>
+		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/old_test/TreeDemo/TreeDemo.h">
+			<Option target="LeetCodeDemo"/>
+		</Unit>
+		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/old_test/sortDemo/sort_demo.cpp">
+			<Option target="LeetCodeDemo"/>
+		</Unit>
+		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/old_test/sortDemo/sort_demo.h">
+			<Option target="LeetCodeDemo"/>
+		</Unit>
+		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/old_test/standardDemo/CPPStanderDemo.cpp">
+			<Option target="LeetCodeDemo"/>
+		</Unit>
+		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/old_test/standardDemo/CPPStanderDemo.h">
+			<Option target="LeetCodeDemo"/>
+		</Unit>
+		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/old_test/standardDemo/CStrDemo.cpp">
+			<Option target="LeetCodeDemo"/>
+		</Unit>
+		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/old_test/standardDemo/CStrDemo.h">
+			<Option target="LeetCodeDemo"/>
+		</Unit>
+		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/old_test/standardDemo/CplusDemo.cpp">
+			<Option target="LeetCodeDemo"/>
+		</Unit>
+		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/old_test/standardDemo/MyString.cpp">
+			<Option target="LeetCodeDemo"/>
+		</Unit>
+		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/old_test/standardDemo/MyString.h">
 			<Option target="LeetCodeDemo"/>
 		</Unit>
 		<Unit filename="/Users/yuhaiyang/学习/LeetCodeDemo/CMakeLists.txt">

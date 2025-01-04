@@ -83,159 +83,159 @@ CMakeFiles/LeetCodeDemo.dir/main_back.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCodeDemo.dir/main_back.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuhaiyang/学习/LeetCodeDemo/main_back.cpp -o CMakeFiles/LeetCodeDemo.dir/main_back.cpp.s
 
-CMakeFiles/LeetCodeDemo.dir/ArrayDemo/ArrayDemo.cpp.o: CMakeFiles/LeetCodeDemo.dir/flags.make
-CMakeFiles/LeetCodeDemo.dir/ArrayDemo/ArrayDemo.cpp.o: /Users/yuhaiyang/学习/LeetCodeDemo/ArrayDemo/ArrayDemo.cpp
-CMakeFiles/LeetCodeDemo.dir/ArrayDemo/ArrayDemo.cpp.o: CMakeFiles/LeetCodeDemo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuhaiyang/学习/LeetCodeDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LeetCodeDemo.dir/ArrayDemo/ArrayDemo.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LeetCodeDemo.dir/ArrayDemo/ArrayDemo.cpp.o -MF CMakeFiles/LeetCodeDemo.dir/ArrayDemo/ArrayDemo.cpp.o.d -o CMakeFiles/LeetCodeDemo.dir/ArrayDemo/ArrayDemo.cpp.o -c /Users/yuhaiyang/学习/LeetCodeDemo/ArrayDemo/ArrayDemo.cpp
+CMakeFiles/LeetCodeDemo.dir/old_test/ArrayDemo/ArrayDemo.cpp.o: CMakeFiles/LeetCodeDemo.dir/flags.make
+CMakeFiles/LeetCodeDemo.dir/old_test/ArrayDemo/ArrayDemo.cpp.o: /Users/yuhaiyang/学习/LeetCodeDemo/old_test/ArrayDemo/ArrayDemo.cpp
+CMakeFiles/LeetCodeDemo.dir/old_test/ArrayDemo/ArrayDemo.cpp.o: CMakeFiles/LeetCodeDemo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuhaiyang/学习/LeetCodeDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LeetCodeDemo.dir/old_test/ArrayDemo/ArrayDemo.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LeetCodeDemo.dir/old_test/ArrayDemo/ArrayDemo.cpp.o -MF CMakeFiles/LeetCodeDemo.dir/old_test/ArrayDemo/ArrayDemo.cpp.o.d -o CMakeFiles/LeetCodeDemo.dir/old_test/ArrayDemo/ArrayDemo.cpp.o -c /Users/yuhaiyang/学习/LeetCodeDemo/old_test/ArrayDemo/ArrayDemo.cpp
 
-CMakeFiles/LeetCodeDemo.dir/ArrayDemo/ArrayDemo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCodeDemo.dir/ArrayDemo/ArrayDemo.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuhaiyang/学习/LeetCodeDemo/ArrayDemo/ArrayDemo.cpp > CMakeFiles/LeetCodeDemo.dir/ArrayDemo/ArrayDemo.cpp.i
+CMakeFiles/LeetCodeDemo.dir/old_test/ArrayDemo/ArrayDemo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCodeDemo.dir/old_test/ArrayDemo/ArrayDemo.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuhaiyang/学习/LeetCodeDemo/old_test/ArrayDemo/ArrayDemo.cpp > CMakeFiles/LeetCodeDemo.dir/old_test/ArrayDemo/ArrayDemo.cpp.i
 
-CMakeFiles/LeetCodeDemo.dir/ArrayDemo/ArrayDemo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCodeDemo.dir/ArrayDemo/ArrayDemo.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuhaiyang/学习/LeetCodeDemo/ArrayDemo/ArrayDemo.cpp -o CMakeFiles/LeetCodeDemo.dir/ArrayDemo/ArrayDemo.cpp.s
+CMakeFiles/LeetCodeDemo.dir/old_test/ArrayDemo/ArrayDemo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCodeDemo.dir/old_test/ArrayDemo/ArrayDemo.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuhaiyang/学习/LeetCodeDemo/old_test/ArrayDemo/ArrayDemo.cpp -o CMakeFiles/LeetCodeDemo.dir/old_test/ArrayDemo/ArrayDemo.cpp.s
 
-CMakeFiles/LeetCodeDemo.dir/TreeDemo/TreeDemo.cpp.o: CMakeFiles/LeetCodeDemo.dir/flags.make
-CMakeFiles/LeetCodeDemo.dir/TreeDemo/TreeDemo.cpp.o: /Users/yuhaiyang/学习/LeetCodeDemo/TreeDemo/TreeDemo.cpp
-CMakeFiles/LeetCodeDemo.dir/TreeDemo/TreeDemo.cpp.o: CMakeFiles/LeetCodeDemo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuhaiyang/学习/LeetCodeDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LeetCodeDemo.dir/TreeDemo/TreeDemo.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LeetCodeDemo.dir/TreeDemo/TreeDemo.cpp.o -MF CMakeFiles/LeetCodeDemo.dir/TreeDemo/TreeDemo.cpp.o.d -o CMakeFiles/LeetCodeDemo.dir/TreeDemo/TreeDemo.cpp.o -c /Users/yuhaiyang/学习/LeetCodeDemo/TreeDemo/TreeDemo.cpp
+CMakeFiles/LeetCodeDemo.dir/old_test/TreeDemo/TreeDemo.cpp.o: CMakeFiles/LeetCodeDemo.dir/flags.make
+CMakeFiles/LeetCodeDemo.dir/old_test/TreeDemo/TreeDemo.cpp.o: /Users/yuhaiyang/学习/LeetCodeDemo/old_test/TreeDemo/TreeDemo.cpp
+CMakeFiles/LeetCodeDemo.dir/old_test/TreeDemo/TreeDemo.cpp.o: CMakeFiles/LeetCodeDemo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuhaiyang/学习/LeetCodeDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LeetCodeDemo.dir/old_test/TreeDemo/TreeDemo.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LeetCodeDemo.dir/old_test/TreeDemo/TreeDemo.cpp.o -MF CMakeFiles/LeetCodeDemo.dir/old_test/TreeDemo/TreeDemo.cpp.o.d -o CMakeFiles/LeetCodeDemo.dir/old_test/TreeDemo/TreeDemo.cpp.o -c /Users/yuhaiyang/学习/LeetCodeDemo/old_test/TreeDemo/TreeDemo.cpp
 
-CMakeFiles/LeetCodeDemo.dir/TreeDemo/TreeDemo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCodeDemo.dir/TreeDemo/TreeDemo.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuhaiyang/学习/LeetCodeDemo/TreeDemo/TreeDemo.cpp > CMakeFiles/LeetCodeDemo.dir/TreeDemo/TreeDemo.cpp.i
+CMakeFiles/LeetCodeDemo.dir/old_test/TreeDemo/TreeDemo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCodeDemo.dir/old_test/TreeDemo/TreeDemo.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuhaiyang/学习/LeetCodeDemo/old_test/TreeDemo/TreeDemo.cpp > CMakeFiles/LeetCodeDemo.dir/old_test/TreeDemo/TreeDemo.cpp.i
 
-CMakeFiles/LeetCodeDemo.dir/TreeDemo/TreeDemo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCodeDemo.dir/TreeDemo/TreeDemo.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuhaiyang/学习/LeetCodeDemo/TreeDemo/TreeDemo.cpp -o CMakeFiles/LeetCodeDemo.dir/TreeDemo/TreeDemo.cpp.s
+CMakeFiles/LeetCodeDemo.dir/old_test/TreeDemo/TreeDemo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCodeDemo.dir/old_test/TreeDemo/TreeDemo.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuhaiyang/学习/LeetCodeDemo/old_test/TreeDemo/TreeDemo.cpp -o CMakeFiles/LeetCodeDemo.dir/old_test/TreeDemo/TreeDemo.cpp.s
 
-CMakeFiles/LeetCodeDemo.dir/standardDemo/CPPStanderDemo.cpp.o: CMakeFiles/LeetCodeDemo.dir/flags.make
-CMakeFiles/LeetCodeDemo.dir/standardDemo/CPPStanderDemo.cpp.o: /Users/yuhaiyang/学习/LeetCodeDemo/standardDemo/CPPStanderDemo.cpp
-CMakeFiles/LeetCodeDemo.dir/standardDemo/CPPStanderDemo.cpp.o: CMakeFiles/LeetCodeDemo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuhaiyang/学习/LeetCodeDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LeetCodeDemo.dir/standardDemo/CPPStanderDemo.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LeetCodeDemo.dir/standardDemo/CPPStanderDemo.cpp.o -MF CMakeFiles/LeetCodeDemo.dir/standardDemo/CPPStanderDemo.cpp.o.d -o CMakeFiles/LeetCodeDemo.dir/standardDemo/CPPStanderDemo.cpp.o -c /Users/yuhaiyang/学习/LeetCodeDemo/standardDemo/CPPStanderDemo.cpp
+CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CPPStanderDemo.cpp.o: CMakeFiles/LeetCodeDemo.dir/flags.make
+CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CPPStanderDemo.cpp.o: /Users/yuhaiyang/学习/LeetCodeDemo/old_test/standardDemo/CPPStanderDemo.cpp
+CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CPPStanderDemo.cpp.o: CMakeFiles/LeetCodeDemo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuhaiyang/学习/LeetCodeDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CPPStanderDemo.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CPPStanderDemo.cpp.o -MF CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CPPStanderDemo.cpp.o.d -o CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CPPStanderDemo.cpp.o -c /Users/yuhaiyang/学习/LeetCodeDemo/old_test/standardDemo/CPPStanderDemo.cpp
 
-CMakeFiles/LeetCodeDemo.dir/standardDemo/CPPStanderDemo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCodeDemo.dir/standardDemo/CPPStanderDemo.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuhaiyang/学习/LeetCodeDemo/standardDemo/CPPStanderDemo.cpp > CMakeFiles/LeetCodeDemo.dir/standardDemo/CPPStanderDemo.cpp.i
+CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CPPStanderDemo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CPPStanderDemo.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuhaiyang/学习/LeetCodeDemo/old_test/standardDemo/CPPStanderDemo.cpp > CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CPPStanderDemo.cpp.i
 
-CMakeFiles/LeetCodeDemo.dir/standardDemo/CPPStanderDemo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCodeDemo.dir/standardDemo/CPPStanderDemo.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuhaiyang/学习/LeetCodeDemo/standardDemo/CPPStanderDemo.cpp -o CMakeFiles/LeetCodeDemo.dir/standardDemo/CPPStanderDemo.cpp.s
+CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CPPStanderDemo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CPPStanderDemo.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuhaiyang/学习/LeetCodeDemo/old_test/standardDemo/CPPStanderDemo.cpp -o CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CPPStanderDemo.cpp.s
 
-CMakeFiles/LeetCodeDemo.dir/standardDemo/CStrDemo.cpp.o: CMakeFiles/LeetCodeDemo.dir/flags.make
-CMakeFiles/LeetCodeDemo.dir/standardDemo/CStrDemo.cpp.o: /Users/yuhaiyang/学习/LeetCodeDemo/standardDemo/CStrDemo.cpp
-CMakeFiles/LeetCodeDemo.dir/standardDemo/CStrDemo.cpp.o: CMakeFiles/LeetCodeDemo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuhaiyang/学习/LeetCodeDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/LeetCodeDemo.dir/standardDemo/CStrDemo.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LeetCodeDemo.dir/standardDemo/CStrDemo.cpp.o -MF CMakeFiles/LeetCodeDemo.dir/standardDemo/CStrDemo.cpp.o.d -o CMakeFiles/LeetCodeDemo.dir/standardDemo/CStrDemo.cpp.o -c /Users/yuhaiyang/学习/LeetCodeDemo/standardDemo/CStrDemo.cpp
+CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CStrDemo.cpp.o: CMakeFiles/LeetCodeDemo.dir/flags.make
+CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CStrDemo.cpp.o: /Users/yuhaiyang/学习/LeetCodeDemo/old_test/standardDemo/CStrDemo.cpp
+CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CStrDemo.cpp.o: CMakeFiles/LeetCodeDemo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuhaiyang/学习/LeetCodeDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CStrDemo.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CStrDemo.cpp.o -MF CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CStrDemo.cpp.o.d -o CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CStrDemo.cpp.o -c /Users/yuhaiyang/学习/LeetCodeDemo/old_test/standardDemo/CStrDemo.cpp
 
-CMakeFiles/LeetCodeDemo.dir/standardDemo/CStrDemo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCodeDemo.dir/standardDemo/CStrDemo.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuhaiyang/学习/LeetCodeDemo/standardDemo/CStrDemo.cpp > CMakeFiles/LeetCodeDemo.dir/standardDemo/CStrDemo.cpp.i
+CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CStrDemo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CStrDemo.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuhaiyang/学习/LeetCodeDemo/old_test/standardDemo/CStrDemo.cpp > CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CStrDemo.cpp.i
 
-CMakeFiles/LeetCodeDemo.dir/standardDemo/CStrDemo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCodeDemo.dir/standardDemo/CStrDemo.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuhaiyang/学习/LeetCodeDemo/standardDemo/CStrDemo.cpp -o CMakeFiles/LeetCodeDemo.dir/standardDemo/CStrDemo.cpp.s
+CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CStrDemo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CStrDemo.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuhaiyang/学习/LeetCodeDemo/old_test/standardDemo/CStrDemo.cpp -o CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CStrDemo.cpp.s
 
-CMakeFiles/LeetCodeDemo.dir/standardDemo/CplusDemo.cpp.o: CMakeFiles/LeetCodeDemo.dir/flags.make
-CMakeFiles/LeetCodeDemo.dir/standardDemo/CplusDemo.cpp.o: /Users/yuhaiyang/学习/LeetCodeDemo/standardDemo/CplusDemo.cpp
-CMakeFiles/LeetCodeDemo.dir/standardDemo/CplusDemo.cpp.o: CMakeFiles/LeetCodeDemo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuhaiyang/学习/LeetCodeDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/LeetCodeDemo.dir/standardDemo/CplusDemo.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LeetCodeDemo.dir/standardDemo/CplusDemo.cpp.o -MF CMakeFiles/LeetCodeDemo.dir/standardDemo/CplusDemo.cpp.o.d -o CMakeFiles/LeetCodeDemo.dir/standardDemo/CplusDemo.cpp.o -c /Users/yuhaiyang/学习/LeetCodeDemo/standardDemo/CplusDemo.cpp
+CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CplusDemo.cpp.o: CMakeFiles/LeetCodeDemo.dir/flags.make
+CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CplusDemo.cpp.o: /Users/yuhaiyang/学习/LeetCodeDemo/old_test/standardDemo/CplusDemo.cpp
+CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CplusDemo.cpp.o: CMakeFiles/LeetCodeDemo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuhaiyang/学习/LeetCodeDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CplusDemo.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CplusDemo.cpp.o -MF CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CplusDemo.cpp.o.d -o CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CplusDemo.cpp.o -c /Users/yuhaiyang/学习/LeetCodeDemo/old_test/standardDemo/CplusDemo.cpp
 
-CMakeFiles/LeetCodeDemo.dir/standardDemo/CplusDemo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCodeDemo.dir/standardDemo/CplusDemo.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuhaiyang/学习/LeetCodeDemo/standardDemo/CplusDemo.cpp > CMakeFiles/LeetCodeDemo.dir/standardDemo/CplusDemo.cpp.i
+CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CplusDemo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CplusDemo.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuhaiyang/学习/LeetCodeDemo/old_test/standardDemo/CplusDemo.cpp > CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CplusDemo.cpp.i
 
-CMakeFiles/LeetCodeDemo.dir/standardDemo/CplusDemo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCodeDemo.dir/standardDemo/CplusDemo.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuhaiyang/学习/LeetCodeDemo/standardDemo/CplusDemo.cpp -o CMakeFiles/LeetCodeDemo.dir/standardDemo/CplusDemo.cpp.s
+CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CplusDemo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CplusDemo.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuhaiyang/学习/LeetCodeDemo/old_test/standardDemo/CplusDemo.cpp -o CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CplusDemo.cpp.s
 
-CMakeFiles/LeetCodeDemo.dir/Other/Other.cpp.o: CMakeFiles/LeetCodeDemo.dir/flags.make
-CMakeFiles/LeetCodeDemo.dir/Other/Other.cpp.o: /Users/yuhaiyang/学习/LeetCodeDemo/Other/Other.cpp
-CMakeFiles/LeetCodeDemo.dir/Other/Other.cpp.o: CMakeFiles/LeetCodeDemo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuhaiyang/学习/LeetCodeDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/LeetCodeDemo.dir/Other/Other.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LeetCodeDemo.dir/Other/Other.cpp.o -MF CMakeFiles/LeetCodeDemo.dir/Other/Other.cpp.o.d -o CMakeFiles/LeetCodeDemo.dir/Other/Other.cpp.o -c /Users/yuhaiyang/学习/LeetCodeDemo/Other/Other.cpp
+CMakeFiles/LeetCodeDemo.dir/old_test/Other/Other.cpp.o: CMakeFiles/LeetCodeDemo.dir/flags.make
+CMakeFiles/LeetCodeDemo.dir/old_test/Other/Other.cpp.o: /Users/yuhaiyang/学习/LeetCodeDemo/old_test/Other/Other.cpp
+CMakeFiles/LeetCodeDemo.dir/old_test/Other/Other.cpp.o: CMakeFiles/LeetCodeDemo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuhaiyang/学习/LeetCodeDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/LeetCodeDemo.dir/old_test/Other/Other.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LeetCodeDemo.dir/old_test/Other/Other.cpp.o -MF CMakeFiles/LeetCodeDemo.dir/old_test/Other/Other.cpp.o.d -o CMakeFiles/LeetCodeDemo.dir/old_test/Other/Other.cpp.o -c /Users/yuhaiyang/学习/LeetCodeDemo/old_test/Other/Other.cpp
 
-CMakeFiles/LeetCodeDemo.dir/Other/Other.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCodeDemo.dir/Other/Other.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuhaiyang/学习/LeetCodeDemo/Other/Other.cpp > CMakeFiles/LeetCodeDemo.dir/Other/Other.cpp.i
+CMakeFiles/LeetCodeDemo.dir/old_test/Other/Other.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCodeDemo.dir/old_test/Other/Other.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuhaiyang/学习/LeetCodeDemo/old_test/Other/Other.cpp > CMakeFiles/LeetCodeDemo.dir/old_test/Other/Other.cpp.i
 
-CMakeFiles/LeetCodeDemo.dir/Other/Other.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCodeDemo.dir/Other/Other.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuhaiyang/学习/LeetCodeDemo/Other/Other.cpp -o CMakeFiles/LeetCodeDemo.dir/Other/Other.cpp.s
+CMakeFiles/LeetCodeDemo.dir/old_test/Other/Other.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCodeDemo.dir/old_test/Other/Other.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuhaiyang/学习/LeetCodeDemo/old_test/Other/Other.cpp -o CMakeFiles/LeetCodeDemo.dir/old_test/Other/Other.cpp.s
 
-CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/DynamicPrograming.cpp.o: CMakeFiles/LeetCodeDemo.dir/flags.make
-CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/DynamicPrograming.cpp.o: /Users/yuhaiyang/学习/LeetCodeDemo/DynamicPrograming/DynamicPrograming.cpp
-CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/DynamicPrograming.cpp.o: CMakeFiles/LeetCodeDemo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuhaiyang/学习/LeetCodeDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/DynamicPrograming.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/DynamicPrograming.cpp.o -MF CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/DynamicPrograming.cpp.o.d -o CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/DynamicPrograming.cpp.o -c /Users/yuhaiyang/学习/LeetCodeDemo/DynamicPrograming/DynamicPrograming.cpp
+CMakeFiles/LeetCodeDemo.dir/old_test/DynamicPrograming/DynamicPrograming.cpp.o: CMakeFiles/LeetCodeDemo.dir/flags.make
+CMakeFiles/LeetCodeDemo.dir/old_test/DynamicPrograming/DynamicPrograming.cpp.o: /Users/yuhaiyang/学习/LeetCodeDemo/old_test/DynamicPrograming/DynamicPrograming.cpp
+CMakeFiles/LeetCodeDemo.dir/old_test/DynamicPrograming/DynamicPrograming.cpp.o: CMakeFiles/LeetCodeDemo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuhaiyang/学习/LeetCodeDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/LeetCodeDemo.dir/old_test/DynamicPrograming/DynamicPrograming.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LeetCodeDemo.dir/old_test/DynamicPrograming/DynamicPrograming.cpp.o -MF CMakeFiles/LeetCodeDemo.dir/old_test/DynamicPrograming/DynamicPrograming.cpp.o.d -o CMakeFiles/LeetCodeDemo.dir/old_test/DynamicPrograming/DynamicPrograming.cpp.o -c /Users/yuhaiyang/学习/LeetCodeDemo/old_test/DynamicPrograming/DynamicPrograming.cpp
 
-CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/DynamicPrograming.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/DynamicPrograming.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuhaiyang/学习/LeetCodeDemo/DynamicPrograming/DynamicPrograming.cpp > CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/DynamicPrograming.cpp.i
+CMakeFiles/LeetCodeDemo.dir/old_test/DynamicPrograming/DynamicPrograming.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCodeDemo.dir/old_test/DynamicPrograming/DynamicPrograming.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuhaiyang/学习/LeetCodeDemo/old_test/DynamicPrograming/DynamicPrograming.cpp > CMakeFiles/LeetCodeDemo.dir/old_test/DynamicPrograming/DynamicPrograming.cpp.i
 
-CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/DynamicPrograming.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/DynamicPrograming.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuhaiyang/学习/LeetCodeDemo/DynamicPrograming/DynamicPrograming.cpp -o CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/DynamicPrograming.cpp.s
+CMakeFiles/LeetCodeDemo.dir/old_test/DynamicPrograming/DynamicPrograming.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCodeDemo.dir/old_test/DynamicPrograming/DynamicPrograming.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuhaiyang/学习/LeetCodeDemo/old_test/DynamicPrograming/DynamicPrograming.cpp -o CMakeFiles/LeetCodeDemo.dir/old_test/DynamicPrograming/DynamicPrograming.cpp.s
 
-CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/TestYhy.cpp.o: CMakeFiles/LeetCodeDemo.dir/flags.make
-CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/TestYhy.cpp.o: /Users/yuhaiyang/学习/LeetCodeDemo/DynamicPrograming/TestYhy.cpp
-CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/TestYhy.cpp.o: CMakeFiles/LeetCodeDemo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuhaiyang/学习/LeetCodeDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/TestYhy.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/TestYhy.cpp.o -MF CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/TestYhy.cpp.o.d -o CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/TestYhy.cpp.o -c /Users/yuhaiyang/学习/LeetCodeDemo/DynamicPrograming/TestYhy.cpp
+CMakeFiles/LeetCodeDemo.dir/old_test/DynamicPrograming/TestYhy.cpp.o: CMakeFiles/LeetCodeDemo.dir/flags.make
+CMakeFiles/LeetCodeDemo.dir/old_test/DynamicPrograming/TestYhy.cpp.o: /Users/yuhaiyang/学习/LeetCodeDemo/old_test/DynamicPrograming/TestYhy.cpp
+CMakeFiles/LeetCodeDemo.dir/old_test/DynamicPrograming/TestYhy.cpp.o: CMakeFiles/LeetCodeDemo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuhaiyang/学习/LeetCodeDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/LeetCodeDemo.dir/old_test/DynamicPrograming/TestYhy.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LeetCodeDemo.dir/old_test/DynamicPrograming/TestYhy.cpp.o -MF CMakeFiles/LeetCodeDemo.dir/old_test/DynamicPrograming/TestYhy.cpp.o.d -o CMakeFiles/LeetCodeDemo.dir/old_test/DynamicPrograming/TestYhy.cpp.o -c /Users/yuhaiyang/学习/LeetCodeDemo/old_test/DynamicPrograming/TestYhy.cpp
 
-CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/TestYhy.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/TestYhy.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuhaiyang/学习/LeetCodeDemo/DynamicPrograming/TestYhy.cpp > CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/TestYhy.cpp.i
+CMakeFiles/LeetCodeDemo.dir/old_test/DynamicPrograming/TestYhy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCodeDemo.dir/old_test/DynamicPrograming/TestYhy.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuhaiyang/学习/LeetCodeDemo/old_test/DynamicPrograming/TestYhy.cpp > CMakeFiles/LeetCodeDemo.dir/old_test/DynamicPrograming/TestYhy.cpp.i
 
-CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/TestYhy.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/TestYhy.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuhaiyang/学习/LeetCodeDemo/DynamicPrograming/TestYhy.cpp -o CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/TestYhy.cpp.s
+CMakeFiles/LeetCodeDemo.dir/old_test/DynamicPrograming/TestYhy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCodeDemo.dir/old_test/DynamicPrograming/TestYhy.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuhaiyang/学习/LeetCodeDemo/old_test/DynamicPrograming/TestYhy.cpp -o CMakeFiles/LeetCodeDemo.dir/old_test/DynamicPrograming/TestYhy.cpp.s
 
-CMakeFiles/LeetCodeDemo.dir/JZOffer/File1.cpp.o: CMakeFiles/LeetCodeDemo.dir/flags.make
-CMakeFiles/LeetCodeDemo.dir/JZOffer/File1.cpp.o: /Users/yuhaiyang/学习/LeetCodeDemo/JZOffer/File1.cpp
-CMakeFiles/LeetCodeDemo.dir/JZOffer/File1.cpp.o: CMakeFiles/LeetCodeDemo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuhaiyang/学习/LeetCodeDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/LeetCodeDemo.dir/JZOffer/File1.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LeetCodeDemo.dir/JZOffer/File1.cpp.o -MF CMakeFiles/LeetCodeDemo.dir/JZOffer/File1.cpp.o.d -o CMakeFiles/LeetCodeDemo.dir/JZOffer/File1.cpp.o -c /Users/yuhaiyang/学习/LeetCodeDemo/JZOffer/File1.cpp
+CMakeFiles/LeetCodeDemo.dir/old_test/JZOffer/File1.cpp.o: CMakeFiles/LeetCodeDemo.dir/flags.make
+CMakeFiles/LeetCodeDemo.dir/old_test/JZOffer/File1.cpp.o: /Users/yuhaiyang/学习/LeetCodeDemo/old_test/JZOffer/File1.cpp
+CMakeFiles/LeetCodeDemo.dir/old_test/JZOffer/File1.cpp.o: CMakeFiles/LeetCodeDemo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuhaiyang/学习/LeetCodeDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/LeetCodeDemo.dir/old_test/JZOffer/File1.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LeetCodeDemo.dir/old_test/JZOffer/File1.cpp.o -MF CMakeFiles/LeetCodeDemo.dir/old_test/JZOffer/File1.cpp.o.d -o CMakeFiles/LeetCodeDemo.dir/old_test/JZOffer/File1.cpp.o -c /Users/yuhaiyang/学习/LeetCodeDemo/old_test/JZOffer/File1.cpp
 
-CMakeFiles/LeetCodeDemo.dir/JZOffer/File1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCodeDemo.dir/JZOffer/File1.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuhaiyang/学习/LeetCodeDemo/JZOffer/File1.cpp > CMakeFiles/LeetCodeDemo.dir/JZOffer/File1.cpp.i
+CMakeFiles/LeetCodeDemo.dir/old_test/JZOffer/File1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCodeDemo.dir/old_test/JZOffer/File1.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuhaiyang/学习/LeetCodeDemo/old_test/JZOffer/File1.cpp > CMakeFiles/LeetCodeDemo.dir/old_test/JZOffer/File1.cpp.i
 
-CMakeFiles/LeetCodeDemo.dir/JZOffer/File1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCodeDemo.dir/JZOffer/File1.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuhaiyang/学习/LeetCodeDemo/JZOffer/File1.cpp -o CMakeFiles/LeetCodeDemo.dir/JZOffer/File1.cpp.s
+CMakeFiles/LeetCodeDemo.dir/old_test/JZOffer/File1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCodeDemo.dir/old_test/JZOffer/File1.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuhaiyang/学习/LeetCodeDemo/old_test/JZOffer/File1.cpp -o CMakeFiles/LeetCodeDemo.dir/old_test/JZOffer/File1.cpp.s
 
-CMakeFiles/LeetCodeDemo.dir/BackTracing/BackTracing.cpp.o: CMakeFiles/LeetCodeDemo.dir/flags.make
-CMakeFiles/LeetCodeDemo.dir/BackTracing/BackTracing.cpp.o: /Users/yuhaiyang/学习/LeetCodeDemo/BackTracing/BackTracing.cpp
-CMakeFiles/LeetCodeDemo.dir/BackTracing/BackTracing.cpp.o: CMakeFiles/LeetCodeDemo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuhaiyang/学习/LeetCodeDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/LeetCodeDemo.dir/BackTracing/BackTracing.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LeetCodeDemo.dir/BackTracing/BackTracing.cpp.o -MF CMakeFiles/LeetCodeDemo.dir/BackTracing/BackTracing.cpp.o.d -o CMakeFiles/LeetCodeDemo.dir/BackTracing/BackTracing.cpp.o -c /Users/yuhaiyang/学习/LeetCodeDemo/BackTracing/BackTracing.cpp
+CMakeFiles/LeetCodeDemo.dir/old_test/BackTracing/BackTracing.cpp.o: CMakeFiles/LeetCodeDemo.dir/flags.make
+CMakeFiles/LeetCodeDemo.dir/old_test/BackTracing/BackTracing.cpp.o: /Users/yuhaiyang/学习/LeetCodeDemo/old_test/BackTracing/BackTracing.cpp
+CMakeFiles/LeetCodeDemo.dir/old_test/BackTracing/BackTracing.cpp.o: CMakeFiles/LeetCodeDemo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuhaiyang/学习/LeetCodeDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/LeetCodeDemo.dir/old_test/BackTracing/BackTracing.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LeetCodeDemo.dir/old_test/BackTracing/BackTracing.cpp.o -MF CMakeFiles/LeetCodeDemo.dir/old_test/BackTracing/BackTracing.cpp.o.d -o CMakeFiles/LeetCodeDemo.dir/old_test/BackTracing/BackTracing.cpp.o -c /Users/yuhaiyang/学习/LeetCodeDemo/old_test/BackTracing/BackTracing.cpp
 
-CMakeFiles/LeetCodeDemo.dir/BackTracing/BackTracing.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCodeDemo.dir/BackTracing/BackTracing.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuhaiyang/学习/LeetCodeDemo/BackTracing/BackTracing.cpp > CMakeFiles/LeetCodeDemo.dir/BackTracing/BackTracing.cpp.i
+CMakeFiles/LeetCodeDemo.dir/old_test/BackTracing/BackTracing.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCodeDemo.dir/old_test/BackTracing/BackTracing.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuhaiyang/学习/LeetCodeDemo/old_test/BackTracing/BackTracing.cpp > CMakeFiles/LeetCodeDemo.dir/old_test/BackTracing/BackTracing.cpp.i
 
-CMakeFiles/LeetCodeDemo.dir/BackTracing/BackTracing.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCodeDemo.dir/BackTracing/BackTracing.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuhaiyang/学习/LeetCodeDemo/BackTracing/BackTracing.cpp -o CMakeFiles/LeetCodeDemo.dir/BackTracing/BackTracing.cpp.s
+CMakeFiles/LeetCodeDemo.dir/old_test/BackTracing/BackTracing.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCodeDemo.dir/old_test/BackTracing/BackTracing.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuhaiyang/学习/LeetCodeDemo/old_test/BackTracing/BackTracing.cpp -o CMakeFiles/LeetCodeDemo.dir/old_test/BackTracing/BackTracing.cpp.s
 
-CMakeFiles/LeetCodeDemo.dir/GreedyDemo/GreedyDemo.cpp.o: CMakeFiles/LeetCodeDemo.dir/flags.make
-CMakeFiles/LeetCodeDemo.dir/GreedyDemo/GreedyDemo.cpp.o: /Users/yuhaiyang/学习/LeetCodeDemo/GreedyDemo/GreedyDemo.cpp
-CMakeFiles/LeetCodeDemo.dir/GreedyDemo/GreedyDemo.cpp.o: CMakeFiles/LeetCodeDemo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuhaiyang/学习/LeetCodeDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/LeetCodeDemo.dir/GreedyDemo/GreedyDemo.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LeetCodeDemo.dir/GreedyDemo/GreedyDemo.cpp.o -MF CMakeFiles/LeetCodeDemo.dir/GreedyDemo/GreedyDemo.cpp.o.d -o CMakeFiles/LeetCodeDemo.dir/GreedyDemo/GreedyDemo.cpp.o -c /Users/yuhaiyang/学习/LeetCodeDemo/GreedyDemo/GreedyDemo.cpp
+CMakeFiles/LeetCodeDemo.dir/old_test/GreedyDemo/GreedyDemo.cpp.o: CMakeFiles/LeetCodeDemo.dir/flags.make
+CMakeFiles/LeetCodeDemo.dir/old_test/GreedyDemo/GreedyDemo.cpp.o: /Users/yuhaiyang/学习/LeetCodeDemo/old_test/GreedyDemo/GreedyDemo.cpp
+CMakeFiles/LeetCodeDemo.dir/old_test/GreedyDemo/GreedyDemo.cpp.o: CMakeFiles/LeetCodeDemo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuhaiyang/学习/LeetCodeDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/LeetCodeDemo.dir/old_test/GreedyDemo/GreedyDemo.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LeetCodeDemo.dir/old_test/GreedyDemo/GreedyDemo.cpp.o -MF CMakeFiles/LeetCodeDemo.dir/old_test/GreedyDemo/GreedyDemo.cpp.o.d -o CMakeFiles/LeetCodeDemo.dir/old_test/GreedyDemo/GreedyDemo.cpp.o -c /Users/yuhaiyang/学习/LeetCodeDemo/old_test/GreedyDemo/GreedyDemo.cpp
 
-CMakeFiles/LeetCodeDemo.dir/GreedyDemo/GreedyDemo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCodeDemo.dir/GreedyDemo/GreedyDemo.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuhaiyang/学习/LeetCodeDemo/GreedyDemo/GreedyDemo.cpp > CMakeFiles/LeetCodeDemo.dir/GreedyDemo/GreedyDemo.cpp.i
+CMakeFiles/LeetCodeDemo.dir/old_test/GreedyDemo/GreedyDemo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCodeDemo.dir/old_test/GreedyDemo/GreedyDemo.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuhaiyang/学习/LeetCodeDemo/old_test/GreedyDemo/GreedyDemo.cpp > CMakeFiles/LeetCodeDemo.dir/old_test/GreedyDemo/GreedyDemo.cpp.i
 
-CMakeFiles/LeetCodeDemo.dir/GreedyDemo/GreedyDemo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCodeDemo.dir/GreedyDemo/GreedyDemo.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuhaiyang/学习/LeetCodeDemo/GreedyDemo/GreedyDemo.cpp -o CMakeFiles/LeetCodeDemo.dir/GreedyDemo/GreedyDemo.cpp.s
+CMakeFiles/LeetCodeDemo.dir/old_test/GreedyDemo/GreedyDemo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCodeDemo.dir/old_test/GreedyDemo/GreedyDemo.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuhaiyang/学习/LeetCodeDemo/old_test/GreedyDemo/GreedyDemo.cpp -o CMakeFiles/LeetCodeDemo.dir/old_test/GreedyDemo/GreedyDemo.cpp.s
 
 CMakeFiles/LeetCodeDemo.dir/C++Demo/BigDecimal.cpp.o: CMakeFiles/LeetCodeDemo.dir/flags.make
 CMakeFiles/LeetCodeDemo.dir/C++Demo/BigDecimal.cpp.o: /Users/yuhaiyang/学习/LeetCodeDemo/C++Demo/BigDecimal.cpp
@@ -251,47 +251,47 @@ CMakeFiles/LeetCodeDemo.dir/C++Demo/BigDecimal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCodeDemo.dir/C++Demo/BigDecimal.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuhaiyang/学习/LeetCodeDemo/C++Demo/BigDecimal.cpp -o CMakeFiles/LeetCodeDemo.dir/C++Demo/BigDecimal.cpp.s
 
-CMakeFiles/LeetCodeDemo.dir/ThreadDemo/SingleThreadDemo.cpp.o: CMakeFiles/LeetCodeDemo.dir/flags.make
-CMakeFiles/LeetCodeDemo.dir/ThreadDemo/SingleThreadDemo.cpp.o: /Users/yuhaiyang/学习/LeetCodeDemo/ThreadDemo/SingleThreadDemo.cpp
-CMakeFiles/LeetCodeDemo.dir/ThreadDemo/SingleThreadDemo.cpp.o: CMakeFiles/LeetCodeDemo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuhaiyang/学习/LeetCodeDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/LeetCodeDemo.dir/ThreadDemo/SingleThreadDemo.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LeetCodeDemo.dir/ThreadDemo/SingleThreadDemo.cpp.o -MF CMakeFiles/LeetCodeDemo.dir/ThreadDemo/SingleThreadDemo.cpp.o.d -o CMakeFiles/LeetCodeDemo.dir/ThreadDemo/SingleThreadDemo.cpp.o -c /Users/yuhaiyang/学习/LeetCodeDemo/ThreadDemo/SingleThreadDemo.cpp
+CMakeFiles/LeetCodeDemo.dir/old_test/ThreadDemo/SingleThreadDemo.cpp.o: CMakeFiles/LeetCodeDemo.dir/flags.make
+CMakeFiles/LeetCodeDemo.dir/old_test/ThreadDemo/SingleThreadDemo.cpp.o: /Users/yuhaiyang/学习/LeetCodeDemo/old_test/ThreadDemo/SingleThreadDemo.cpp
+CMakeFiles/LeetCodeDemo.dir/old_test/ThreadDemo/SingleThreadDemo.cpp.o: CMakeFiles/LeetCodeDemo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuhaiyang/学习/LeetCodeDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/LeetCodeDemo.dir/old_test/ThreadDemo/SingleThreadDemo.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LeetCodeDemo.dir/old_test/ThreadDemo/SingleThreadDemo.cpp.o -MF CMakeFiles/LeetCodeDemo.dir/old_test/ThreadDemo/SingleThreadDemo.cpp.o.d -o CMakeFiles/LeetCodeDemo.dir/old_test/ThreadDemo/SingleThreadDemo.cpp.o -c /Users/yuhaiyang/学习/LeetCodeDemo/old_test/ThreadDemo/SingleThreadDemo.cpp
 
-CMakeFiles/LeetCodeDemo.dir/ThreadDemo/SingleThreadDemo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCodeDemo.dir/ThreadDemo/SingleThreadDemo.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuhaiyang/学习/LeetCodeDemo/ThreadDemo/SingleThreadDemo.cpp > CMakeFiles/LeetCodeDemo.dir/ThreadDemo/SingleThreadDemo.cpp.i
+CMakeFiles/LeetCodeDemo.dir/old_test/ThreadDemo/SingleThreadDemo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCodeDemo.dir/old_test/ThreadDemo/SingleThreadDemo.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuhaiyang/学习/LeetCodeDemo/old_test/ThreadDemo/SingleThreadDemo.cpp > CMakeFiles/LeetCodeDemo.dir/old_test/ThreadDemo/SingleThreadDemo.cpp.i
 
-CMakeFiles/LeetCodeDemo.dir/ThreadDemo/SingleThreadDemo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCodeDemo.dir/ThreadDemo/SingleThreadDemo.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuhaiyang/学习/LeetCodeDemo/ThreadDemo/SingleThreadDemo.cpp -o CMakeFiles/LeetCodeDemo.dir/ThreadDemo/SingleThreadDemo.cpp.s
+CMakeFiles/LeetCodeDemo.dir/old_test/ThreadDemo/SingleThreadDemo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCodeDemo.dir/old_test/ThreadDemo/SingleThreadDemo.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuhaiyang/学习/LeetCodeDemo/old_test/ThreadDemo/SingleThreadDemo.cpp -o CMakeFiles/LeetCodeDemo.dir/old_test/ThreadDemo/SingleThreadDemo.cpp.s
 
-CMakeFiles/LeetCodeDemo.dir/standardDemo/MyString.cpp.o: CMakeFiles/LeetCodeDemo.dir/flags.make
-CMakeFiles/LeetCodeDemo.dir/standardDemo/MyString.cpp.o: /Users/yuhaiyang/学习/LeetCodeDemo/standardDemo/MyString.cpp
-CMakeFiles/LeetCodeDemo.dir/standardDemo/MyString.cpp.o: CMakeFiles/LeetCodeDemo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuhaiyang/学习/LeetCodeDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/LeetCodeDemo.dir/standardDemo/MyString.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LeetCodeDemo.dir/standardDemo/MyString.cpp.o -MF CMakeFiles/LeetCodeDemo.dir/standardDemo/MyString.cpp.o.d -o CMakeFiles/LeetCodeDemo.dir/standardDemo/MyString.cpp.o -c /Users/yuhaiyang/学习/LeetCodeDemo/standardDemo/MyString.cpp
+CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/MyString.cpp.o: CMakeFiles/LeetCodeDemo.dir/flags.make
+CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/MyString.cpp.o: /Users/yuhaiyang/学习/LeetCodeDemo/old_test/standardDemo/MyString.cpp
+CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/MyString.cpp.o: CMakeFiles/LeetCodeDemo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuhaiyang/学习/LeetCodeDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/MyString.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/MyString.cpp.o -MF CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/MyString.cpp.o.d -o CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/MyString.cpp.o -c /Users/yuhaiyang/学习/LeetCodeDemo/old_test/standardDemo/MyString.cpp
 
-CMakeFiles/LeetCodeDemo.dir/standardDemo/MyString.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCodeDemo.dir/standardDemo/MyString.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuhaiyang/学习/LeetCodeDemo/standardDemo/MyString.cpp > CMakeFiles/LeetCodeDemo.dir/standardDemo/MyString.cpp.i
+CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/MyString.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/MyString.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuhaiyang/学习/LeetCodeDemo/old_test/standardDemo/MyString.cpp > CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/MyString.cpp.i
 
-CMakeFiles/LeetCodeDemo.dir/standardDemo/MyString.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCodeDemo.dir/standardDemo/MyString.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuhaiyang/学习/LeetCodeDemo/standardDemo/MyString.cpp -o CMakeFiles/LeetCodeDemo.dir/standardDemo/MyString.cpp.s
+CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/MyString.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/MyString.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuhaiyang/学习/LeetCodeDemo/old_test/standardDemo/MyString.cpp -o CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/MyString.cpp.s
 
-CMakeFiles/LeetCodeDemo.dir/sortDemo/sort_demo.cpp.o: CMakeFiles/LeetCodeDemo.dir/flags.make
-CMakeFiles/LeetCodeDemo.dir/sortDemo/sort_demo.cpp.o: /Users/yuhaiyang/学习/LeetCodeDemo/sortDemo/sort_demo.cpp
-CMakeFiles/LeetCodeDemo.dir/sortDemo/sort_demo.cpp.o: CMakeFiles/LeetCodeDemo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuhaiyang/学习/LeetCodeDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/LeetCodeDemo.dir/sortDemo/sort_demo.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LeetCodeDemo.dir/sortDemo/sort_demo.cpp.o -MF CMakeFiles/LeetCodeDemo.dir/sortDemo/sort_demo.cpp.o.d -o CMakeFiles/LeetCodeDemo.dir/sortDemo/sort_demo.cpp.o -c /Users/yuhaiyang/学习/LeetCodeDemo/sortDemo/sort_demo.cpp
+CMakeFiles/LeetCodeDemo.dir/old_test/sortDemo/sort_demo.cpp.o: CMakeFiles/LeetCodeDemo.dir/flags.make
+CMakeFiles/LeetCodeDemo.dir/old_test/sortDemo/sort_demo.cpp.o: /Users/yuhaiyang/学习/LeetCodeDemo/old_test/sortDemo/sort_demo.cpp
+CMakeFiles/LeetCodeDemo.dir/old_test/sortDemo/sort_demo.cpp.o: CMakeFiles/LeetCodeDemo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yuhaiyang/学习/LeetCodeDemo/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/LeetCodeDemo.dir/old_test/sortDemo/sort_demo.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LeetCodeDemo.dir/old_test/sortDemo/sort_demo.cpp.o -MF CMakeFiles/LeetCodeDemo.dir/old_test/sortDemo/sort_demo.cpp.o.d -o CMakeFiles/LeetCodeDemo.dir/old_test/sortDemo/sort_demo.cpp.o -c /Users/yuhaiyang/学习/LeetCodeDemo/old_test/sortDemo/sort_demo.cpp
 
-CMakeFiles/LeetCodeDemo.dir/sortDemo/sort_demo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCodeDemo.dir/sortDemo/sort_demo.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuhaiyang/学习/LeetCodeDemo/sortDemo/sort_demo.cpp > CMakeFiles/LeetCodeDemo.dir/sortDemo/sort_demo.cpp.i
+CMakeFiles/LeetCodeDemo.dir/old_test/sortDemo/sort_demo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCodeDemo.dir/old_test/sortDemo/sort_demo.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yuhaiyang/学习/LeetCodeDemo/old_test/sortDemo/sort_demo.cpp > CMakeFiles/LeetCodeDemo.dir/old_test/sortDemo/sort_demo.cpp.i
 
-CMakeFiles/LeetCodeDemo.dir/sortDemo/sort_demo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCodeDemo.dir/sortDemo/sort_demo.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuhaiyang/学习/LeetCodeDemo/sortDemo/sort_demo.cpp -o CMakeFiles/LeetCodeDemo.dir/sortDemo/sort_demo.cpp.s
+CMakeFiles/LeetCodeDemo.dir/old_test/sortDemo/sort_demo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCodeDemo.dir/old_test/sortDemo/sort_demo.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yuhaiyang/学习/LeetCodeDemo/old_test/sortDemo/sort_demo.cpp -o CMakeFiles/LeetCodeDemo.dir/old_test/sortDemo/sort_demo.cpp.s
 
 CMakeFiles/LeetCodeDemo.dir/main.cpp.o: CMakeFiles/LeetCodeDemo.dir/flags.make
 CMakeFiles/LeetCodeDemo.dir/main.cpp.o: /Users/yuhaiyang/学习/LeetCodeDemo/main.cpp
@@ -310,42 +310,42 @@ CMakeFiles/LeetCodeDemo.dir/main.cpp.s: cmake_force
 # Object files for target LeetCodeDemo
 LeetCodeDemo_OBJECTS = \
 "CMakeFiles/LeetCodeDemo.dir/main_back.cpp.o" \
-"CMakeFiles/LeetCodeDemo.dir/ArrayDemo/ArrayDemo.cpp.o" \
-"CMakeFiles/LeetCodeDemo.dir/TreeDemo/TreeDemo.cpp.o" \
-"CMakeFiles/LeetCodeDemo.dir/standardDemo/CPPStanderDemo.cpp.o" \
-"CMakeFiles/LeetCodeDemo.dir/standardDemo/CStrDemo.cpp.o" \
-"CMakeFiles/LeetCodeDemo.dir/standardDemo/CplusDemo.cpp.o" \
-"CMakeFiles/LeetCodeDemo.dir/Other/Other.cpp.o" \
-"CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/DynamicPrograming.cpp.o" \
-"CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/TestYhy.cpp.o" \
-"CMakeFiles/LeetCodeDemo.dir/JZOffer/File1.cpp.o" \
-"CMakeFiles/LeetCodeDemo.dir/BackTracing/BackTracing.cpp.o" \
-"CMakeFiles/LeetCodeDemo.dir/GreedyDemo/GreedyDemo.cpp.o" \
+"CMakeFiles/LeetCodeDemo.dir/old_test/ArrayDemo/ArrayDemo.cpp.o" \
+"CMakeFiles/LeetCodeDemo.dir/old_test/TreeDemo/TreeDemo.cpp.o" \
+"CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CPPStanderDemo.cpp.o" \
+"CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CStrDemo.cpp.o" \
+"CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CplusDemo.cpp.o" \
+"CMakeFiles/LeetCodeDemo.dir/old_test/Other/Other.cpp.o" \
+"CMakeFiles/LeetCodeDemo.dir/old_test/DynamicPrograming/DynamicPrograming.cpp.o" \
+"CMakeFiles/LeetCodeDemo.dir/old_test/DynamicPrograming/TestYhy.cpp.o" \
+"CMakeFiles/LeetCodeDemo.dir/old_test/JZOffer/File1.cpp.o" \
+"CMakeFiles/LeetCodeDemo.dir/old_test/BackTracing/BackTracing.cpp.o" \
+"CMakeFiles/LeetCodeDemo.dir/old_test/GreedyDemo/GreedyDemo.cpp.o" \
 "CMakeFiles/LeetCodeDemo.dir/C++Demo/BigDecimal.cpp.o" \
-"CMakeFiles/LeetCodeDemo.dir/ThreadDemo/SingleThreadDemo.cpp.o" \
-"CMakeFiles/LeetCodeDemo.dir/standardDemo/MyString.cpp.o" \
-"CMakeFiles/LeetCodeDemo.dir/sortDemo/sort_demo.cpp.o" \
+"CMakeFiles/LeetCodeDemo.dir/old_test/ThreadDemo/SingleThreadDemo.cpp.o" \
+"CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/MyString.cpp.o" \
+"CMakeFiles/LeetCodeDemo.dir/old_test/sortDemo/sort_demo.cpp.o" \
 "CMakeFiles/LeetCodeDemo.dir/main.cpp.o"
 
 # External object files for target LeetCodeDemo
 LeetCodeDemo_EXTERNAL_OBJECTS =
 
 LeetCodeDemo: CMakeFiles/LeetCodeDemo.dir/main_back.cpp.o
-LeetCodeDemo: CMakeFiles/LeetCodeDemo.dir/ArrayDemo/ArrayDemo.cpp.o
-LeetCodeDemo: CMakeFiles/LeetCodeDemo.dir/TreeDemo/TreeDemo.cpp.o
-LeetCodeDemo: CMakeFiles/LeetCodeDemo.dir/standardDemo/CPPStanderDemo.cpp.o
-LeetCodeDemo: CMakeFiles/LeetCodeDemo.dir/standardDemo/CStrDemo.cpp.o
-LeetCodeDemo: CMakeFiles/LeetCodeDemo.dir/standardDemo/CplusDemo.cpp.o
-LeetCodeDemo: CMakeFiles/LeetCodeDemo.dir/Other/Other.cpp.o
-LeetCodeDemo: CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/DynamicPrograming.cpp.o
-LeetCodeDemo: CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/TestYhy.cpp.o
-LeetCodeDemo: CMakeFiles/LeetCodeDemo.dir/JZOffer/File1.cpp.o
-LeetCodeDemo: CMakeFiles/LeetCodeDemo.dir/BackTracing/BackTracing.cpp.o
-LeetCodeDemo: CMakeFiles/LeetCodeDemo.dir/GreedyDemo/GreedyDemo.cpp.o
+LeetCodeDemo: CMakeFiles/LeetCodeDemo.dir/old_test/ArrayDemo/ArrayDemo.cpp.o
+LeetCodeDemo: CMakeFiles/LeetCodeDemo.dir/old_test/TreeDemo/TreeDemo.cpp.o
+LeetCodeDemo: CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CPPStanderDemo.cpp.o
+LeetCodeDemo: CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CStrDemo.cpp.o
+LeetCodeDemo: CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/CplusDemo.cpp.o
+LeetCodeDemo: CMakeFiles/LeetCodeDemo.dir/old_test/Other/Other.cpp.o
+LeetCodeDemo: CMakeFiles/LeetCodeDemo.dir/old_test/DynamicPrograming/DynamicPrograming.cpp.o
+LeetCodeDemo: CMakeFiles/LeetCodeDemo.dir/old_test/DynamicPrograming/TestYhy.cpp.o
+LeetCodeDemo: CMakeFiles/LeetCodeDemo.dir/old_test/JZOffer/File1.cpp.o
+LeetCodeDemo: CMakeFiles/LeetCodeDemo.dir/old_test/BackTracing/BackTracing.cpp.o
+LeetCodeDemo: CMakeFiles/LeetCodeDemo.dir/old_test/GreedyDemo/GreedyDemo.cpp.o
 LeetCodeDemo: CMakeFiles/LeetCodeDemo.dir/C++Demo/BigDecimal.cpp.o
-LeetCodeDemo: CMakeFiles/LeetCodeDemo.dir/ThreadDemo/SingleThreadDemo.cpp.o
-LeetCodeDemo: CMakeFiles/LeetCodeDemo.dir/standardDemo/MyString.cpp.o
-LeetCodeDemo: CMakeFiles/LeetCodeDemo.dir/sortDemo/sort_demo.cpp.o
+LeetCodeDemo: CMakeFiles/LeetCodeDemo.dir/old_test/ThreadDemo/SingleThreadDemo.cpp.o
+LeetCodeDemo: CMakeFiles/LeetCodeDemo.dir/old_test/standardDemo/MyString.cpp.o
+LeetCodeDemo: CMakeFiles/LeetCodeDemo.dir/old_test/sortDemo/sort_demo.cpp.o
 LeetCodeDemo: CMakeFiles/LeetCodeDemo.dir/main.cpp.o
 LeetCodeDemo: CMakeFiles/LeetCodeDemo.dir/build.make
 LeetCodeDemo: CMakeFiles/LeetCodeDemo.dir/link.txt

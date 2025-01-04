@@ -5,7 +5,7 @@
 #ifndef LEETCODEDEMO_DYNAMICPROGRAMING_H
 #define LEETCODEDEMO_DYNAMICPROGRAMING_H
 
-#include "../../TreeDemo/TreeDemo.h"
+#include "../TreeDemo/TreeDemo.h"
 #include <iostream>
 #include <vector>
 using namespace std;
