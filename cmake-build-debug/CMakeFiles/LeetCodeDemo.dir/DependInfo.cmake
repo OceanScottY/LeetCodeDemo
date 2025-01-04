@@ -1,29 +1,30 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
   )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/ArrayDemo/ArrayDemo.cpp" "E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug/CMakeFiles/LeetCodeDemo.dir/ArrayDemo/ArrayDemo.cpp.obj"
-  "E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/BackTracing/BackTracing.cpp" "E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug/CMakeFiles/LeetCodeDemo.dir/BackTracing/BackTracing.cpp.obj"
-  "E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/C++Demo/BigDecimal.cpp" "E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug/CMakeFiles/LeetCodeDemo.dir/C++Demo/BigDecimal.cpp.obj"
-  "E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/DynamicPrograming/DynamicPrograming.cpp" "E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug/CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/DynamicPrograming.cpp.obj"
-  "E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/DynamicPrograming/TestYhy.cpp" "E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug/CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/TestYhy.cpp.obj"
-  "E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/GreedyDemo/GreedyDemo.cpp" "E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug/CMakeFiles/LeetCodeDemo.dir/GreedyDemo/GreedyDemo.cpp.obj"
-  "E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/JZOffer/File1.cpp" "E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug/CMakeFiles/LeetCodeDemo.dir/JZOffer/File1.cpp.obj"
-  "E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/Other/Other.cpp" "E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug/CMakeFiles/LeetCodeDemo.dir/Other/Other.cpp.obj"
-  "E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/ThreadDemo/SingleThreadDemo.cpp" "E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug/CMakeFiles/LeetCodeDemo.dir/ThreadDemo/SingleThreadDemo.cpp.obj"
-  "E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/TreeDemo/TreeDemo.cpp" "E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug/CMakeFiles/LeetCodeDemo.dir/TreeDemo/TreeDemo.cpp.obj"
-  "E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/main.cpp" "E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug/CMakeFiles/LeetCodeDemo.dir/main.cpp.obj"
-  "E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/standardDemo/CPPStanderDemo.cpp" "E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug/CMakeFiles/LeetCodeDemo.dir/standardDemo/CPPStanderDemo.cpp.obj"
-  "E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/standardDemo/CStrDemo.cpp" "E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug/CMakeFiles/LeetCodeDemo.dir/standardDemo/CStrDemo.cpp.obj"
-  "E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/standardDemo/CplusDemo.cpp" "E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug/CMakeFiles/LeetCodeDemo.dir/standardDemo/CplusDemo.cpp.obj"
-  "E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/standardDemo/MyString.cpp" "E:/Learning/JetBrains/CLionProjects/LeetCodeDemo/cmake-build-debug/CMakeFiles/LeetCodeDemo.dir/standardDemo/MyString.cpp.obj"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
 
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/yuhaiyang/学习/LeetCodeDemo/ArrayDemo/ArrayDemo.cpp" "CMakeFiles/LeetCodeDemo.dir/ArrayDemo/ArrayDemo.cpp.o" "gcc" "CMakeFiles/LeetCodeDemo.dir/ArrayDemo/ArrayDemo.cpp.o.d"
+  "/Users/yuhaiyang/学习/LeetCodeDemo/BackTracing/BackTracing.cpp" "CMakeFiles/LeetCodeDemo.dir/BackTracing/BackTracing.cpp.o" "gcc" "CMakeFiles/LeetCodeDemo.dir/BackTracing/BackTracing.cpp.o.d"
+  "/Users/yuhaiyang/学习/LeetCodeDemo/C++Demo/BigDecimal.cpp" "CMakeFiles/LeetCodeDemo.dir/C++Demo/BigDecimal.cpp.o" "gcc" "CMakeFiles/LeetCodeDemo.dir/C++Demo/BigDecimal.cpp.o.d"
+  "/Users/yuhaiyang/学习/LeetCodeDemo/DynamicPrograming/DynamicPrograming.cpp" "CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/DynamicPrograming.cpp.o" "gcc" "CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/DynamicPrograming.cpp.o.d"
+  "/Users/yuhaiyang/学习/LeetCodeDemo/DynamicPrograming/TestYhy.cpp" "CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/TestYhy.cpp.o" "gcc" "CMakeFiles/LeetCodeDemo.dir/DynamicPrograming/TestYhy.cpp.o.d"
+  "/Users/yuhaiyang/学习/LeetCodeDemo/GreedyDemo/GreedyDemo.cpp" "CMakeFiles/LeetCodeDemo.dir/GreedyDemo/GreedyDemo.cpp.o" "gcc" "CMakeFiles/LeetCodeDemo.dir/GreedyDemo/GreedyDemo.cpp.o.d"
+  "/Users/yuhaiyang/学习/LeetCodeDemo/JZOffer/File1.cpp" "CMakeFiles/LeetCodeDemo.dir/JZOffer/File1.cpp.o" "gcc" "CMakeFiles/LeetCodeDemo.dir/JZOffer/File1.cpp.o.d"
+  "/Users/yuhaiyang/学习/LeetCodeDemo/Other/Other.cpp" "CMakeFiles/LeetCodeDemo.dir/Other/Other.cpp.o" "gcc" "CMakeFiles/LeetCodeDemo.dir/Other/Other.cpp.o.d"
+  "/Users/yuhaiyang/学习/LeetCodeDemo/ThreadDemo/SingleThreadDemo.cpp" "CMakeFiles/LeetCodeDemo.dir/ThreadDemo/SingleThreadDemo.cpp.o" "gcc" "CMakeFiles/LeetCodeDemo.dir/ThreadDemo/SingleThreadDemo.cpp.o.d"
+  "/Users/yuhaiyang/学习/LeetCodeDemo/TreeDemo/TreeDemo.cpp" "CMakeFiles/LeetCodeDemo.dir/TreeDemo/TreeDemo.cpp.o" "gcc" "CMakeFiles/LeetCodeDemo.dir/TreeDemo/TreeDemo.cpp.o.d"
+  "/Users/yuhaiyang/学习/LeetCodeDemo/main.cpp" "CMakeFiles/LeetCodeDemo.dir/main.cpp.o" "gcc" "CMakeFiles/LeetCodeDemo.dir/main.cpp.o.d"
+  "/Users/yuhaiyang/学习/LeetCodeDemo/main_back.cpp" "CMakeFiles/LeetCodeDemo.dir/main_back.cpp.o" "gcc" "CMakeFiles/LeetCodeDemo.dir/main_back.cpp.o.d"
+  "/Users/yuhaiyang/学习/LeetCodeDemo/sortDemo/sort_demo.cpp" "CMakeFiles/LeetCodeDemo.dir/sortDemo/sort_demo.cpp.o" "gcc" "CMakeFiles/LeetCodeDemo.dir/sortDemo/sort_demo.cpp.o.d"
+  "/Users/yuhaiyang/学习/LeetCodeDemo/standardDemo/CPPStanderDemo.cpp" "CMakeFiles/LeetCodeDemo.dir/standardDemo/CPPStanderDemo.cpp.o" "gcc" "CMakeFiles/LeetCodeDemo.dir/standardDemo/CPPStanderDemo.cpp.o.d"
+  "/Users/yuhaiyang/学习/LeetCodeDemo/standardDemo/CStrDemo.cpp" "CMakeFiles/LeetCodeDemo.dir/standardDemo/CStrDemo.cpp.o" "gcc" "CMakeFiles/LeetCodeDemo.dir/standardDemo/CStrDemo.cpp.o.d"
+  "/Users/yuhaiyang/学习/LeetCodeDemo/standardDemo/CplusDemo.cpp" "CMakeFiles/LeetCodeDemo.dir/standardDemo/CplusDemo.cpp.o" "gcc" "CMakeFiles/LeetCodeDemo.dir/standardDemo/CplusDemo.cpp.o.d"
+  "/Users/yuhaiyang/学习/LeetCodeDemo/standardDemo/MyString.cpp" "CMakeFiles/LeetCodeDemo.dir/standardDemo/MyString.cpp.o" "gcc" "CMakeFiles/LeetCodeDemo.dir/standardDemo/MyString.cpp.o.d"
   )
 
 # Targets to which this target links.

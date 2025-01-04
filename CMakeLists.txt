@@ -4,23 +4,23 @@ project(LeetCodeDemo)
 set(CMAKE_CXX_STANDARD 11)
 
 set(DEMO_SRC
-        main.cpp
-        ArrayDemo/ArrayDemo.h
-        ArrayDemo/ArrayDemo.cpp
-        TreeDemo/TreeDemo.cpp
-        TreeDemo/TreeDemo.h
-        standardDemo/CPPStanderDemo.cpp
-        standardDemo/CPPStanderDemo.h
-        standardDemo/CStrDemo.cpp standardDemo/CStrDemo.h
-        standardDemo/CplusDemo.cpp
-        Other/Other.cpp Other/Other.h
-        DynamicPrograming/DynamicPrograming.cpp DynamicPrograming/DynamicPrograming.h
-        DynamicPrograming/TestYhy.cpp DynamicPrograming/TestYhy.h
-        JZOffer/File1.cpp JZOffer/File1.h
-        BackTracing/BackTracing.cpp BackTracing/BackTracing.h
-        GreedyDemo/GreedyDemo.cpp GreedyDemo/GreedyDemo.h
+        main_back.cpp
+        old_test/ArrayDemo/ArrayDemo.h
+        old_test/ArrayDemo/ArrayDemo.cpp
+        old_test/TreeDemo/TreeDemo.cpp
+        old_test/TreeDemo/TreeDemo.h
+        old_test/standardDemo/CPPStanderDemo.cpp
+        old_test/standardDemo/CPPStanderDemo.h
+        old_test/standardDemo/CStrDemo.cpp old_test/standardDemo/CStrDemo.h
+        old_test/standardDemo/CplusDemo.cpp
+        old_test/Other/Other.cpp old_test/Other/Other.h
+        old_test/DynamicPrograming/DynamicPrograming.cpp old_test/DynamicPrograming/DynamicPrograming.h
+        old_test/DynamicPrograming/TestYhy.cpp old_test/DynamicPrograming/TestYhy.h
+        old_test/JZOffer/File1.cpp old_test/JZOffer/File1.h
+        old_test/BackTracing/BackTracing.cpp old_test/BackTracing/BackTracing.h
+        old_test/GreedyDemo/GreedyDemo.cpp old_test/GreedyDemo/GreedyDemo.h
         C++Demo/BigDecimal.cpp C++Demo/BigDecimal.h
-        ThreadDemo/SingleThreadDemo.cpp ThreadDemo/SingleThreadDemo.h
+        old_test/ThreadDemo/SingleThreadDemo.cpp old_test/ThreadDemo/SingleThreadDemo.h
 
-        standardDemo/MyString.cpp standardDemo/MyString.h sortDemo/sort_demo.h sortDemo/sort_demo.cpp CommanAlgorithm/LRUCache.h)
-add_executable(LeetCodeDemo ${DEMO_SRC} sortDemo/sort_demo.h sortDemo/sort_demo.cpp CommanAlgorithm/LRUCache.h)
+        old_test/standardDemo/MyString.cpp old_test/standardDemo/MyString.h old_test/sortDemo/sort_demo.h old_test/sortDemo/sort_demo.cpp old_test/CommanAlgorithm/LRUCache.h main.cpp)
+add_executable(LeetCodeDemo ${DEMO_SRC} old_test/sortDemo/sort_demo.h old_test/sortDemo/sort_demo.cpp old_test/CommanAlgorithm/LRUCache.h)
